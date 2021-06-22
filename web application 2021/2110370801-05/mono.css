@@ -1,0 +1,18 @@
+h1{
+    color: #eee;
+    font-size: 60pt;
+    margin: 0;
+    text-align: right;
+}
+body {
+    color: #999;
+    font-size: 12pt;
+    margin: 5px;
+}
+.msg {
+    border: solid 5px #aaa;
+    font-size: 14pt;
+    margin: 20px 100px;
+ 	padding: 10px;
+    text-align: center;
+}

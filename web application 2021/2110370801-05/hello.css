@@ -1,0 +1,7 @@
+body{
+    background-color: yellow;
+    border-color: magenta;
+    border-style: double;
+    border-width: 5pt;
+    text-shadow: gray 4px 4px 5px;
+  }

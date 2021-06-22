@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Javascript Event</title>
+</head>
+  
+<body>
+  <h1>Javascript Event</h1>
+  <input type="text" id="n" /><span id="s"></span>
+  <br />
+  <input type="text" id="i1" />+<input type="text" id="i2" />
+          <button id="bt">=</button><span id="a"></span>
+  <script type="text/javascript">
+    var n = document.getElementById("n");
+    var s = document.getElementById("s");
+    var i1 = document.getElementById("i1");
+    var i2 = document.getElementById("i2");
+    var bt = document.getElementById("bt");
+    var a = document.getElementById("a");
+    function sayHello() {
+      var v = n.value;
+      s.innerHTML = "Hello, " + v;
+    }
+    function add() {
+      a.innerHTML = parseInt(i1.value, 10) + parseInt(i2.value, 10);
+    }
+    n.addEventListener('keyup', sayHello, false);
+    bt.addEventListener('click', add, false);
+  </script>
+</body>
+
+</html>

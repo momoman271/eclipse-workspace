@@ -1,0 +1,266 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Kadai3",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai4.Kadai3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai4.Kadai2",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai7",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai3.Kadai7",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai4.Kadai1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai5",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai3.Kadai5",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai4",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai3.Kadai4",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai3",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai3.Kadai3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai3.Kadai2",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai3.Kadai1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai3",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai2.Kadai3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai2.Kadai1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiF2r",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiF.KadaiF2r",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiF1r",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiF.KadaiF1r",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch GImage",
+            "request": "launch",
+            "mainClass": "MP1/GImage.GImage",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC0",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC0",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC2",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC3",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC4",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC4",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC5",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC5",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiC6",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiC.KadaiC6",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD0",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD0",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD2",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD3",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD4",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD4",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD5",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD5",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiD6",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiD.KadaiD6",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiE0",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiE.KadaiE0",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiE1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiE.KadaiE1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiE3",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiE.KadaiE3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiE4",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiE.KadaiE4",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiE5",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiE.KadaiE5",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiF0",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiF.KadaiF0",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiF1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiF.KadaiF1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch KadaiF2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiF.KadaiF2",
+            "projectName": "MP1"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+package Sample;
+
+
+
+import GImage.GImage;
+
+
+
+public class Sample6 {
+
+	public static void main(String[] args)
+
+	{
+
+         /**
+
+          * 1. Read an image-file "Lenna.bmp".
+
+          * 2. Convert the image-file to
+
+          *    the instance of GImage class.
+
+          */
+
+		 String fileName = "Lenna.bmp";
+
+	     GImage img= new GImage(fileName);
+
+	     GImage img1 = new GImage(256,256);
+
+	     GImage img2 = new GImage(258,258);
+
+
+
+	     for(int i=0;i<256;i++) {
+
+	    	 for(int j=0;j<256;j++) {
+
+	    		 img1.pixel[i][j]=255-img.pixel[i][j];
+
+	    	 }
+
+	     }
+
+	     for(int i=0;i<258;i++) {
+
+	    	 for(int j=0;j<258;j++) {
+
+	    		 if (i < 2 && j < 256) {
+	    			 img2.pixel[i][j]=img.pixel[i][j];
+	    		 }
+	    		 else if(j < 2 && i < 256) {
+	    			 img2.pixel[i][j]=img.pixel[i][j];
+	    		 }
+	    		 else if(i > 255 && j > 1) {
+	    			 img2.pixel[i][j]=img1.pixel[i-2][j-2];
+	    		 }
+	    		 else if(j > 255 && i > 1) {
+	    			 img2.pixel[i][j]=img1.pixel[i-2][j-2];
+	    		 }
+	    		 else if(i > 255)
+	    			 img2.pixel[i][j]=0;
+	    		 else if(j > 255)
+	    			 img2.pixel[i][j]=0;
+	    		 else if (img.pixel[i][j] + img1.pixel[i-2][j-2] < GImage.MAX_GRAY) {
+	    			 img2.pixel[i][j]=img.pixel[i][j] + img1.pixel[i-2][j-2];
+	    			}
+	    		 else {
+	    			 img2.pixel[i][j]=255;
+	    		 }
+
+	    	 }
+
+	     }
+
+
+	     /**
+
+	      *  Set the file name to "My_Image01".
+
+	      */
+
+	     String fileName01 = "Sample15";
+
+
+
+	     /**
+
+	      *  Set the file type to "bmp".
+
+	      */
+
+	     String fileType01 = "bmp";
+
+
+
+	     /**
+
+	      * Output the image-file "My_Image01.bmp".
+
+	      */
+
+	     img2.output(fileName01,fileType01);
+
+
+
+	     /**
+
+	      * Set the file name to "My_Image01.bmp".
+
+	      */
+
+	     fileName01 +="." + fileType01;
+
+	     System.out.println("Output file:"+fileName01);
+
+	}
+}

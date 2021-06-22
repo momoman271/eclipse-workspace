@@ -1,0 +1,58 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "c465cebf.4e785",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/post",
+      "method": "post",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 100,
+      "y": 40,
+      "wires": [
+        [
+          "9ebf7122.171328"
+        ]
+      ]
+    },
+    {
+      "id": "9ebf7122.171328",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "html",
+      "syntax": "mustache",
+      "template": "<h1>ID, Score</h1><p>id is {{payload.id}}, score is {{payload.score}}!</p>",
+      "output": "str",
+      "x": 180,
+      "y": 100,
+      "wires": [
+        [
+          "ab57306d.588d1"
+        ]
+      ]
+    },
+    {
+      "id": "ab57306d.588d1",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "x": 250,
+      "y": 160,
+      "wires": []
+    }
+  ]

@@ -1,0 +1,58 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "1276d82f.ac71d",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/get",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 40,
+      "wires": [
+        [
+          "f99b094f.290e08"
+        ]
+      ]
+    },
+    {
+      "id": "f99b094f.290e08",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "html",
+      "syntax": "mustache",
+      "template": "<h1>ID</h1><p>id is {{payload.id}}!</p>",
+      "output": "str",
+      "x": 200,
+      "y": 100,
+      "wires": [
+        [
+          "9d4fc330.98acd"
+        ]
+      ]
+    },
+    {
+      "id": "9d4fc330.98acd",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "x": 310,
+      "y": 140,
+      "wires": []
+    }
+  ]

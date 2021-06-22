@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="true"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\pride\Downloads\ImageFiles18\ImageFiles18"/>
+			<item value="C:\Users\pride\Downloads\ImageFiles18"/>
+			<item value="C:\Users\pride\Documents\eclipse workspace\MedPro\MP1\ImageFiles18"/>
+			<item value="C:\Users\pride\Documents\eclipse workspace\MedPro\MP1\ImageBlocks120"/>
+			<item value="C:\Users\pride\Downloads\ImageFiles1\ImageFiles1"/>
+			<item value="C:\Users\pride\Downloads\mp1_linux\mp1_linux\Sample"/>
+			<item value="C:\Users\pride\Downloads\mp1_linux\mp1_linux"/>
+		</list>
+	</section>
+</section>

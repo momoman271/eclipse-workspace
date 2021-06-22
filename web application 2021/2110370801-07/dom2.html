@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Javascript DOM</title>
+</head>
+
+<body>
+  <h1>Kindai Univ.</h1>
+  Kindai links:
+  <ul id="list">
+    <li><a href="http://www.kindai.ac.jp/">Kindai <span>Univ.</span></a></li>
+    <li><a href="http://www.kindai.ac.jp/sci/">Faculty of 
+             <span>Science</span> and <span>Engineering</span></a></li>
+    <li><a href="http://www.info.kindai.ac.jp/">Department of 
+             <span>Informatics</span></a></li>
+  </ul>
+  <script type="text/javascript">
+
+    var ul = document.getElementById('list'); // リスト取得
+    while (ul.firstChild) {
+      ul.removeChild(ul.firstChild); // 子ノードの削除
+    }
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    var txt = document.createTextNode('Webアプリケーション');
+    ul.appendChild(li);
+    li.appendChild(a);
+    a.appendChild(txt);
+    a.setAttribute('href', 'https://ecls.info.kindai.ac.jp/21/wa/');
+  </script>
+</body>
+
+</html>

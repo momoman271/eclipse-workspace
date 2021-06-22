@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item key="terminalLabel" value="SSH ターミナル"/>
+		<section name="SettingsPanelControl">
+			<section name="SSH ターミナル">
+				<item key="lastHost" value="pride"/>
+				<list key="hosts">
+					<item value="pride|ssh.keep_alive:300:ip.port:22:ip.host:pride:savePassword:false:encoding:null:timeout:0:saveUser:false"/>
+				</list>
+			</section>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,119 @@
+package Sample;
+
+
+
+import GImage.GImage;
+
+
+
+public class Sample4 {
+
+	public static void main(String[] args)
+
+	{
+
+         /**
+
+          * 1. Read an image-file "Lenna.bmp".
+
+          * 2. Convert the image-file to
+
+          *    the instance of GImage class.
+
+          */
+
+		 String fileName = "Lenna.bmp";
+
+	     GImage img= new GImage(fileName);
+
+	     GImage img1 = new GImage(256,256);
+
+	    //GImage img2 = new GImage(256,256);
+
+	     
+
+	    
+
+	     
+
+	     
+
+	    
+
+	     for(int i=0;i<256;i++) {
+
+	    	 for(int j=0;j<256;j++) {
+
+	    		 //img1.pixel[i][j]=img.pixel[i][j]-40;
+
+	    		 if (img1.pixel[i][j] > GImage.MIN_GRAY + 40 && img1.pixel[i][j] <GImage.MAX_GRAY) {
+
+	    			  img.pixel[i][j]=img1.pixel[i][j]-40;
+
+	    			}
+	    		 else if (img1.pixel[i][j] >= GImage.MAX_GRAY) {
+	    			 img.pixel[i][j]=255;
+	    		 }
+	    		 else {
+	    			 img.pixel[i][j]=125;
+	    		 }
+
+	    	 }
+
+	     }
+
+	    
+
+	     
+
+	     
+
+
+
+	     /**
+
+	      *  Set the file name to "My_Image01".
+
+	      */
+
+	     String fileName01 = "Sample14";
+
+
+
+	     /**
+
+	      *  Set the file type to "bmp".
+
+	      */
+
+	     String fileType01 = "bmp";
+
+
+
+	     /**
+
+	      * Output the image-file "My_Image01.bmp".
+
+	      */
+
+	     img.output(fileName01,fileType01);
+
+
+
+	     /**
+
+	      * Set the file name to "My_Image01.bmp".
+
+	      */
+
+	     fileName01 +="." + fileType01;
+
+	     System.out.println("Output file:"+fileName01);
+
+	}
+
+
+
+
+
+}

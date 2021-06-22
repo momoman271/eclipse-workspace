@@ -1,0 +1,48 @@
+/* element selector */
+body {
+    background-color: #aaeecc;
+}
+legend {
+        border: 1px outset;
+        background-color: #88ccaa;
+}
+input {
+    background-color: #aaeecc;
+}
+fieldset {
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 30px;
+    background-color: #77ee66;
+}
+/* class selector */
+.entry01 {
+  color: green;
+}
+/* class selector */
+.foo {
+  color: red;
+}
+.bar {
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+}
+/* descendant selector */
+p em {
+  color: pink;
+}
+/* pseudo classes */
+a:link {
+  color: magenta;
+}
+a:visited {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+}
+/* pseudo element */
+h2:before {
+  color: cyan;
+  content: "*";
+}
