@@ -19,11 +19,12 @@ hasband(H,W) :- married(H,W), male(H).
 father(F,C) :- child(C,F), male(F).
 mother(M,C) :- father(F,C), married(M,F).
 parent(X,Y) :- father(X,Y); mother(X,Y).
-brother(X,Y) :- child(X,F), child(Y,F), male(X).
-sister(X,Y) :- child(X,F), child(Y,F), female(X).
+brother(X,Y) :- parent(P,X), parent(P,Y), male(X).
+sister(X,Y) :- parent(P,X), parent(P,Y), female(X).
 aunt(X,Y) :- parent(P,Y), sister(X,P); parent(P,Y), brother(B,P), wife(X,B).
 uncle(X,Y) :- parent(P,Y), brother(X,P); parent(P,Y), sister(B,P), hasband(X,B).
-nephew(X,Y) :- uncle(Y,X).
+siblings(X,Y) :- brother(X,Y); sister(X,Y).
+nephew(X,Y) :- siblings(S,Y), parent(S,X), male(X).
 grandmother(X,Y) :- parent(P,Y), mother(X,P).
 grandfather(X,Y) :- parent(P,Y), father(X,P).
 grandchild(X,Y) :- grandfather(Y,X); grandmother(Y,X).
