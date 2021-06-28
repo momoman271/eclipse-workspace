@@ -8,6 +8,48 @@
             "type": "java",
             "name": "Launch Kadai3",
             "request": "launch",
+            "mainClass": "MP1/Sample.Kadai5.Kadai3",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai5.Kadai2",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai1",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Kadai5.Kadai1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sample02",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiAB.Sample02",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai1",
+            "request": "launch",
+            "mainClass": "Sample.Kadai2.Kadai1",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sample01",
+            "request": "launch",
+            "mainClass": "MP1/Sample.KadaiAB.Sample01",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadai3",
+            "request": "launch",
             "mainClass": "MP1/Sample.Kadai4.Kadai3",
             "projectName": "MP1"
         },
@@ -106,7 +148,9 @@
             "name": "Launch GImage",
             "request": "launch",
             "mainClass": "MP1/GImage.GImage",
-            "projectName": "MP1"
+            "projectName": "MP1",
+            "noDebug": true,
+            "__progressId": "0b4876b4-654b-4b47-b895-6224e7cc0f4c"
         },
         {
             "type": "java",
