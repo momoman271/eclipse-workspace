@@ -19,8 +19,8 @@ hasband(H,W) :- married(H,W), male(H).
 father(F,C) :- child(C,F), male(F).
 mother(M,C) :- father(F,C), married(M,F).
 parent(X,Y) :- father(X,Y); mother(X,Y).
-brother(X,Y) :- parent(P,X), parent(P,Y), male(X).
-sister(X,Y) :- parent(P,X), parent(P,Y), female(X).
+brother(X,Y) :- parent(P,X), parent(P,Y), male(X), (X)\=(Y).
+sister(X,Y) :- parent(P,X), parent(P,Y), female(X), (X)\=(Y).
 aunt(X,Y) :- parent(P,Y), sister(X,P); parent(P,Y), brother(B,P), wife(X,B).
 uncle(X,Y) :- parent(P,Y), brother(X,P); parent(P,Y), sister(B,P), hasband(X,B).
 siblings(X,Y) :- brother(X,Y); sister(X,Y).
