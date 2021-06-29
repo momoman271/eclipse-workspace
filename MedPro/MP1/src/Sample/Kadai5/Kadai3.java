@@ -31,14 +31,14 @@ public class Kadai3 {
             laplacian(img3,img4,height,width);
             contour(img5,img4,height,width);
         }
-        
-        
-        String fileName02 = "5-3-21-0801";
+        imgoutput(img5,"5-3-21-0801");
+    }
+
+    private static void imgoutput(GImage img,String fileName02){
         String fileType02 = "bmp";
-        img5.output(fileName02,fileType02);
+        img.output(fileName02,fileType02);
         fileName02 +="." + fileType02;
         System.out.println("Output file:"+fileName02);
-        
     }
 
     private static void contour(GImage img1,GImage img2,int height ,int width){

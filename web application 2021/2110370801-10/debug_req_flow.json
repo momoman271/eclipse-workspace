@@ -1,0 +1,90 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "e79634aa.48d1a8",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/req",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 60,
+      "wires": [
+        [
+          "c7abca3f.f17e98",
+          "5cd9c7df.f7a1a8"
+        ]
+      ]
+    },
+    {
+      "id": "c7abca3f.f17e98",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "This is the payload: {{payload}} !",
+      "output": "str",
+      "x": 160,
+      "y": 120,
+      "wires": [
+        [
+          "a5805d12.daf5b"
+        ]
+      ]
+    },
+    {
+      "id": "a5805d12.daf5b",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {},
+      "x": 280,
+      "y": 180,
+      "wires": []
+    },
+    {
+      "id": "5cd9c7df.f7a1a8",
+      "type": "debug",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "req",
+      "targetType": "msg",
+      "x": 280,
+      "y": 40,
+      "wires": []
+    },
+    {
+      "id": "c3306007.c3d998",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/req",
+      "method": "post",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 200,
+      "wires": [
+        [
+          "c7abca3f.f17e98",
+          "5cd9c7df.f7a1a8"
+        ]
+      ]
+    }
+  ]

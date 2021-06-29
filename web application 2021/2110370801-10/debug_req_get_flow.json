@@ -1,0 +1,74 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "18818a38.fcdefe",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/req",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 40,
+      "wires": [
+        [
+          "cf163b81.182d08",
+          "b049456.cfce538"
+        ]
+      ]
+    },
+    {
+      "id": "1a1b3d69.9bc113",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "x": 280,
+      "y": 160,
+      "wires": []
+    },
+    {
+      "id": "cf163b81.182d08",
+      "type": "debug",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "req",
+      "targetType": "msg",
+      "x": 250,
+      "y": 40,
+      "wires": []
+    },
+    {
+      "id": "b049456.cfce538",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "This is the payload: {{payload}} !",
+      "output": "str",
+      "x": 160,
+      "y": 100,
+      "wires": [
+        [
+          "1a1b3d69.9bc113"
+        ]
+      ]
+    }
+  ]
