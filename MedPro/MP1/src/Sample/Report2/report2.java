@@ -1,9 +1,9 @@
-package Sample.Kadai6;
+package Sample.Report2;
 
 import  GImage.GImage;
 import  java.util.Random;	
 
-public class Kadai1 {
+public class report2 {
         public static void main(String[] args)
         {
         String outputName = "6-3";
@@ -16,11 +16,43 @@ public class Kadai1 {
         GImage img5 = new GImage(fileName);
 
         int range = 1; //filterの範囲と同期する
+        
+        for(int i=0;i<20;i++){
+            Timemeasure(img1,img2,range);
+        }
+    }
+    private static void createcontour(GImage img,GImage img2,GImage img3,GImage img4,GImage img5,int range){
+        noisegenerator(img);
+        paint(img2, img);
+        noisedelete(img, img2, range);
+        paint(img, img2);
+        Smoothing(img2, img);
+        paint(img, img2);
+        for(int o = 256/16;o <= 256/16*15;o+=256/16){
+            paint(img3, img);
+            paint(img4, img);
+            Binarization(img2,img3,o);
+            paint(img4, img3);
+            laplacian(img3,img4);
+            contour(img5,img4);
+        }
+    }
 
-        createhist(img1,outputName);
-        Contrastadjust (img1,70,240);
+    private static void milltime(){
+        for(int i=0;i<20;i++){
+            double starttime = System.currentTimeMillis();
+            double endtime = System.currentTimeMillis();
+            System.out.println(endtime - starttime);
+        }
+    }
 
-        imgoutput(img1,outputName+"-21-0801");
+    private static void Timemeasure(GImage img1,GImage img2,int range){
+        double starttime = System.currentTimeMillis(); 
+        for(int i=0;i<100;i++){
+            noisedelete(img1, img2, range);
+        }
+        double endtime = System.currentTimeMillis();
+        System.out.println(endtime - starttime);
     }
 
     private static double Max(int[] hist){
@@ -96,7 +128,7 @@ public class Kadai1 {
                 board.pixel[y][x] = 255;
             }
         }
-        imgoutput(board,output + /*"-21-0801"*/"-histgram");
+        //imgoutput(board,output + /*"-21-0801"*/"-histgram");
     }
 
     private static void imgoutput(GImage img,String fileName02){
@@ -106,7 +138,9 @@ public class Kadai1 {
         System.out.println("Output file:"+fileName02);
     }
 
-    private static void contour(GImage img1,GImage img2,int height ,int width){
+    private static void contour(GImage img1,GImage img2){
+        int width = img1.getWidth();
+        int height = img1.getHeight();
         for(int i=0;i<height;i++){
             for(int j=0;j<width;j++){
                 if(img2.pixel[i][j] != GImage.MIN_GRAY){
@@ -116,7 +150,9 @@ public class Kadai1 {
         }
     }
 
-    private static void Binarization(GImage img1,GImage img2, int height,int width,int Threshold){
+    private static void Binarization(GImage img1,GImage img2,int Threshold){
+        int width = img1.getWidth();
+        int height = img1.getHeight();
         for(int x=0;x<width;x++) {
 			for(int y=0;y<height;y++) {
 				if(img1.pixel[y][x] < Threshold){
@@ -129,7 +165,9 @@ public class Kadai1 {
 		}
     }
 
-    private static void laplacian(GImage img,GImage img2,int height,int width){
+    private static void laplacian(GImage img1,GImage img2){
+        int width = img1.getWidth();
+        int height = img1.getHeight();
         double totalnumber = 0;
          int range = 1; //filterの範囲と同期する
          double[][] filter = new double[][]{
@@ -144,7 +182,7 @@ public class Kadai1 {
                     totalnumber = 0;
                     for(int i=-range;i <= range;i++){
                         for(int j=-range;j <= range;j++){
-                            totalnumber += img.pixel[y + i][x + j] * filter[i + range][j + range];
+                            totalnumber += img1.pixel[y + i][x + j] * filter[i + range][j + range];
                         }
                     }
                     if(totalnumber > 255){
@@ -167,7 +205,9 @@ public class Kadai1 {
         System.out.println("Output file:"+fileName02);
     }
 
-    private static void Smoothing(GImage img1,GImage img2,int height,int width){
+    private static void Smoothing(GImage img1,GImage img2){
+        int width = img1.getWidth();
+        int height = img1.getHeight();
         int range = 1;
         double totalnumber = 0;
         int count =0;
@@ -193,8 +233,9 @@ public class Kadai1 {
         }
     }
 
-
-    private static void noisedelete(GImage img,GImage img2,int height,int width,int range){
+    private static void noisedelete(GImage img1,GImage img2,int range){
+        int width = img1.getWidth();
+        int height = img1.getHeight();
         int[] median = new int[9];
         int count = 0;
         int c = 0;
@@ -204,7 +245,7 @@ public class Kadai1 {
                     count = 0;
                     for(int i=-range;i <= range;i++){
                         for(int j=-range;j <= range;j++){
-                            median[count] = img.pixel[y + i][x + j];
+                            median[count] = img1.pixel[y + i][x + j];
                             count++;
                             if(count == median.length){
                                 for(int a=0;a<median.length;a++){
@@ -228,7 +269,9 @@ public class Kadai1 {
         }
     }
 
-    private static void paint(GImage img1,GImage img2,int height ,int width){
+    private static void paint(GImage img1,GImage img2){
+        int width = img1.getWidth();
+        int height = img1.getHeight();
         for(int i=0;i<height;i++){
             for(int j=0;j<width;j++){
                 img1.pixel[i][j] = img2.pixel[i][j];
@@ -236,22 +279,22 @@ public class Kadai1 {
         }
     }
 
-    private static void noisegenerator(GImage img){
+    private static void noisegenerator(GImage img1){
         final	int	randomSeed	=	1;							//	乱数種を１（ロボットTAは１で設定のため，変更しないこと）
 		Random	rand	=	new	Random(randomSeed); //	乱数ジェネレータを作る
         for	(int i=0; i<500; i++)	{	 							//	500個のノイズを作成
-                int	y	=	rand.nextInt(img.getHeight()	);		//	y座標計算:0〜input.getHeight()-1の乱数生成
-                int	x	=	rand.nextInt(img.getWidth	()	);		//	x座標計算:0〜input.getWidth()	-1の乱数生成
+                int	y	=	rand.nextInt(img1.getHeight()	);		//	y座標計算:0〜input.getHeight()-1の乱数生成
+                int	x	=	rand.nextInt(img1.getWidth	()	);		//	x座標計算:0〜input.getWidth()	-1の乱数生成
                 int	value;	
                 if(rand.nextBoolean()) 		//	true	か	false	を	1/2	の確率で生成
                             value	=	GImage.MIN_GRAY;	
                 else	
                             value	=	GImage.MAX_GRAY;	
-                img.pixel[y][x]	=	value;	
+                img1.pixel[y][x]	=	value;	
 		}
         String fileName02 = "noise";
         String fileType02 = "bmp";
-        img.output(fileName02,fileType02);
+        img1.output(fileName02,fileType02);
         fileName02 +="." + fileType02;
         System.out.println("Output file:"+fileName02);
     }

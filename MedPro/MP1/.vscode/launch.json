@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch report2",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Report2.report2",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
             "name": "Launch Kadai1",
             "request": "launch",
             "mainClass": "MP1/Sample.Kadai6.Kadai1",
