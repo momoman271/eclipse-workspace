@@ -1,0 +1,169 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "54a19889.2625f8",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/users",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 80,
+      "y": 40,
+      "wires": [
+        [
+          "ba807c30.fc922"
+        ]
+      ]
+    },
+    {
+      "id": "ba807c30.fc922",
+      "type": "function",
+      "z": "4b16fed.02a848",
+      "name": "get_u",
+      "func": "const users = [\n  {\"name\": \"Alice\", \"point\": 78},\n  {\"name\": \"Bob\", \"point\": 85},\n  {\"name\": \"Carol\", \"point\": 93},\n  {\"name\": \"Dave\", \"point\": 68}\n];\nmsg.payload.users = users; // msg.payloadにリソースを代入\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 230,
+      "y": 40,
+      "wires": [
+        [
+          "f6b78b2d.eaef3"
+        ]
+      ]
+    },
+    {
+      "id": "f6b78b2d.eaef3",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "Users\n{{#payload.users}}\n* {{name}} -> {{point}} points\n{{/payload.users}}",
+      "output": "str",
+      "x": 380,
+      "y": 40,
+      "wires": [
+        [
+          "72f9d121.0139f"
+        ]
+      ]
+    },
+    {
+      "id": "72f9d121.0139f",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {},
+      "x": 470,
+      "y": 80,
+      "wires": []
+    },
+    {
+      "id": "3f6730b4.c7016",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/users",
+      "method": "post",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 80,
+      "wires": [
+        [
+          "4ee3903a.8c1db8"
+        ]
+      ]
+    },
+    {
+      "id": "4ee3903a.8c1db8",
+      "type": "function",
+      "z": "4b16fed.02a848",
+      "name": "post_u",
+      "func": "const users = [\n  {\"name\": \"Alice\", \"point\": 78},\n  {\"name\": \"Bob\", \"point\": 85},\n  {\"name\": \"Carol\", \"point\": 93},\n  {\"name\": \"Dave\", \"point\": 68}\n];\nconst user = {}; // 新規ユーザ作成\nuser.name = msg.req.body.name; // リクエストボディの値を代入\nuser.point = msg.req.body.point; // リクエストボディの値を代入\nusers.push(user); // リソースに追加\nmsg.payload.users = users; // msg.payloadに追加\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 230,
+      "y": 80,
+      "wires": [
+        [
+          "f6b78b2d.eaef3"
+        ]
+      ]
+    },
+    {
+      "id": "bb83d97f.a5fc78",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/users/:id",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 140,
+      "wires": [
+        [
+          "73269c27.61742c"
+        ]
+      ]
+    },
+    {
+      "id": "73269c27.61742c",
+      "type": "function",
+      "z": "4b16fed.02a848",
+      "name": "get_uid",
+      "func": "const users = [\n  {\"name\": \"Alice\", \"point\": 78},\n  {\"name\": \"Bob\", \"point\": 85},\n  {\"name\": \"Carol\", \"point\": 93},\n  {\"name\": \"Dave\", \"point\": 68}\n];\nconst uid = msg.req.params.id; \nmsg.payload.user = users[uid];\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 230,
+      "y": 140,
+      "wires": [
+        [
+          "74d6a927.aff43"
+        ]
+      ]
+    },
+    {
+      "id": "74d6a927.aff43",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "User\n{{payload.user.name}} -> {{payload.user.point}} points\n",
+      "output": "str",
+      "x": 360,
+      "y": 140,
+      "wires": [
+        [
+          "15a3cbf6.a881bc"
+        ]
+      ]
+    },
+    {
+      "id": "15a3cbf6.a881bc",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {},
+      "x": 470,
+      "y": 180,
+      "wires": []
+    }
+  ]
+  

@@ -1,0 +1,104 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "54a19889.2625f8",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/login",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 80,
+      "y": 40,
+      "wires": [
+        [
+          "f6b78b2d.eaef3"
+        ]
+      ]
+    },
+    {
+      "id": "f6b78b2d.eaef3",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "<html>\n  <head>\n    <title>login</title>\n    <script>\n    function setLoginId() {\n      const loginId = document.getElementById('id_input').value;\n      localStorage.setItem('loginId', loginId);\n      location.href = '/content';\n    }\n    </script>\n  </head>\n  <body>\n    <h1>login</h1>\n    <input type=\"text\" id=\"id_input\" />\n                <button onclick=\"setLoginId();\">login</button>\n  </body>\n</html>\n",
+      "output": "str",
+      "x": 260,
+      "y": 40,
+      "wires": [
+        [
+          "72f9d121.0139f"
+        ]
+      ]
+    },
+    {
+      "id": "72f9d121.0139f",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {},
+      "x": 410,
+      "y": 40,
+      "wires": []
+    },
+    {
+      "id": "e2eb6160.849658",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/content",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 100,
+      "wires": [
+        [
+          "5898cc0f.40e69c"
+        ]
+      ]
+    },
+    {
+      "id": "5898cc0f.40e69c",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "<html>\n  <head>\n    <title>content</title>\n    <script>\n    function init() {\n      const loginId = localStorage.getItem('loginId');\n      if(loginId == null) {\n        location.href = '/login';\n      }\n      document.getElementById('id').textContent = 'ID: '+loginId;\n    }\n    </script>\n  </head>\n  <body onload=\"init();\">\n    <h1>content</h1>\n    <span id=\"id\"></span>\n  </body>\n</html>",
+      "output": "str",
+      "x": 260,
+      "y": 100,
+      "wires": [
+        [
+          "275339b0.d22c16"
+        ]
+      ]
+    },
+    {
+      "id": "275339b0.d22c16",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {},
+      "x": 410,
+      "y": 100,
+      "wires": []
+    }
+  ]
+  

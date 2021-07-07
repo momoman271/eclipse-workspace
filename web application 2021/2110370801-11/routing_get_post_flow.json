@@ -1,0 +1,108 @@
+[
+    {
+      "id": "4b16fed.02a848",
+      "type": "tab",
+      "label": "Flow 5",
+      "disabled": false,
+      "info": ""
+    },
+    {
+      "id": "e79634aa.48d1a8",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/users",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 80,
+      "y": 60,
+      "wires": [
+        [
+          "3b3579d0.e83856"
+        ]
+      ]
+    },
+    {
+      "id": "c7abca3f.f17e98",
+      "type": "template",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "field": "payload",
+      "fieldType": "msg",
+      "format": "handlebars",
+      "syntax": "mustache",
+      "template": "Users\n{{#payload.users}}\n* {{name}} -> {{point}} points\n{{/payload.users}}",
+      "output": "str",
+      "x": 360,
+      "y": 80,
+      "wires": [
+        [
+          "a5805d12.daf5b"
+        ]
+      ]
+    },
+    {
+      "id": "a5805d12.daf5b",
+      "type": "http response",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "statusCode": "",
+      "headers": {
+        "content-type": "text/plain"
+      },
+      "x": 470,
+      "y": 120,
+      "wires": []
+    },
+    {
+      "id": "f7e72754.40cd98",
+      "type": "http in",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "url": "/users",
+      "method": "post",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 90,
+      "y": 120,
+      "wires": [
+        [
+          "2c1c12eb.f5b7fe"
+        ]
+      ]
+    },
+    {
+      "id": "3b3579d0.e83856",
+      "type": "function",
+      "z": "4b16fed.02a848",
+      "name": "get_u",
+      "func": "const users = [\n    {\"name\": \"Alice\", \"point\": 78},\n    {\"name\": \"Bob\", \"point\": 85},\n    {\"name\": \"Carol\", \"point\": 93},\n    {\"name\": \"Dave\", \"point\": 68}\n];\nmsg.payload.users = users;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 230,
+      "y": 60,
+      "wires": [
+        [
+          "c7abca3f.f17e98"
+        ]
+      ]
+    },
+    {
+      "id": "2c1c12eb.f5b7fe",
+      "type": "function",
+      "z": "4b16fed.02a848",
+      "name": "post_u",
+      "func": "const users = [\n    {\"name\": \"Alice\", \"point\": 78},\n    {\"name\": \"Bob\", \"point\": 85},\n    {\"name\": \"Carol\", \"point\": 93},\n    {\"name\": \"Dave\", \"point\": 68}\n];\nconst user = {};\nuser.name = msg.req.body.name;\nuser.point = msg.req.body.point;\nusers.push(user);\nmsg.payload.users = users;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "x": 230,
+      "y": 120,
+      "wires": [
+        [
+          "c7abca3f.f17e98"
+        ]
+      ]
+    }
+  ]
+  
