@@ -4,7 +4,76 @@ import  java.util.Random;
 import java.util.concurrent.TimeUnit;	
 
 public class Featureex {
-    
+    public static int[] get_maxes(int number,double data[]){
+        double exchange;
+        double[] posedata = new double[data.length];
+        int[] maxes = new int[number];
+        for(int i=0;i<data.length;i++){
+            posedata[i] = data[i];
+        }
+        
+        for(int a=0;a<data.length-1;a++){
+            for(int b=data.length-1;b>a;b--){
+                if(data[b] < data[b-1]){
+                    exchange = data[b];
+                    data[b] = data[b-1];
+                    data[b-1] = exchange;
+                }
+            }
+        }
+
+        for(int i=0;i<number;i++){
+            for(int j=0;j<posedata.length;j++){
+                if(data[i] == posedata[j]){
+                    maxes[i] = j;
+                }
+            }
+        }
+        return maxes;
+    }
+    public static double get_distance(int fenum,double[] inputdata,double[] comparedata){
+        double distance = 0;
+        double total = 0;
+        for(int i=0;i<fenum;i++){
+            total += (inputdata[i]-comparedata[i]) * (inputdata[i]-comparedata[i]);
+        }
+        distance = Math.sqrt(total); 
+        return distance;
+    }
+    public static double[] get_fescalr(int fenum,int num,double[][] data){ //1枚の画像の特徴を配列化
+        double[] newdata = new double[num];
+        for(int i=0;i<num;i++){
+            newdata[i] = data[i][fenum];
+        }
+        return newdata;
+    }
+    public static double[] get_scalr(int fenum,int num,double[][] data){
+        double[] newdata = new double[num];
+        for(int i=0;i<num;i++){
+            newdata[i] = data[fenum][i];
+        }
+        return newdata;
+    }
+    public static double get_Feature(int fenum,GImage img){
+        switch(fenum){
+            case 0:
+                return Featureex.get_F1(img);
+            case 1:
+                return Featureex.get_F2(img);
+            case 2:
+                return Featureex.get_F3(img);
+            case 3:
+                return Featureex.get_F4(img);
+            case 4:
+                return Featureex.get_F5(img);
+            case 5:
+                return Featureex.get_F6(img);
+            case 6:
+                return Featureex.get_F7(img);
+            default:
+                return Featureex.get_F8(img);
+        }
+    }
 	public static double get_F1(GImage img1){ //黒の割合(濃度)を返す
 		int width1, height1;
 	    width1 = img1.getWidth();
@@ -61,66 +130,127 @@ public class Featureex {
 	     return F2;
     }
     public static double get_F3(GImage img1){
-        int height1 = img1.getHeight();	//黒画像の幅
-		int width1 = img1.getWidth();	//黒画像の幅
-        int black = 0;
-		int white = 255;
         int Totalnumber = 0;
         double F3 = 0;
-        int X = 0;
+        int MinX = (int)get_area(img1, "MinX");
+        int MaxX = (int)get_area(img1, "MaxX");
+        int MinY = (int)get_area(img1, "MinY");
+        int MaxY = (int)get_area(img1, "MaxY");
+        double Ynumber = MaxY - MinY + 1;
 
-		for(int y=0;y<height1;y++) {
-			for(int x=0;x<width1;x++) {
-				if(img1.pixel[y][x] == black && img1.pixel[y][x-1] == white && x >= 1)
+		for(int x=MinX;x<=MaxX;x++) {
+			for(int y=MinY;y<=MaxY;y++) {
+				if(img1.pixel[y][x] == GImage.MIN_GRAY && img1.pixel[y-1][x] == GImage.MAX_GRAY && y >= MinY+1)
                 {
 					Totalnumber++;
                 }
 			}
 		}
-		F3 = (double)Totalnumber / X;
+		F3 = (double)Totalnumber / Ynumber;
         return F3;
     }
+    public static double get_F4(GImage img1){
+        int Totalnumber = 0;
+        double F4 = 0;
+        int MinX = (int)get_area(img1, "MinX");
+        int MaxX = (int)get_area(img1, "MaxX");
+        int MinY = (int)get_area(img1, "MinY");
+        int MaxY = (int)get_area(img1, "MaxY");
+        double Xnumber = MaxX - MinX + 1;
 
-    public static double get_XY(GImage img1) { //外接矩形のYかXの長さを返す
-		int width1, height1;
-	    width1 = img1.getWidth();
-	    height1 = img1.getHeight();
-	     
-	    /** Decide vertical frame line */
-	    boolean flagY = true;
-	    int Ymin=0;
-	    int Ymax=0;
-	    for(int y=0;y<height1;y++){
-	    	for(int x=0;x<width1;x++){
-	    		if(img1.pixel[y][x]==GImage.MIN_GRAY){
-	    			Ymax=y;
-	    			if(flagY==true){
-	    				Ymin=y;
-	    				flagY=false;
-	    			}
-	    		}
-	    	 }
-	     }
-	     
-	     boolean flagX = true;
-	     int Xmin=0;
-	     int Xmax=0;
-	     for(int x=0;x<width1;x++){
-	    	 for(int y=0;y<height1;y++){
-	    		 if(img1.pixel[y][x]==GImage.MIN_GRAY){
-	    			 Xmax=x;
-	    			 if(flagX==true){
-	    				 Xmin=x;
-	    				 flagX=false;
-	    			 }
-	    		 }
-	    	 }
-	     }
-	     
-	     double area;
-	     area = ((double)(Ymax-Ymin+1))*((double)(Xmax-Xmin+1));
-	     return area;
-	}
+		for(int y=MinY;y<=MaxY;y++) {
+			for(int x=MinX;x<=MaxX;x++) {
+				if(img1.pixel[y][x] == GImage.MIN_GRAY && img1.pixel[y][x-1] == GImage.MAX_GRAY && x >= MinX+1)
+                {
+					Totalnumber++;
+                }
+			}
+		}
+		F4 = (double)Totalnumber / Xnumber;
+        return F4;
+    }
+    public static double get_F5(GImage img1){
+        double F5 = 0;
+        int MinX = (int)get_area(img1, "MinX");
+        int MaxX = (int)get_area(img1, "MaxX");
+        int MinY = (int)get_area(img1, "MinY");
+        int MaxY = (int)get_area(img1, "MaxY");
+        double Ynumber = MaxY - MinY + 1;
+        double[] data = new double[(int)Ynumber];
+
+		for(int x=MinX;x<=MaxX;x++) {
+			for(int y=MinY;y<=MaxY;y++) {
+				if(img1.pixel[y][x] == GImage.MIN_GRAY && img1.pixel[y-1][x] == GImage.MAX_GRAY && y >= MinY+1)
+                {
+                    data[y - MinY]++;
+                }
+			}
+		}
+		F5 = get_dev(data);
+        return F5;
+    }
+    public static double get_F6(GImage img1){
+        double F6 = 0;
+        int MinX = (int)get_area(img1, "MinX");
+        int MaxX = (int)get_area(img1, "MaxX");
+        int MinY = (int)get_area(img1, "MinY");
+        int MaxY = (int)get_area(img1, "MaxY");
+        double Xnumber = MaxX - MinX + 1;
+        double[] data = new double[(int)Xnumber];
+
+		for(int y=MinY;y<=MaxY;y++) {
+			for(int x=MinX;x<=MaxX;x++) {
+				if(img1.pixel[y][x] == GImage.MIN_GRAY && img1.pixel[y][x-1] == GImage.MAX_GRAY && x >= MinX+1)
+                {
+					data[x - MinX]++;
+                }
+			}
+		}
+		F6 = get_dev(data);
+        return F6;
+    }
+    public static double get_F7(GImage img1){
+        int Totalnumber = 0;
+        int xtotal = 0;
+        double F7 = 0;
+        int MinX = (int)get_area(img1, "MinX");
+        int MaxX = (int)get_area(img1, "MaxX");
+        int MinY = (int)get_area(img1, "MinY");
+        int MaxY = (int)get_area(img1, "MaxY");
+
+        for(int y=MinY;y<=MaxY;y++){
+            for(int x=MinX;x<=MaxX;x++){
+                if(img1.pixel[y][x] == GImage.MIN_GRAY){
+                    xtotal += x-MinX;
+                    Totalnumber++;
+                }
+            }
+        }
+
+        F7 = (double)xtotal / (double)Totalnumber;
+        return F7;
+    }
+    public static double get_F8(GImage img1){
+        int Totalnumber = 0;
+        int ytotal = 0;
+        double F8 = 0;
+        int MinX = (int)get_area(img1, "MinX");
+        int MaxX = (int)get_area(img1, "MaxX");
+        int MinY = (int)get_area(img1, "MinY");
+        int MaxY = (int)get_area(img1, "MaxY");
+
+        for(int x=MinX;x<=MaxX;x++){
+            for(int y=MinY;y<=MaxY;y++){
+                if(img1.pixel[y][x] == GImage.MIN_GRAY){
+                    ytotal += y-MinY;
+                    Totalnumber++;
+                }
+            }
+        }
+
+        F8 = (double)ytotal / (double)Totalnumber;
+        return F8;
+    }
 
 	public static double get_area(GImage img1) { //外接矩形の面積を返す
 		int width1, height1;
@@ -163,7 +293,65 @@ public class Featureex {
 	     return area;
 	}
 
-	public static double get_ave(double data[]) { //全ての画像の平均値を返す
+    public static double get_area(GImage img1,String where) { //外接矩形の面積を返す MinX
+		int width1, height1;
+	    width1 = img1.getWidth();
+	    height1 = img1.getHeight();
+	     
+	    /** Decide vertical frame line */
+	    boolean flagY = true;
+	    int Ymin=0;
+	    int Ymax=0;
+	    for(int y=0;y<height1;y++){
+	    	for(int x=0;x<width1;x++){
+	    		if(img1.pixel[y][x]==GImage.MIN_GRAY){
+	    			Ymax=y;
+	    			if(flagY==true){
+	    				Ymin=y;
+	    				flagY=false;
+	    			}
+	    		}
+	    	 }
+	     }
+	     
+	     boolean flagX = true;
+	     int Xmin=0;
+	     int Xmax=0;
+	     for(int x=0;x<width1;x++){
+	    	 for(int y=0;y<height1;y++){
+	    		 if(img1.pixel[y][x]==GImage.MIN_GRAY){
+	    			 Xmax=x;
+	    			 if(flagX==true){
+	    				 Xmin=x;
+	    				 flagX=false;
+	    			 }
+	    		 }
+	    	 }
+	     }
+         double area;
+	     area = ((double)(Ymax-Ymin+1))*((double)(Xmax-Xmin+1));
+
+	     switch (where){
+            case "MinY":
+                return (double)Ymin;
+            case "MaxY":
+                return (double)Ymax;
+            case "MinX":
+                return (double)Xmin;
+            case "MaxX":
+                return (double)Xmax;
+            default :
+                return area;
+          }
+	}
+
+    public static double get_nor(double target,double data[]){
+        double normalized;
+        normalized = (target - get_ave(data)) / get_dev(data);
+        return normalized;
+    }
+
+	public static double get_ave(double data[]) { //全てのデータの平均値を返す
 		double sum = 0;
 		double ave;
 
@@ -175,7 +363,7 @@ public class Featureex {
 		return ave;
 	}
 	
-	public static double get_dev(double data[]) { //全ての画像の標準偏差を返す
+	public static double get_dev(double data[]) { //全てのデータの標準偏差を返す
 		double sum2 = 0;
 		double sum = 0;
 		double var, dev;
