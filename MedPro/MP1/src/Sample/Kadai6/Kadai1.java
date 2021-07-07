@@ -6,7 +6,7 @@ import  java.util.Random;
 public class Kadai1 {
         public static void main(String[] args)
         {
-        String outputName = "6-3";
+        String outputName = "6-2";
 
         String fileName = "d850429avhrr4.bmp";
         GImage img1= new GImage(fileName);
@@ -59,7 +59,7 @@ public class Kadai1 {
 
     private static void createhist(GImage img1,String output){
     //濃度値0以下と255以上を無視する
-        GImage board = new GImage(256,256);
+        GImage board = new GImage(512,512);
         int hist[] = new int[256];
         int width = img1.getWidth();
         int height = img1.getHeight();
@@ -91,12 +91,11 @@ public class Kadai1 {
         */
         //縦軸ヒストグラム
         for(int x=0; x<width2; x++){
-            for(int y=height2 - 1; y>height2 - 1 - (hist[x]  * (256/Max(hist)));y--){
-                if(x>=0 && x<width2 && y>=0 && y<height2)
-                board.pixel[y][x] = 255;
+            for(double y=height2 - 1; y>height2 - 1 - (double)(hist[x / 2]  * (512/Max(hist)));y--){
+                board.pixel[(int)y][x] = 255;
             }
         }
-        imgoutput(board,output + /*"-21-0801"*/"-histgram");
+        imgoutput(board,output + /*"-21-0801"*/"-hist");
     }
 
     private static void imgoutput(GImage img,String fileName02){

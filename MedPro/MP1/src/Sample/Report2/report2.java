@@ -1,30 +1,23 @@
 package Sample.Report2;
 
 import  GImage.GImage;
-import  java.util.Random;	
+import  java.util.Random;
+import java.util.concurrent.TimeUnit;	
 
 public class report2 {
         public static void main(String[] args)
         {
-        String outputName = "6-3";
+        String outputName = "report2";
 
         String fileName = "d850429avhrr4.bmp";
         GImage img1= new GImage(fileName);
-        GImage img2= new GImage(fileName);
-        GImage img3 = new GImage(fileName);
-        GImage img4 = new GImage(fileName);
-        GImage img5 = new GImage(fileName);
-
-        int range = 1; //filterの範囲と同期する
         
-        for(int i=0;i<20;i++){
-            Timemeasure(img1,img2,range);
-        }
+        Timemeasure();
     }
     private static void createcontour(GImage img,GImage img2,GImage img3,GImage img4,GImage img5,int range){
         noisegenerator(img);
         paint(img2, img);
-        noisedelete(img, img2, range);
+        noisedelete(img, range);
         paint(img, img2);
         Smoothing(img2, img);
         paint(img, img2);
@@ -40,19 +33,51 @@ public class report2 {
 
     private static void milltime(){
         for(int i=0;i<20;i++){
-            double starttime = System.currentTimeMillis();
-            double endtime = System.currentTimeMillis();
-            System.out.println(endtime - starttime);
+            long starttime = System.currentTimeMillis();
+            
+            long endtime = System.currentTimeMillis();
+            System.out.println("開始時刻:"+starttime+"ms");
+            System.out.println("終了時刻:"+endtime+"ms");
+            System.out.println("処理時間:"+(endtime - starttime)+"ms");
         }
     }
 
-    private static void Timemeasure(GImage img1,GImage img2,int range){
-        double starttime = System.currentTimeMillis(); 
-        for(int i=0;i<100;i++){
-            noisedelete(img1, img2, range);
+    private static void Checkaccuracy(){
+        for(int i=3;i>0;i--){
+            System.out.println(i+"秒前");
+            try {
+                Thread.sleep(1000);
+            } 
+            catch (InterruptedException e) {
+            }
         }
-        double endtime = System.currentTimeMillis();
-        System.out.println(endtime - starttime);
+        System.out.println("開始");
+        long starttime = System.currentTimeMillis();
+        try {
+            Thread.sleep(20000);
+        } 
+        catch (InterruptedException e) {
+        }
+        long endtime = System.currentTimeMillis();
+        
+        System.out.println("処理時間:"+(endtime - starttime)+"ms");
+        System.out.println("終了");
+    }
+
+    private static void Timemeasure(){
+        String fileName = "d850429avhrr4.bmp";
+        GImage inputimg= new GImage(fileName);
+        int range = 1;
+        int repeat = 20;
+
+        for(int i=0;i<repeat;i++){
+            long starttime = System.currentTimeMillis();
+        
+            noisedelete(inputimg, range);
+        
+            long endtime = System.currentTimeMillis();
+            System.out.println((endtime - starttime));
+        }
     }
 
     private static double Max(int[] hist){
@@ -233,42 +258,53 @@ public class report2 {
         }
     }
 
-    private static void noisedelete(GImage img1,GImage img2,int range){
-        int width = img1.getWidth();
-        int height = img1.getHeight();
-        int[] median = new int[9];
-        int count = 0;
-        int c = 0;
+    private static GImage noisedelete(GImage inputimg,int range){   //rangeは原点からフィルタにする範囲
+        long importstart = System.currentTimeMillis();
+        int width = inputimg.getWidth();
+        int height = inputimg.getHeight();
+        GImage outputimg = new GImage(height,width);    //出力用画像を生成
+        int[] median = new int[(int)Math.pow(2*range+1 , 2)];//入力された範囲からフィルタ用の配列を生成
+        int count;  //フィルタに画素値を挿入していくためのカウント用変数
+        int exchange;   //ソートで使う交換用変数
+        long importend = System.currentTimeMillis();
+        long processstart = System.currentTimeMillis();
         for(int y=0;y<height;y++) {
             for(int x=0;x<width;x++) {
                 if(y-range >= 0 && y+range < height && x-range >= 0 && x+range < width){
                     count = 0;
                     for(int i=-range;i <= range;i++){
                         for(int j=-range;j <= range;j++){
-                            median[count] = img1.pixel[y + i][x + j];
+                            median[count] = inputimg.pixel[y + i][x + j];
                             count++;
                             if(count == median.length){
-                                for(int a=0;a<median.length;a++){
-                                    for(int b=median.length-1;b>=0;b--){
-                                        if(median[a] > median[b]){
-                                            c = median[a];
-                                            median[a] = median[b];
-                                            median[b] = c;
+                                for(int a=0;a<median.length-1;a++){
+                                    for(int b=median.length-1;b>a;b--){
+                                        if(median[b] > median[b-1]){
+                                            exchange = median[b];
+                                            median[b] = median[b-1];
+                                            median[b-1] = exchange;
                                         }
                                     }
                                 }
-                                img2.pixel[y][x] = median[(median.length-1)/2];
+                                outputimg.pixel[y][x] = median[(median.length-1)/2];
                             }
                         }
                     }
                 }
                 else{
-                    img2.pixel[y][x] = GImage.MIN_GRAY;
+                    outputimg.pixel[y][x] = GImage.MIN_GRAY;
                 }
             }
         }
+        long processend = System.currentTimeMillis();
+        System.out.println("変数作成時間"+(importend - importstart));
+        System.out.println("処理時間"+(processend - processstart));
+        return outputimg;
     }
-
+/*        
+    
+    quickSort(median);
+*/
     private static void paint(GImage img1,GImage img2){
         int width = img1.getWidth();
         int height = img1.getHeight();
@@ -297,5 +333,38 @@ public class report2 {
         img1.output(fileName02,fileType02);
         fileName02 +="." + fileType02;
         System.out.println("Output file:"+fileName02);
+    }
+
+    static int pivot(int[] a,int i,int j){
+        int k=i+1;
+        while(k<=j && a[i]==a[k]) k++;
+        if(k>j) return -1;
+        if(a[i]>=a[k]) return i;
+        return k;
+    }
+    static int partition(int[] a,int i,int j,int x){
+        int l=i,r=j;
+        while(l<=r){
+            while(l<=j && a[l]<x)  l++;
+            while(r>=i && a[r]>=x) r--;
+            if(l>r) break;
+            int t=a[l];
+            a[l]=a[r];
+            a[r]=t;
+            l++; r--;
+        }
+        return l;
+    }
+    public static void quickSort(int[] a,int i,int j){
+        if(i==j) return;
+        int p=pivot(a,i,j);
+        if(p!=-1){
+            int k=partition(a,i,j,a[p]);
+            quickSort(a,i,k-1);
+            quickSort(a,k,j);
+        }
+    }
+    public static void quickSort(int[] array){ //呼び出し用
+        quickSort(array,0,array.length-1);
     }
 }

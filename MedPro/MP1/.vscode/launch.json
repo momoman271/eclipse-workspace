@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Sample03",
+            "request": "launch",
+            "mainClass": "MP1/Sample.Hokou.Sample03",
+            "projectName": "MP1"
+        },
+        {
+            "type": "java",
             "name": "Launch report2",
             "request": "launch",
             "mainClass": "MP1/Sample.Report2.report2",
