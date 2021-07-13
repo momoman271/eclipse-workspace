@@ -1,0 +1,40 @@
+case1,GOAL,N,0.000000,0
+case1,START,N,0.000000,0
+case1,entrance,move east,0.703026,67
+case1,entrance,move west,0.296974,67
+case1,forest,move east,0.683081,32
+case1,forest,move west,0.316919,32
+case1,lake,move east,0.832444,93
+case1,lake,move west,0.167556,93
+case2,GOAL,N,0.000000,0
+case2,START,N,0.000000,0
+case2,entrance,move east,0.846943,43
+case2,entrance,move west,0.153057,43
+case2,forest,move east,0.698771,42
+case2,forest,move west,0.301229,42
+case2,lake,move east,0.260844,53
+case2,lake,move west,0.739156,53
+case3,GOAL,N,0.000000,0
+case3,START,N,0.000000,0
+case3,entrance,move east,0.675124,49
+case3,entrance,move west,0.324876,49
+case3,forest,move east,0.684973,31
+case3,forest,move west,0.315027,31
+case3,lake,move east,0.601138,31
+case3,lake,move west,0.398862,31
+case4,GOAL,N,0.000000,0
+case4,START,N,0.000000,0
+case4,entrance,move east,0.783046,189
+case4,entrance,move west,0.216954,189
+case4,forest,move east,0.813618,59
+case4,forest,move west,0.186382,59
+case4,lake,move east,0.508221,65
+case4,lake,move west,0.491779,65
+case5,GOAL,N,0.000000,0
+case5,START,N,0.000000,0
+case5,entrance,move east,0.459792,41
+case5,entrance,move west,0.540208,41
+case5,forest,move east,0.638853,29
+case5,forest,move west,0.361147,29
+case5,lake,move east,0.987315,327
+case5,lake,move west,0.012685,327

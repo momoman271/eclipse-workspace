@@ -1,0 +1,7 @@
+case1,GOAL,N,0.000000,0
+case1,START,N,0.000000,0
+case1,high,search,13.385592,59
+case1,high,wait,5.796203,59
+case1,low,recharge,0.000000,234
+case1,low,search,0.577997,234
+case1,low,wait,1.440979,234

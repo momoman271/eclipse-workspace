@@ -1,0 +1,4344 @@
+1,case4,START,N,entrance,0.000000
+1,case4,entrance,move east,forest,-0.100000
+1,case4,forest,move east,GOAL,1.000000
+2,case1,START,N,entrance,0.000000
+2,case1,entrance,move east,forest,0.000000
+2,case1,forest,move west,entrance,0.000000
+2,case1,entrance,move east,lake,0.000000
+2,case1,lake,move east,entrance,0.000000
+2,case1,entrance,move east,forest,0.000000
+2,case1,forest,move east,GOAL,1.000000
+3,case1,START,N,entrance,0.000000
+3,case1,entrance,move east,forest,0.090000
+3,case1,forest,move east,GOAL,1.900000
+4,case5,START,N,entrance,0.000000
+4,case5,entrance,move east,forest,-0.100000
+4,case5,forest,move east,GOAL,1.000000
+5,case5,START,N,entrance,0.000000
+5,case5,entrance,move east,forest,-0.100000
+5,case5,forest,move west,entrance,0.500000
+5,case5,entrance,move east,forest,-0.100000
+5,case5,forest,move east,GOAL,1.900000
+6,case2,START,N,entrance,0.000000
+6,case2,entrance,move east,forest,1.000000
+6,case2,forest,move east,GOAL,2.000000
+7,case5,START,N,entrance,0.000000
+7,case5,entrance,move west,lake,0.500000
+7,case5,lake,move east,entrance,-0.055000
+7,case5,entrance,move west,lake,0.950000
+7,case5,lake,move west,GOAL,-1.000000
+8,case3,START,N,entrance,0.000000
+8,case3,entrance,move east,forest,0.000000
+8,case3,forest,move east,GOAL,1.000000
+9,case1,START,N,entrance,0.000000
+9,case1,entrance,move east,forest,0.252000
+9,case1,forest,move east,GOAL,2.710000
+10,case2,START,N,entrance,0.000000
+10,case2,entrance,move east,forest,2.080000
+10,case2,forest,move east,GOAL,3.800000
+11,case4,START,N,entrance,0.000000
+11,case4,entrance,move west,lake,-0.100000
+11,case4,lake,move east,entrance,-0.109000
+11,case4,entrance,move east,lake,-0.190000
+11,case4,lake,move west,GOAL,-1.000000
+12,case4,START,N,entrance,0.000000
+12,case4,entrance,move west,lake,-0.199810
+12,case4,lake,move east,entrance,-0.215200
+12,case4,entrance,move east,lake,-0.290368
+12,case4,lake,move east,entrance,-0.311663
+12,case4,entrance,move east,forest,-0.271331
+12,case4,forest,move east,GOAL,1.900000
+13,case3,START,N,entrance,0.000000
+13,case3,entrance,move east,forest,0.090000
+13,case3,forest,move west,entrance,0.008100
+13,case3,entrance,move east,forest,0.171000
+13,case3,forest,move west,entrance,0.022680
+13,case3,entrance,move east,lake,0.153900
+13,case3,lake,move east,entrance,0.013851
+13,case3,entrance,move east,forest,0.228510
+13,case3,forest,move east,GOAL,1.900000
+14,case2,START,N,entrance,0.000000
+14,case2,entrance,move east,forest,3.214000
+14,case2,forest,move east,GOAL,5.420000
+15,case2,START,N,entrance,0.000000
+15,case2,entrance,move east,forest,4.380400
+15,case2,forest,move east,GOAL,6.878000
+16,case5,START,N,entrance,0.000000
+16,case5,entrance,move west,forest,0.926000
+16,case5,forest,move east,GOAL,2.710000
+17,case3,START,N,entrance,0.000000
+17,case3,entrance,move east,forest,0.376659
+17,case3,forest,move east,GOAL,2.710000
+18,case2,START,N,entrance,0.000000
+18,case2,entrance,move east,forest,5.561380
+18,case2,forest,move east,GOAL,8.190200
+19,case3,START,N,entrance,0.000000
+19,case3,entrance,move east,forest,0.582893
+19,case3,forest,move east,GOAL,3.439000
+20,case2,START,N,entrance,0.000000
+20,case2,entrance,move east,lake,6.005242
+20,case2,lake,move west,entrance,1.540472
+20,case2,entrance,move east,forest,7.141836
+20,case2,forest,move east,GOAL,9.371180
+21,case3,START,N,entrance,0.000000
+21,case3,entrance,move east,forest,0.834114
+21,case3,forest,move east,GOAL,4.095100
+22,case3,START,N,entrance,0.000000
+22,case3,entrance,move east,forest,1.119261
+22,case3,forest,move east,GOAL,4.685590
+23,case2,START,N,entrance,0.000000
+23,case2,entrance,move east,forest,8.271058
+23,case2,forest,move east,GOAL,10.434062
+24,case4,START,N,entrance,0.000000
+24,case4,entrance,move west,lake,-0.307879
+24,case4,lake,move east,entrance,-0.404916
+24,case4,entrance,move west,lake,-0.413533
+24,case4,lake,move east,entrance,-0.488845
+24,case4,entrance,move east,forest,-0.173198
+24,case4,forest,move east,entrance,1.594412
+24,case4,entrance,move east,forest,-0.142790
+24,case4,forest,move east,entrance,1.322120
+24,case4,entrance,move east,forest,-0.126155
+24,case4,forest,move east,GOAL,2.189908
+25,case5,START,N,entrance,0.000000
+25,case5,entrance,move west,lake,1.328450
+25,case5,lake,move east,entrance,-0.029940
+25,case5,entrance,move west,lake,1.692910
+25,case5,lake,move east,entrance,0.025416
+25,case5,entrance,move west,lake,2.025907
+25,case5,lake,move east,entrance,0.105206
+25,case5,entrance,move east,lake,0.419469
+25,case5,lake,move east,entrance,0.177017
+25,case5,entrance,move west,lake,2.339248
+25,case5,lake,move west,GOAL,-1.900000
+26,case5,START,N,entrance,0.000000
+26,case5,entrance,move west,forest,2.339248
+26,case5,forest,move east,GOAL,3.439000
+27,case5,START,N,entrance,0.000000
+27,case5,entrance,move east,forest,0.503250
+27,case5,forest,move east,GOAL,4.095100
+28,case2,START,N,entrance,0.000000
+28,case2,entrance,move east,forest,9.383018
+28,case2,forest,move east,GOAL,11.390656
+29,case3,START,N,entrance,0.000000
+29,case3,entrance,move east,forest,1.429038
+29,case3,forest,move east,GOAL,5.217031
+30,case4,START,N,entrance,0.000000
+30,case4,entrance,move east,forest,-0.071301
+30,case4,forest,move east,GOAL,2.970917
+31,case1,START,N,entrance,0.000000
+31,case1,entrance,move east,forest,0.470700
+31,case1,forest,move east,entrance,2.481363
+31,case1,entrance,move east,forest,0.646953
+31,case1,forest,move east,GOAL,3.233227
+32,case2,START,N,entrance,0.000000
+32,case2,entrance,move east,forest,9.926447
+32,case2,forest,move east,entrance,12.144970
+32,case2,entrance,move east,lake,9.926447
+32,case2,lake,move west,GOAL,1.386425
+33,case4,START,N,entrance,0.000000
+33,case4,entrance,move east,forest,0.015955
+33,case4,forest,move east,GOAL,3.673825
+34,case5,START,N,entrance,0.000000
+34,case5,entrance,move west,lake,2.480251
+34,case5,lake,move east,entrance,0.282538
+34,case5,entrance,move west,lake,2.618953
+34,case5,lake,move east,entrance,0.389990
+34,case5,entrance,move west,lake,2.755555
+34,case5,lake,move east,entrance,0.444491
+34,case5,entrance,move west,lake,2.887779
+34,case5,lake,move east,entrance,0.502216
+34,case5,entrance,move west,lake,3.015990
+34,case5,lake,move east,entrance,0.562825
+34,case5,entrance,move west,forest,3.015990
+34,case5,forest,move east,entrance,4.457029
+34,case5,entrance,move west,lake,3.140517
+34,case5,lake,move east,entrance,0.626007
+34,case5,entrance,move west,forest,3.140517
+34,case5,forest,move east,entrance,4.793973
+34,case5,entrance,move west,lake,3.261662
+34,case5,lake,move east,GOAL,0.094707
+35,case4,START,N,entrance,0.000000
+35,case4,entrance,move east,forest,0.130480
+35,case4,forest,move east,entrance,3.218186
+35,case4,entrance,move east,forest,0.218774
+35,case4,forest,move east,GOAL,3.896367
+36,case2,START,N,entrance,0.000000
+36,case2,entrance,move east,forest,10.476648
+36,case2,forest,move east,GOAL,12.537722
+37,case3,START,N,entrance,0.000000
+37,case3,entrance,move east,forest,1.592353
+37,case3,forest,move east,GOAL,5.456179
+38,case4,START,N,entrance,0.000000
+38,case4,entrance,move east,lake,0.135837
+38,case4,lake,move east,entrance,-0.527735
+38,case4,entrance,move west,lake,-0.466605
+38,case4,lake,move east,entrance,-0.562736
+38,case4,entrance,move east,lake,0.053722
+38,case4,lake,move east,entrance,-0.601627
+38,case4,entrance,move east,forest,0.176373
+38,case4,forest,move east,entrance,3.659486
+38,case4,entrance,move east,lake,0.119111
+38,case4,lake,move east,entrance,-0.616186
+38,case4,entrance,move east,lake,0.063322
+38,case4,lake,move east,GOAL,-1.085377
+39,case2,START,N,entrance,0.000000
+39,case2,entrance,move east,forest,11.017013
+39,case2,forest,move east,GOAL,12.910836
+40,case5,START,N,entrance,0.000000
+40,case5,entrance,move west,forest,3.261662
+40,case5,forest,move east,GOAL,5.314575
+41,case3,START,N,entrance,0.000000
+41,case3,entrance,move east,forest,1.758263
+41,case3,forest,move east,entrance,5.262492
+41,case3,entrance,move east,forest,1.907162
+41,case3,forest,move east,GOAL,5.499368
+42,case2,START,N,entrance,0.000000
+42,case2,entrance,move east,forest,11.547150
+42,case2,forest,move east,GOAL,13.265294
+43,case2,START,N,entrance,0.000000
+43,case2,entrance,move east,forest,12.066731
+43,case2,forest,move east,GOAL,13.602029
+44,case4,START,N,entrance,0.000000
+44,case4,entrance,move west,forest,-0.374600
+44,case4,forest,move east,entrance,3.429361
+44,case4,entrance,move east,forest,0.130759
+44,case4,forest,move east,GOAL,3.757893
+45,case3,START,N,entrance,0.000000
+45,case3,entrance,move east,forest,2.059276
+45,case3,forest,move east,GOAL,5.724399
+46,case3,START,N,entrance,0.000000
+46,case3,entrance,move east,forest,2.213910
+46,case3,forest,move east,GOAL,5.938179
+47,case1,START,N,entrance,0.000000
+47,case1,entrance,move east,lake,0.582257
+47,case1,lake,move east,entrance,0.052403
+47,case1,entrance,move east,lake,0.528748
+47,case1,lake,move east,entrance,0.094750
+47,case1,entrance,move east,forest,0.766864
+47,case1,forest,move east,entrance,2.978922
+47,case1,entrance,move east,lake,0.698705
+47,case1,lake,move east,GOAL,-0.914725
+48,case1,START,N,entrance,0.000000
+48,case1,entrance,move east,forest,0.896937
+48,case1,forest,move east,GOAL,3.681030
+49,case4,START,N,entrance,0.000000
+49,case4,entrance,move east,forest,0.205804
+49,case4,forest,move east,entrance,3.529259
+49,case4,entrance,move east,forest,0.271488
+49,case4,forest,move east,GOAL,3.852797
+50,case2,START,N,entrance,0.000000
+50,case2,entrance,move east,forest,12.575486
+50,case2,forest,move east,GOAL,13.921928
+51,case2,START,N,entrance,0.000000
+51,case2,entrance,move east,forest,13.073198
+51,case2,forest,move east,entrance,14.314125
+51,case2,entrance,move east,lake,13.073198
+51,case2,lake,move west,GOAL,1.247782
+52,case2,START,N,entrance,0.000000
+52,case2,entrance,move east,forest,13.563674
+52,case2,forest,move east,GOAL,14.314125
+53,case3,START,N,entrance,0.000000
+53,case3,entrance,move east,forest,2.370432
+53,case3,forest,move east,GOAL,6.141270
+54,case1,START,N,entrance,0.000000
+54,case1,entrance,move east,forest,1.017737
+54,case1,forest,move east,GOAL,4.312927
+55,case1,START,N,entrance,0.000000
+55,case1,entrance,move east,forest,1.160932
+55,case1,forest,move east,GOAL,4.881634
+56,case5,START,N,entrance,0.000000
+56,case5,entrance,move west,lake,3.352841
+56,case5,lake,move east,entrance,0.190849
+56,case5,entrance,move west,lake,3.443787
+56,case5,lake,move west,GOAL,-2.305000
+57,case4,START,N,entrance,0.000000
+57,case4,entrance,move east,forest,0.344689
+57,case4,forest,move east,GOAL,4.160157
+58,case3,START,N,entrance,0.000000
+58,case3,entrance,move east,forest,2.528268
+58,case3,forest,move east,GOAL,6.334207
+59,case3,START,N,entrance,0.000000
+59,case3,entrance,move east,forest,2.686894
+59,case3,forest,move east,GOAL,6.517497
+60,case5,START,N,entrance,0.000000
+60,case5,entrance,move west,lake,3.443787
+60,case5,lake,move east,entrance,0.286277
+60,case5,entrance,move west,lake,3.443787
+60,case5,lake,move east,entrance,0.376934
+60,case5,entrance,move west,lake,3.443787
+60,case5,lake,move east,entrance,0.463057
+60,case5,entrance,move west,lake,3.443787
+60,case5,lake,move east,entrance,0.517602
+60,case5,entrance,move west,lake,3.443787
+60,case5,lake,move east,GOAL,0.167016
+61,case2,START,N,entrance,0.000000
+61,case2,entrance,move east,forest,14.029626
+61,case2,forest,move east,GOAL,14.314125
+62,case5,START,N,entrance,0.000000
+62,case5,entrance,move west,lake,3.443787
+62,case5,lake,move east,GOAL,-0.171885
+63,case4,START,N,entrance,0.000000
+63,case4,entrance,move east,forest,0.424671
+63,case4,forest,move east,GOAL,4.452149
+64,case1,START,N,entrance,0.000000
+64,case1,entrance,move east,forest,1.322558
+64,case1,forest,move east,GOAL,5.137552
+65,case3,START,N,entrance,0.000000
+65,case3,entrance,move east,forest,2.845837
+65,case3,forest,move east,GOAL,6.691622
+66,case3,START,N,entrance,0.000000
+66,case3,entrance,move east,forest,3.004668
+66,case3,forest,move east,GOAL,6.857041
+67,case2,START,N,entrance,0.000000
+67,case2,entrance,move east,lake,14.029626
+67,case2,lake,move west,GOAL,1.123004
+68,case5,START,N,entrance,0.000000
+68,case5,entrance,move west,forest,3.443787
+68,case5,forest,move east,GOAL,5.548847
+69,case1,START,N,entrance,0.000000
+69,case1,entrance,move east,forest,1.487620
+69,case1,forest,move east,GOAL,5.380675
+70,case4,START,N,entrance,0.000000
+70,case4,entrance,move east,forest,0.510746
+70,case4,forest,move east,entrance,4.202525
+70,case4,entrance,move east,forest,0.586464
+70,case4,forest,move east,GOAL,4.492399
+71,case5,START,N,entrance,0.000000
+71,case5,entrance,move west,forest,3.443787
+71,case5,forest,move east,GOAL,5.771404
+72,case1,START,N,entrance,0.000000
+72,case1,entrance,move east,forest,1.655370
+72,case1,forest,move east,GOAL,5.611641
+73,case1,START,N,entrance,0.000000
+73,case1,entrance,move east,forest,1.825125
+73,case1,forest,move east,GOAL,5.831059
+74,case2,START,N,entrance,0.000000
+74,case2,entrance,move west,lake,0.550535
+74,case2,lake,move west,GOAL,1.010704
+75,case5,START,N,entrance,0.000000
+75,case5,entrance,move west,lake,3.443787
+75,case5,lake,move east,entrance,-0.096175
+75,case5,entrance,move west,lake,3.443787
+75,case5,lake,move east,entrance,-0.022989
+75,case5,entrance,move west,lake,3.443787
+75,case5,lake,move east,entrance,0.047758
+75,case5,entrance,move west,lake,3.443787
+75,case5,lake,move east,entrance,0.116146
+75,case5,entrance,move west,lake,3.443787
+75,case5,lake,move east,entrance,0.182255
+75,case5,entrance,move west,lake,3.443787
+75,case5,lake,move east,entrance,0.246160
+75,case5,entrance,move west,forest,3.443787
+75,case5,forest,move east,GOAL,5.982834
+76,case4,START,N,entrance,0.000000
+76,case4,entrance,move east,forest,0.647881
+76,case4,forest,move east,GOAL,4.767779
+77,case5,START,N,entrance,0.000000
+77,case5,entrance,move west,lake,3.443787
+77,case5,lake,move east,entrance,0.307935
+77,case5,entrance,move west,lake,3.443787
+77,case5,lake,move east,GOAL,0.050236
+78,case3,START,N,entrance,0.000000
+78,case3,entrance,move east,forest,3.110223
+78,case3,forest,move east,GOAL,6.857041
+79,case5,START,N,entrance,0.000000
+79,case5,entrance,move east,forest,0.632627
+79,case5,forest,move east,GOAL,6.183692
+80,case1,START,N,entrance,0.000000
+80,case1,entrance,move west,lake,0.000000
+80,case1,lake,move west,GOAL,-1.000000
+81,case1,START,N,entrance,0.000000
+81,case1,entrance,move east,forest,1.996267
+81,case1,forest,move east,GOAL,6.039506
+82,case3,START,N,entrance,0.000000
+82,case3,entrance,move west,lake,0.000416
+82,case3,lake,move east,entrance,0.292386
+82,case3,entrance,move east,forest,3.212260
+82,case3,forest,move east,entrance,6.857041
+82,case3,entrance,move east,forest,3.310896
+82,case3,forest,move east,GOAL,6.857041
+83,case5,START,N,entrance,0.000000
+83,case5,entrance,move west,lake,3.443787
+83,case5,lake,move east,entrance,0.101466
+83,case5,entrance,move west,lake,3.443787
+83,case5,lake,move east,entrance,0.151414
+83,case5,entrance,move east,forest,0.763717
+83,case5,forest,move east,GOAL,6.374508
+84,case1,START,N,entrance,0.000000
+84,case1,entrance,move east,forest,2.168231
+84,case1,forest,move west,entrance,0.097570
+84,case1,entrance,move east,forest,2.331597
+84,case1,forest,move east,GOAL,6.237531
+85,case3,START,N,entrance,0.000000
+85,case3,entrance,move east,forest,3.406244
+85,case3,forest,move east,GOAL,6.857041
+86,case1,START,N,entrance,0.000000
+86,case1,entrance,move east,forest,2.495706
+86,case1,forest,move east,GOAL,6.425654
+87,case4,START,N,entrance,0.000000
+87,case4,entrance,move east,lake,0.584184
+87,case4,lake,move west,entrance,-0.973712
+87,case4,entrance,move east,lake,0.522671
+87,case4,lake,move west,GOAL,-1.425026
+88,case2,START,N,entrance,0.000000
+88,case2,entrance,move east,forest,14.324729
+88,case2,forest,move east,GOAL,14.314125
+89,case5,START,N,entrance,0.000000
+89,case5,entrance,move west,lake,3.443787
+89,case5,lake,move east,GOAL,-0.102371
+90,case5,START,N,entrance,0.000000
+90,case5,entrance,move east,forest,0.896161
+90,case5,forest,move east,GOAL,6.555782
+91,case4,START,N,entrance,0.000000
+91,case4,entrance,move east,forest,0.591879
+91,case4,forest,move west,entrance,-0.015577
+91,case4,entrance,move east,forest,0.659357
+91,case4,forest,move east,GOAL,4.942186
+92,case1,START,N,entrance,0.000000
+92,case1,entrance,move east,lake,2.385074
+92,case1,lake,move east,entrance,-0.608596
+92,case1,entrance,move west,forest,0.192770
+92,case1,forest,move east,GOAL,6.604371
+93,case4,START,N,entrance,0.000000
+93,case4,entrance,move west,lake,-0.414656
+93,case4,lake,move east,entrance,-1.051437
+93,case4,entrance,move east,forest,0.729073
+93,case4,forest,move west,entrance,-0.026519
+93,case4,entrance,move east,forest,0.797045
+93,case4,forest,move east,entrance,4.768025
+93,case4,entrance,move east,forest,0.859399
+93,case4,forest,move east,GOAL,4.942424
+94,case1,START,N,entrance,0.000000
+94,case1,entrance,move east,forest,2.503703
+94,case1,forest,move east,GOAL,6.774153
+95,case4,START,N,entrance,0.000000
+95,case4,entrance,move east,forest,0.924119
+95,case4,forest,move east,GOAL,5.111010
+96,case1,START,N,entrance,0.000000
+96,case1,entrance,move east,forest,2.623471
+96,case1,forest,move west,entrance,0.173022
+96,case1,entrance,move east,forest,2.739246
+96,case1,forest,move east,GOAL,6.774153
+97,case3,START,N,entrance,0.000000
+97,case3,entrance,move east,lake,3.301474
+97,case3,lake,move east,entrance,0.560280
+97,case3,entrance,move east,forest,3.397136
+97,case3,forest,move east,GOAL,6.857041
+98,case4,START,N,entrance,0.000000
+98,case4,entrance,move east,lake,0.866711
+98,case4,lake,move east,entrance,-1.009863
+98,case4,entrance,move east,forest,0.921375
+98,case4,forest,move east,GOAL,5.273976
+99,case3,START,N,entrance,0.000000
+99,case3,entrance,move east,forest,3.489610
+99,case3,forest,move west,entrance,0.126612
+99,case3,entrance,move east,forest,3.579001
+99,case3,forest,move east,GOAL,6.857041
+100,case2,START,N,entrance,0.000000
+100,case2,entrance,move east,lake,14.324729
+100,case2,lake,move west,GOAL,0.909633
+101,case1,START,N,entrance,0.000000
+101,case1,entrance,move east,forest,2.851163
+101,case1,forest,move east,GOAL,6.774153
+102,case5,START,N,entrance,0.000000
+102,case5,entrance,move west,forest,3.443787
+102,case5,forest,move east,GOAL,6.727993
+103,case4,START,N,entrance,0.000000
+103,case4,entrance,move west,lake,-0.444540
+103,case4,lake,move east,entrance,-0.967908
+103,case4,entrance,move east,forest,0.977879
+103,case4,forest,move east,GOAL,5.431510
+104,case4,START,N,entrance,0.000000
+104,case4,entrance,move east,forest,1.036088
+104,case4,forest,move east,entrance,5.248209
+104,case4,entrance,move east,forest,1.089834
+104,case4,forest,move east,entrance,5.072631
+104,case4,entrance,move east,forest,1.139345
+104,case4,forest,move east,GOAL,5.195815
+105,case4,START,N,entrance,0.000000
+105,case4,entrance,move east,forest,1.190083
+105,case4,forest,move east,GOAL,5.315919
+106,case2,START,N,entrance,0.000000
+106,case2,entrance,move east,forest,14.324729
+106,case2,forest,move east,GOAL,14.314125
+107,case4,START,N,entrance,0.000000
+107,case4,entrance,move east,forest,1.241968
+107,case4,forest,move east,GOAL,5.433021
+108,case4,START,N,entrance,0.000000
+108,case4,entrance,move east,forest,1.294923
+108,case4,forest,move east,GOAL,5.547196
+109,case4,START,N,entrance,0.000000
+109,case4,entrance,move east,forest,1.339882
+109,case4,forest,move east,entrance,5.413663
+109,case4,entrance,move east,forest,1.382089
+109,case4,forest,move east,GOAL,5.528322
+110,case5,START,N,entrance,0.000000
+110,case5,entrance,move west,lake,3.443787
+110,case5,lake,move east,entrance,-0.047327
+110,case5,entrance,move west,lake,3.443787
+110,case5,lake,move east,entrance,0.006342
+110,case5,entrance,move west,forest,3.443787
+110,case5,forest,move east,GOAL,6.891594
+111,case5,START,N,entrance,0.000000
+111,case5,entrance,move west,lake,3.443787
+111,case5,lake,move east,GOAL,-0.243817
+112,case5,START,N,entrance,0.000000
+112,case5,entrance,move west,forest,3.443787
+112,case5,forest,move west,GOAL,0.975000
+113,case4,START,N,entrance,0.000000
+113,case4,entrance,move east,forest,1.425312
+113,case4,forest,move east,GOAL,5.640114
+114,case2,START,N,entrance,0.000000
+114,case2,entrance,move east,forest,14.324729
+114,case2,forest,move east,entrance,14.743032
+114,case2,entrance,move east,forest,14.622862
+114,case2,forest,move west,entrance,1.158029
+114,case2,entrance,move east,lake,14.622862
+114,case2,lake,move west,entrance,3.134727
+114,case2,entrance,move east,forest,14.622862
+114,case2,forest,move east,GOAL,14.743032
+115,case2,START,N,entrance,0.000000
+115,case2,entrance,move east,forest,14.622862
+115,case2,forest,move east,entrance,15.163909
+115,case2,entrance,move east,forest,14.923684
+115,case2,forest,move east,entrance,15.577279
+115,case2,entrance,move east,forest,15.226879
+115,case2,forest,move east,GOAL,15.577279
+116,case5,START,N,entrance,0.000000
+116,case5,entrance,move west,lake,3.443787
+116,case5,lake,move east,entrance,-0.185236
+116,case5,entrance,move west,lake,3.443787
+116,case5,lake,move east,entrance,-0.128120
+116,case5,entrance,move west,lake,3.443787
+116,case5,lake,move east,GOAL,-0.374917
+117,case2,START,N,entrance,0.000000
+117,case2,entrance,move east,forest,15.226879
+117,case2,forest,move east,GOAL,15.577279
+118,case5,START,N,entrance,0.000000
+118,case5,entrance,move west,lake,3.443787
+118,case5,lake,move east,GOAL,-0.567419
+119,case4,START,N,entrance,0.000000
+119,case4,entrance,move east,forest,1.469492
+119,case4,forest,move east,GOAL,5.640114
+120,case1,START,N,entrance,0.000000
+120,case1,entrance,move east,forest,2.959348
+120,case1,forest,move west,entrance,0.256035
+120,case1,entrance,move east,forest,3.063928
+120,case1,forest,move east,GOAL,6.774153
+121,case3,START,N,entrance,0.000000
+121,case3,entrance,move east,forest,3.665412
+121,case3,forest,move east,GOAL,6.857041
+122,case3,START,N,entrance,0.000000
+122,case3,entrance,move east,forest,3.665412
+122,case3,forest,move east,GOAL,6.857041
+123,case1,START,N,entrance,0.000000
+123,case1,entrance,move east,lake,2.943539
+123,case1,lake,move east,entrance,-0.282818
+123,case1,entrance,move east,forest,3.048646
+123,case1,forest,move east,GOAL,6.774153
+124,case3,START,N,entrance,0.000000
+124,case3,entrance,move east,forest,3.665412
+124,case3,forest,move east,GOAL,6.857041
+125,case5,START,N,entrance,0.000000
+125,case5,entrance,move west,lake,3.443787
+125,case5,lake,move east,GOAL,-0.756070
+126,case1,START,N,entrance,0.000000
+126,case1,entrance,move east,forest,3.124848
+126,case1,forest,move east,GOAL,6.774153
+127,case1,START,N,entrance,0.000000
+127,case1,entrance,move east,forest,3.199145
+127,case1,forest,move east,entrance,6.774153
+127,case1,entrance,move east,forest,3.271585
+127,case1,forest,move east,GOAL,6.774153
+128,case4,START,N,entrance,0.000000
+128,case4,entrance,move east,forest,1.512935
+128,case4,forest,move east,GOAL,5.640114
+129,case4,START,N,entrance,0.000000
+129,case4,entrance,move east,forest,1.555655
+129,case4,forest,move east,GOAL,5.640114
+130,case1,START,N,entrance,0.000000
+130,case1,entrance,move east,forest,3.342214
+130,case1,forest,move east,GOAL,6.774153
+131,case5,START,N,entrance,0.000000
+131,case5,entrance,move west,lake,3.443787
+131,case5,lake,move east,GOAL,-0.940949
+132,case3,START,N,entrance,0.000000
+132,case3,entrance,move west,forest,0.154689
+132,case3,forest,move east,GOAL,6.857041
+133,case3,START,N,entrance,0.000000
+133,case3,entrance,move east,forest,3.665412
+133,case3,forest,move east,GOAL,6.857041
+134,case5,START,N,entrance,0.000000
+134,case5,entrance,move east,forest,1.039704
+134,case5,forest,move east,entrance,6.891594
+134,case5,entrance,move west,lake,3.443787
+134,case5,lake,move west,entrance,-2.216912
+134,case5,entrance,move west,lake,3.443787
+134,case5,lake,move east,entrance,-0.880142
+134,case5,entrance,move east,forest,1.178461
+134,case5,forest,move east,GOAL,7.047014
+135,case2,START,N,entrance,0.000000
+135,case2,entrance,move east,forest,15.226879
+135,case2,forest,move east,GOAL,15.577279
+136,case1,START,N,entrance,0.000000
+136,case1,entrance,move east,forest,3.411077
+136,case1,forest,move east,GOAL,6.774153
+137,case5,START,N,entrance,0.000000
+137,case5,entrance,move west,lake,3.443787
+137,case5,lake,move east,entrance,-0.820551
+137,case5,entrance,move west,forest,3.443787
+137,case5,forest,move east,entrance,7.047014
+137,case5,entrance,move west,lake,3.443787
+137,case5,lake,move east,GOAL,-1.004140
+138,case3,START,N,entrance,0.000000
+138,case3,entrance,move east,forest,3.665412
+138,case3,forest,move east,GOAL,6.857041
+139,case1,START,N,entrance,0.000000
+139,case1,entrance,move east,forest,3.411077
+139,case1,forest,move east,GOAL,6.774153
+140,case1,START,N,entrance,0.000000
+140,case1,entrance,move east,forest,3.411077
+140,case1,forest,move east,GOAL,6.774153
+141,case4,START,N,entrance,0.000000
+141,case4,entrance,move east,forest,1.597662
+141,case4,forest,move west,entrance,-0.014909
+141,case4,entrance,move east,forest,1.638970
+141,case4,forest,move east,GOAL,5.640114
+142,case4,START,N,entrance,0.000000
+142,case4,entrance,move east,forest,1.679589
+142,case4,forest,move east,GOAL,5.640114
+143,case5,START,N,entrance,0.000000
+143,case5,entrance,move west,lake,3.443787
+143,case5,lake,move east,entrance,-0.942069
+143,case5,entrance,move west,lake,3.443787
+143,case5,lake,move east,entrance,-0.881239
+143,case5,entrance,move west,forest,3.443787
+143,case5,forest,move east,entrance,7.047014
+143,case5,entrance,move west,lake,3.443787
+143,case5,lake,move east,entrance,-0.821626
+143,case5,entrance,move east,forest,1.317257
+143,case5,forest,move east,GOAL,7.047014
+144,case5,START,N,entrance,0.000000
+144,case5,entrance,move west,lake,3.443787
+144,case5,lake,move east,entrance,-0.772943
+144,case5,entrance,move east,lake,1.416826
+144,case5,lake,move east,entrance,-0.725070
+144,case5,entrance,move west,forest,3.443787
+144,case5,forest,move east,GOAL,7.047014
+145,case5,START,N,entrance,0.000000
+145,case5,entrance,move east,forest,1.547676
+145,case5,forest,move east,GOAL,7.047014
+146,case5,START,N,entrance,0.000000
+146,case5,entrance,move west,lake,3.443787
+146,case5,lake,move east,entrance,-0.677995
+146,case5,entrance,move west,lake,3.443787
+146,case5,lake,move east,GOAL,-0.833362
+147,case3,START,N,entrance,0.000000
+147,case3,entrance,move east,lake,3.586383
+147,case3,lake,move east,entrance,0.827027
+147,case3,entrance,move east,forest,3.586383
+147,case3,forest,move east,GOAL,6.857041
+148,case1,START,N,entrance,0.000000
+148,case1,entrance,move east,forest,3.411077
+148,case1,forest,move east,GOAL,6.774153
+149,case1,START,N,entrance,0.000000
+149,case1,entrance,move east,forest,3.411077
+149,case1,forest,move east,GOAL,6.774153
+150,case3,START,N,entrance,0.000000
+150,case3,entrance,move east,forest,3.586383
+150,case3,forest,move east,GOAL,6.857041
+151,case4,START,N,entrance,0.000000
+151,case4,entrance,move east,forest,1.719530
+151,case4,forest,move east,GOAL,5.640114
+152,case1,START,N,entrance,0.000000
+152,case1,entrance,move east,forest,3.411077
+152,case1,forest,move east,GOAL,6.774153
+153,case4,START,N,entrance,0.000000
+153,case4,entrance,move east,lake,1.668236
+153,case4,lake,move west,GOAL,-1.853775
+154,case5,START,N,entrance,0.000000
+154,case5,entrance,move west,forest,3.443787
+154,case5,forest,move west,GOAL,1.275833
+155,case4,START,N,entrance,0.000000
+155,case4,entrance,move east,forest,1.702634
+155,case4,forest,move east,entrance,5.512420
+155,case4,entrance,move east,forest,1.702634
+155,case4,forest,move east,GOAL,5.624610
+156,case1,START,N,entrance,0.000000
+156,case1,entrance,move east,lake,3.319437
+156,case1,lake,move east,GOAL,-1.254536
+157,case3,START,N,entrance,0.000000
+157,case3,entrance,move east,forest,3.586383
+157,case3,forest,move east,GOAL,6.857041
+158,case5,START,N,entrance,0.000000
+158,case5,entrance,move west,lake,3.443787
+158,case5,lake,move east,entrance,-0.784483
+158,case5,entrance,move west,lake,3.443787
+158,case5,lake,move east,GOAL,-0.938075
+159,case2,START,N,entrance,0.000000
+159,case2,entrance,move east,forest,15.226879
+159,case2,forest,move east,GOAL,15.577279
+160,case3,START,N,entrance,0.000000
+160,case3,entrance,move east,forest,3.586383
+160,case3,forest,move east,GOAL,6.857041
+161,case5,START,N,entrance,0.000000
+161,case5,entrance,move west,lake,3.443787
+161,case5,lake,move east,entrance,-0.887450
+161,case5,entrance,move west,lake,3.443787
+161,case5,lake,move east,GOAL,-1.039326
+162,case4,START,N,entrance,0.000000
+162,case4,entrance,move west,lake,-0.464920
+162,case4,lake,move east,entrance,-0.892894
+162,case4,entrance,move east,forest,1.702634
+162,case4,forest,move east,GOAL,5.624610
+163,case4,START,N,entrance,0.000000
+163,case4,entrance,move east,forest,1.702634
+163,case4,forest,move east,GOAL,5.624610
+164,case4,START,N,entrance,0.000000
+164,case4,entrance,move east,forest,1.702634
+164,case4,forest,move east,GOAL,5.624610
+165,case5,START,N,entrance,0.000000
+165,case5,entrance,move west,lake,3.443787
+165,case5,lake,move east,GOAL,-1.188670
+166,case2,START,N,entrance,0.000000
+166,case2,entrance,move east,forest,15.226879
+166,case2,forest,move east,GOAL,15.577279
+167,case3,START,N,entrance,0.000000
+167,case3,entrance,move east,forest,3.586383
+167,case3,forest,move east,GOAL,6.857041
+168,case3,START,N,entrance,0.000000
+168,case3,entrance,move east,forest,3.586383
+168,case3,forest,move east,GOAL,6.857041
+169,case3,START,N,entrance,0.000000
+169,case3,entrance,move east,forest,3.586383
+169,case3,forest,move east,GOAL,6.857041
+170,case2,START,N,entrance,0.000000
+170,case2,entrance,move east,lake,15.226879
+170,case2,lake,move west,entrance,5.191674
+170,case2,entrance,move east,forest,15.226879
+170,case2,forest,move east,entrance,15.577279
+170,case2,entrance,move east,lake,15.226879
+170,case2,lake,move west,entrance,7.042926
+170,case2,entrance,move east,forest,15.226879
+170,case2,forest,move east,GOAL,15.577279
+171,case1,START,N,entrance,0.000000
+171,case1,entrance,move east,lake,3.213951
+171,case1,lake,move west,GOAL,-1.900000
+172,case3,START,N,entrance,0.000000
+172,case3,entrance,move east,forest,3.586383
+172,case3,forest,move west,entrance,0.229983
+172,case3,entrance,move east,forest,3.586383
+172,case3,forest,move east,GOAL,6.857041
+173,case1,START,N,entrance,0.000000
+173,case1,entrance,move east,forest,3.286021
+173,case1,forest,move east,GOAL,6.774153
+174,case4,START,N,entrance,0.000000
+174,case4,entrance,move east,forest,1.702634
+174,case4,forest,move east,entrance,5.624610
+174,case4,entrance,move east,forest,1.702634
+174,case4,forest,move east,GOAL,5.624610
+175,case3,START,N,entrance,0.000000
+175,case3,entrance,move east,forest,3.586383
+175,case3,forest,move east,GOAL,6.857041
+176,case1,START,N,entrance,0.000000
+176,case1,entrance,move east,lake,3.175643
+176,case1,lake,move east,entrance,-0.843274
+176,case1,entrance,move west,lake,0.168977
+176,case1,lake,move east,entrance,-0.658207
+176,case1,entrance,move east,forest,3.175643
+176,case1,forest,move east,GOAL,6.774153
+177,case1,START,N,entrance,0.000000
+177,case1,entrance,move east,forest,3.175643
+177,case1,forest,move east,GOAL,6.774153
+178,case2,START,N,entrance,0.000000
+178,case2,entrance,move east,lake,15.226879
+178,case2,lake,move west,GOAL,6.690779
+179,case2,START,N,entrance,0.000000
+179,case2,entrance,move east,lake,15.226879
+179,case2,lake,move west,GOAL,6.356240
+180,case3,START,N,entrance,0.000000
+180,case3,entrance,move east,forest,3.586383
+180,case3,forest,move east,entrance,6.857041
+180,case3,entrance,move east,forest,3.586383
+180,case3,forest,move east,GOAL,6.857041
+181,case4,START,N,entrance,0.000000
+181,case4,entrance,move east,forest,1.702634
+181,case4,forest,move east,GOAL,5.624610
+182,case2,START,N,entrance,0.000000
+182,case2,entrance,move east,lake,15.226879
+182,case2,lake,move west,GOAL,6.038428
+183,case5,START,N,entrance,0.000000
+183,case5,entrance,move west,lake,3.443787
+183,case5,lake,move east,entrance,-1.133869
+183,case5,entrance,move west,lake,3.443787
+183,case5,lake,move west,GOAL,-2.328099
+184,case3,START,N,entrance,0.000000
+184,case3,entrance,move east,forest,3.586383
+184,case3,forest,move east,GOAL,6.857041
+185,case3,START,N,entrance,0.000000
+185,case3,entrance,move east,forest,3.586383
+185,case3,forest,move east,GOAL,6.857041
+186,case5,START,N,entrance,0.000000
+186,case5,entrance,move east,forest,1.674164
+186,case5,forest,move east,GOAL,7.047014
+187,case4,START,N,entrance,0.000000
+187,case4,entrance,move east,forest,1.702634
+187,case4,forest,move east,GOAL,5.624610
+188,case4,START,N,entrance,0.000000
+188,case4,entrance,move east,forest,1.702634
+188,case4,forest,move east,entrance,5.624610
+188,case4,entrance,move east,forest,1.702634
+188,case4,forest,move east,GOAL,5.624610
+189,case4,START,N,entrance,0.000000
+189,case4,entrance,move east,forest,1.702634
+189,case4,forest,move east,GOAL,5.624610
+190,case4,START,N,entrance,0.000000
+190,case4,entrance,move east,forest,1.702634
+190,case4,forest,move east,GOAL,5.624610
+191,case4,START,N,entrance,0.000000
+191,case4,entrance,move west,forest,-0.400248
+191,case4,forest,move east,entrance,5.624610
+191,case4,entrance,move east,forest,1.702634
+191,case4,forest,move east,GOAL,5.624610
+192,case4,START,N,entrance,0.000000
+192,case4,entrance,move east,forest,1.702634
+192,case4,forest,move east,entrance,5.624610
+192,case4,entrance,move east,forest,1.702634
+192,case4,forest,move east,GOAL,5.624610
+193,case3,START,N,entrance,0.000000
+193,case3,entrance,move east,forest,3.586383
+193,case3,forest,move east,GOAL,6.857041
+194,case4,START,N,entrance,0.000000
+194,case4,entrance,move east,forest,1.702634
+194,case4,forest,move east,GOAL,5.624610
+195,case5,START,N,entrance,0.000000
+195,case5,entrance,move west,forest,3.443787
+195,case5,forest,move east,entrance,7.047014
+195,case5,entrance,move west,lake,3.443787
+195,case5,lake,move east,entrance,-1.087679
+195,case5,entrance,move west,lake,3.443787
+195,case5,lake,move east,GOAL,-1.214998
+196,case3,START,N,entrance,0.000000
+196,case3,entrance,move east,forest,3.586383
+196,case3,forest,move east,GOAL,6.857041
+197,case4,START,N,entrance,0.000000
+197,case4,entrance,move east,forest,1.702634
+197,case4,forest,move east,GOAL,5.624610
+198,case3,START,N,entrance,0.000000
+198,case3,entrance,move east,forest,3.586383
+198,case3,forest,move east,GOAL,6.857041
+199,case2,START,N,entrance,0.000000
+199,case2,entrance,move east,forest,15.226879
+199,case2,forest,move east,GOAL,15.577279
+200,case5,START,N,entrance,0.000000
+200,case5,entrance,move west,lake,3.443787
+200,case5,lake,move east,GOAL,-1.340498
+201,case4,START,N,entrance,0.000000
+201,case4,entrance,move east,forest,1.702634
+201,case4,forest,move east,entrance,5.624610
+201,case4,entrance,move east,lake,1.652545
+201,case4,lake,move east,GOAL,-1.348249
+202,case2,START,N,entrance,0.000000
+202,case2,entrance,move east,forest,15.226879
+202,case2,forest,move east,entrance,15.577279
+202,case2,entrance,move east,lake,15.226879
+202,case2,lake,move east,entrance,1.185210
+202,case2,entrance,move east,forest,15.226879
+202,case2,forest,move east,GOAL,15.577279
+203,case5,START,N,entrance,0.000000
+203,case5,entrance,move west,lake,3.443787
+203,case5,lake,move east,entrance,-1.291357
+203,case5,entrance,move west,forest,3.443787
+203,case5,forest,move east,GOAL,7.047014
+204,case1,START,N,entrance,0.000000
+204,case1,entrance,move east,forest,3.175643
+204,case1,forest,move east,GOAL,6.774153
+205,case2,START,N,entrance,0.000000
+205,case2,entrance,move east,forest,15.226879
+205,case2,forest,move east,GOAL,15.577279
+206,case3,START,N,entrance,0.000000
+206,case3,entrance,move east,forest,3.586383
+206,case3,forest,move east,GOAL,6.857041
+207,case2,START,N,entrance,0.000000
+207,case2,entrance,move east,forest,15.226879
+207,case2,forest,move west,entrance,1.909568
+207,case2,entrance,move east,forest,15.226879
+207,case2,forest,move east,entrance,15.577279
+207,case2,entrance,move east,forest,15.226879
+207,case2,forest,move west,entrance,2.636055
+207,case2,entrance,move east,forest,15.226879
+207,case2,forest,move west,GOAL,3.214853
+208,case3,START,N,entrance,0.000000
+208,case3,entrance,move east,forest,3.586383
+208,case3,forest,move east,GOAL,6.857041
+209,case3,START,N,entrance,0.000000
+209,case3,entrance,move east,forest,3.586383
+209,case3,forest,move east,GOAL,6.857041
+210,case4,START,N,entrance,0.000000
+210,case4,entrance,move west,lake,-0.426150
+210,case4,lake,move east,entrance,-1.287065
+210,case4,entrance,move west,lake,-0.450896
+210,case4,lake,move east,entrance,-1.227920
+210,case4,entrance,move east,forest,1.686967
+210,case4,forest,move west,entrance,-0.004245
+210,case4,entrance,move east,forest,1.720899
+210,case4,forest,move east,GOAL,5.624610
+211,case4,START,N,entrance,0.000000
+211,case4,entrance,move east,forest,1.720899
+211,case4,forest,move east,GOAL,5.624610
+212,case3,START,N,entrance,0.000000
+212,case3,entrance,move east,lake,3.586383
+212,case3,lake,move east,entrance,1.067098
+212,case3,entrance,move east,forest,3.586383
+212,case3,forest,move east,GOAL,6.857041
+213,case1,START,N,entrance,0.000000
+213,case1,entrance,move east,lake,3.100282
+213,case1,lake,move east,entrance,-0.485784
+213,case1,entrance,move east,forest,3.100282
+213,case1,forest,move east,GOAL,6.774153
+214,case5,START,N,entrance,0.000000
+214,case5,entrance,move west,lake,3.443787
+214,case5,lake,move east,entrance,-1.242917
+214,case5,entrance,move west,lake,3.443787
+214,case5,lake,move east,GOAL,-1.368018
+215,case1,START,N,entrance,0.000000
+215,case1,entrance,move east,lake,3.029533
+215,case1,lake,move east,GOAL,-0.961494
+216,case2,START,N,entrance,0.000000
+216,case2,entrance,move east,forest,15.226879
+216,case2,forest,move east,GOAL,15.577279
+217,case1,START,N,entrance,0.000000
+217,case1,entrance,move west,lake,0.148290
+217,case1,lake,move east,entrance,-0.777091
+217,case1,entrance,move east,forest,3.090877
+217,case1,forest,move east,GOAL,6.774153
+218,case2,START,N,entrance,0.000000
+218,case2,entrance,move east,forest,15.226879
+218,case2,forest,move east,GOAL,15.577279
+219,case5,START,N,entrance,0.000000
+219,case5,entrance,move west,lake,3.443787
+219,case5,lake,move east,entrance,-1.318484
+219,case5,entrance,move east,forest,1.796435
+219,case5,forest,move east,GOAL,7.047014
+220,case1,START,N,entrance,0.000000
+220,case1,entrance,move east,forest,3.090877
+220,case1,forest,move east,entrance,6.774153
+220,case1,entrance,move east,forest,3.090877
+220,case1,forest,move east,GOAL,6.774153
+221,case5,START,N,entrance,0.000000
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.269657
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.221527
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.180015
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.139023
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.098542
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.058568
+221,case5,entrance,move east,forest,1.885082
+221,case5,forest,move east,entrance,7.047014
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-1.019093
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-0.980112
+221,case5,entrance,move west,lake,3.443787
+221,case5,lake,move east,entrance,-0.941618
+221,case5,entrance,move west,forest,3.443787
+221,case5,forest,move east,GOAL,7.047014
+222,case5,START,N,entrance,0.000000
+222,case5,entrance,move west,forest,3.443787
+222,case5,forest,move west,entrance,1.503286
+222,case5,entrance,move west,lake,3.443787
+222,case5,lake,move west,GOAL,-2.423998
+223,case1,START,N,entrance,0.000000
+223,case1,entrance,move west,lake,0.131337
+223,case1,lake,move east,entrance,-0.599147
+223,case1,entrance,move east,forest,3.090877
+223,case1,forest,move east,GOAL,6.774153
+224,case2,START,N,entrance,0.000000
+224,case2,entrance,move east,forest,15.226879
+224,case2,forest,move east,GOAL,15.577279
+225,case5,START,N,entrance,0.000000
+225,case5,entrance,move west,lake,3.443787
+225,case5,lake,move east,entrance,-0.903605
+225,case5,entrance,move west,forest,3.443787
+225,case5,forest,move east,GOAL,7.047014
+226,case1,START,N,entrance,0.000000
+226,case1,entrance,move east,forest,3.090877
+226,case1,forest,move east,GOAL,6.774153
+227,case4,START,N,entrance,0.000000
+227,case4,entrance,move east,forest,1.720899
+227,case4,forest,move east,GOAL,5.624610
+228,case1,START,N,entrance,0.000000
+228,case1,entrance,move east,lake,3.018275
+228,case1,lake,move east,entrance,-0.433367
+228,case1,entrance,move west,lake,0.120909
+228,case1,lake,move west,entrance,-1.669178
+228,case1,entrance,move east,lake,2.950108
+228,case1,lake,move east,entrance,-0.278944
+228,case1,entrance,move east,forest,3.013041
+228,case1,forest,move east,GOAL,6.774153
+229,case3,START,N,entrance,0.000000
+229,case3,entrance,move west,lake,0.174831
+229,case3,lake,move east,entrance,1.283163
+229,case3,entrance,move east,forest,3.586383
+229,case3,forest,move east,GOAL,6.857041
+230,case3,START,N,entrance,0.000000
+230,case3,entrance,move east,forest,3.586383
+230,case3,forest,move east,GOAL,6.857041
+231,case2,START,N,entrance,0.000000
+231,case2,entrance,move east,forest,15.226879
+231,case2,forest,move east,GOAL,15.577279
+232,case3,START,N,entrance,0.000000
+232,case3,entrance,move east,forest,3.586383
+232,case3,forest,move east,GOAL,6.857041
+233,case3,START,N,entrance,0.000000
+233,case3,entrance,move east,forest,3.586383
+233,case3,forest,move east,GOAL,6.857041
+234,case4,START,N,entrance,0.000000
+234,case4,entrance,move east,forest,1.720899
+234,case4,forest,move east,entrance,5.624610
+234,case4,entrance,move east,lake,1.666241
+234,case4,lake,move east,entrance,-1.170335
+234,case4,entrance,move east,forest,1.666241
+234,case4,forest,move east,entrance,5.624610
+234,case4,entrance,move east,forest,1.666241
+234,case4,forest,move east,entrance,5.624610
+234,case4,entrance,move east,forest,1.666241
+234,case4,forest,move east,GOAL,5.624610
+235,case2,START,N,entrance,0.000000
+235,case2,entrance,move east,lake,15.226879
+235,case2,lake,move west,GOAL,5.736507
+236,case4,START,N,entrance,0.000000
+236,case4,entrance,move east,lake,1.619747
+236,case4,lake,move east,entrance,-1.116065
+236,case4,entrance,move east,forest,1.619747
+236,case4,forest,move east,GOAL,5.624610
+237,case4,START,N,entrance,0.000000
+237,case4,entrance,move east,lake,1.574444
+237,case4,lake,move east,entrance,-1.064963
+237,case4,entrance,move east,forest,1.574444
+237,case4,forest,move east,GOAL,5.624610
+238,case4,START,N,entrance,0.000000
+238,case4,entrance,move east,lake,1.530283
+238,case4,lake,move east,GOAL,-1.362797
+239,case3,START,N,entrance,0.000000
+239,case3,entrance,move east,forest,3.586383
+239,case3,forest,move east,GOAL,6.857041
+240,case5,START,N,entrance,0.000000
+240,case5,entrance,move west,forest,3.443787
+240,case5,forest,move west,entrance,1.723157
+240,case5,entrance,move west,lake,3.443787
+240,case5,lake,move east,entrance,-0.866067
+240,case5,entrance,move west,lake,3.443787
+240,case5,lake,move east,entrance,-0.833118
+240,case5,entrance,move west,lake,3.443787
+240,case5,lake,move east,GOAL,-0.934972
+241,case4,START,N,entrance,0.000000
+241,case4,entrance,move east,forest,1.561931
+241,case4,forest,move east,GOAL,5.624610
+242,case1,START,N,entrance,0.000000
+242,case1,entrance,move west,lake,0.113470
+242,case1,lake,move west,GOAL,-2.085719
+243,case2,START,N,entrance,0.000000
+243,case2,entrance,move west,lake,1.037613
+243,case2,lake,move west,GOAL,5.449682
+244,case2,START,N,entrance,0.000000
+244,case2,entrance,move east,forest,15.226879
+244,case2,forest,move east,entrance,15.577279
+244,case2,entrance,move east,forest,15.226879
+244,case2,forest,move east,GOAL,15.577279
+245,case4,START,N,entrance,0.000000
+245,case4,entrance,move east,forest,1.593184
+245,case4,forest,move east,GOAL,5.624610
+246,case4,START,N,entrance,0.000000
+246,case4,entrance,move east,forest,1.593184
+246,case4,forest,move east,entrance,5.624610
+246,case4,entrance,move east,lake,1.545438
+246,case4,lake,move east,entrance,-1.304341
+246,case4,entrance,move east,forest,1.576897
+246,case4,forest,move east,GOAL,5.624610
+247,case1,START,N,entrance,0.000000
+247,case1,entrance,move west,lake,0.107395
+247,case1,lake,move east,entrance,-0.129410
+247,case1,entrance,move east,forest,3.013041
+247,case1,forest,move east,GOAL,6.774153
+248,case5,START,N,entrance,0.000000
+248,case5,entrance,move west,lake,3.443787
+248,case5,lake,move east,entrance,-0.901257
+248,case5,entrance,move west,lake,3.443787
+248,case5,lake,move west,GOAL,-2.508175
+249,case5,START,N,entrance,0.000000
+249,case5,entrance,move west,forest,3.443787
+249,case5,forest,move east,GOAL,7.047014
+250,case2,START,N,entrance,0.000000
+250,case2,entrance,move east,forest,15.226879
+250,case2,forest,move east,GOAL,15.577279
+251,case1,START,N,entrance,0.000000
+251,case1,entrance,move east,lake,3.013041
+251,case1,lake,move east,GOAL,-0.458429
+252,case5,START,N,entrance,0.000000
+252,case5,entrance,move west,lake,3.443787
+252,case5,lake,move east,entrance,-0.867916
+252,case5,entrance,move west,lake,3.443787
+252,case5,lake,move east,GOAL,-0.969384
+253,case5,START,N,entrance,0.000000
+253,case5,entrance,move west,lake,3.443787
+253,case5,lake,move east,entrance,-0.935286
+253,case5,entrance,move west,lake,3.443787
+253,case5,lake,move east,GOAL,-1.036005
+254,case5,START,N,entrance,0.000000
+254,case5,entrance,move west,lake,3.443787
+254,case5,lake,move east,entrance,-1.001167
+254,case5,entrance,move west,lake,3.443787
+254,case5,lake,move east,entrance,-0.966716
+254,case5,entrance,move west,lake,3.443787
+254,case5,lake,move east,entrance,-0.936055
+254,case5,entrance,move west,lake,3.443787
+254,case5,lake,move east,entrance,-0.905700
+254,case5,entrance,move west,lake,3.443787
+254,case5,lake,move west,GOAL,-2.583094
+255,case5,START,N,entrance,0.000000
+255,case5,entrance,move west,lake,3.443787
+255,case5,lake,move east,entrance,-0.875649
+255,case5,entrance,move west,forest,3.443787
+255,case5,forest,move east,GOAL,7.047014
+256,case5,START,N,entrance,0.000000
+256,case5,entrance,move west,forest,3.443787
+256,case5,forest,move east,GOAL,7.047014
+257,case4,START,N,entrance,0.000000
+257,case4,entrance,move east,forest,1.576897
+257,case4,forest,move east,entrance,5.624610
+257,case4,entrance,move east,forest,1.576897
+257,case4,forest,move west,entrance,0.004224
+257,case4,entrance,move east,forest,1.576897
+257,case4,forest,move east,GOAL,5.624610
+258,case1,START,N,entrance,0.000000
+258,case1,entrance,move east,forest,3.013041
+258,case1,forest,move east,GOAL,6.774153
+259,case2,START,N,entrance,0.000000
+259,case2,entrance,move east,forest,15.226879
+259,case2,forest,move east,GOAL,15.577279
+260,case5,START,N,entrance,0.000000
+260,case5,entrance,move west,lake,3.443787
+260,case5,lake,move west,GOAL,-2.657263
+261,case2,START,N,entrance,0.000000
+261,case2,entrance,move east,forest,15.226879
+261,case2,forest,move east,GOAL,15.577279
+262,case3,START,N,entrance,0.000000
+262,case3,entrance,move east,forest,3.586383
+262,case3,forest,move east,GOAL,6.857041
+263,case3,START,N,entrance,0.000000
+263,case3,entrance,move east,forest,3.586383
+263,case3,forest,move east,GOAL,6.857041
+264,case1,START,N,entrance,0.000000
+264,case1,entrance,move east,forest,3.013041
+264,case1,forest,move east,GOAL,6.774153
+265,case4,START,N,entrance,0.000000
+265,case4,entrance,move east,forest,1.576897
+265,case4,forest,move east,entrance,5.624610
+265,case4,entrance,move east,forest,1.576897
+265,case4,forest,move west,entrance,0.012524
+265,case4,entrance,move east,lake,1.530011
+265,case4,lake,move east,GOAL,-1.594196
+266,case1,START,N,entrance,0.000000
+266,case1,entrance,move east,forest,3.013041
+266,case1,forest,move east,entrance,6.774153
+266,case1,entrance,move east,lake,3.013041
+266,case1,lake,move west,GOAL,-2.349528
+267,case3,START,N,entrance,0.000000
+267,case3,entrance,move east,forest,3.586383
+267,case3,forest,move east,GOAL,6.857041
+268,case5,START,N,entrance,0.000000
+268,case5,entrance,move west,lake,3.443787
+268,case5,lake,move east,entrance,-0.845899
+268,case5,entrance,move east,forest,1.971513
+268,case5,forest,move west,GOAL,1.999051
+269,case2,START,N,entrance,0.000000
+269,case2,entrance,move east,forest,15.226879
+269,case2,forest,move east,entrance,15.577279
+269,case2,entrance,move east,lake,15.226879
+269,case2,lake,move west,GOAL,5.177198
+270,case5,START,N,entrance,0.000000
+270,case5,entrance,move west,lake,3.443787
+270,case5,lake,move east,GOAL,-0.937440
+271,case1,START,N,entrance,0.000000
+271,case1,entrance,move east,forest,3.013041
+271,case1,forest,move east,entrance,6.774153
+271,case1,entrance,move east,forest,3.013041
+271,case1,forest,move east,entrance,6.774153
+271,case1,entrance,move east,forest,3.013041
+271,case1,forest,move east,GOAL,6.774153
+272,case1,START,N,entrance,0.000000
+272,case1,entrance,move east,forest,3.013041
+272,case1,forest,move east,GOAL,6.774153
+273,case4,START,N,entrance,0.000000
+273,case4,entrance,move east,lake,1.480452
+273,case4,lake,move east,GOAL,-1.874390
+274,case1,START,N,entrance,0.000000
+274,case1,entrance,move east,forest,3.013041
+274,case1,forest,move east,GOAL,6.774153
+275,case3,START,N,entrance,0.000000
+275,case3,entrance,move east,forest,3.586383
+275,case3,forest,move east,GOAL,6.857041
+276,case5,START,N,entrance,0.000000
+276,case5,entrance,move west,forest,3.443787
+276,case5,forest,move west,entrance,2.202397
+276,case5,entrance,move west,lake,3.443787
+276,case5,lake,move east,entrance,-0.907071
+276,case5,entrance,move west,lake,3.443787
+276,case5,lake,move east,entrance,-0.877006
+276,case5,entrance,move east,forest,2.055783
+276,case5,forest,move east,entrance,7.047014
+276,case5,entrance,move west,lake,3.443787
+276,case5,lake,move east,entrance,-0.847242
+276,case5,entrance,move west,lake,3.443787
+276,case5,lake,move west,GOAL,-2.724015
+277,case1,START,N,entrance,0.000000
+277,case1,entrance,move east,lake,3.013041
+277,case1,lake,move west,GOAL,-2.604544
+278,case1,START,N,entrance,0.000000
+278,case1,entrance,move east,forest,3.013041
+278,case1,forest,move east,GOAL,6.774153
+279,case3,START,N,entrance,0.000000
+279,case3,entrance,move east,forest,3.586383
+279,case3,forest,move east,GOAL,6.857041
+280,case4,START,N,entrance,0.000000
+280,case4,entrance,move east,lake,1.428591
+280,case4,lake,move west,GOAL,-2.125316
+281,case3,START,N,entrance,0.000000
+281,case3,entrance,move east,forest,3.586383
+281,case3,forest,move east,GOAL,6.857041
+282,case4,START,N,entrance,0.000000
+282,case4,entrance,move east,forest,1.457853
+282,case4,forest,move east,GOAL,5.624610
+283,case4,START,N,entrance,0.000000
+283,case4,entrance,move west,lake,-0.475741
+283,case4,lake,move east,entrance,-1.819728
+283,case4,entrance,move east,forest,1.457853
+283,case4,forest,move east,GOAL,5.624610
+284,case5,START,N,entrance,0.000000
+284,case5,entrance,move west,lake,3.443787
+284,case5,lake,move east,entrance,-0.820454
+284,case5,entrance,move east,lake,2.110928
+284,case5,lake,move east,entrance,-0.793910
+284,case5,entrance,move west,forest,3.443787
+284,case5,forest,move east,GOAL,7.047014
+285,case1,START,N,entrance,0.000000
+285,case1,entrance,move east,forest,3.013041
+285,case1,forest,move east,GOAL,6.774153
+286,case1,START,N,entrance,0.000000
+286,case1,entrance,move east,forest,3.013041
+286,case1,forest,move east,GOAL,6.774153
+287,case1,START,N,entrance,0.000000
+287,case1,entrance,move west,lake,0.098729
+287,case1,lake,move west,GOAL,-2.851059
+288,case3,START,N,entrance,0.000000
+288,case3,entrance,move east,forest,3.586383
+288,case3,forest,move east,GOAL,6.857041
+289,case5,START,N,entrance,0.000000
+289,case5,entrance,move west,forest,3.443787
+289,case5,forest,move east,GOAL,7.047014
+290,case4,START,N,entrance,0.000000
+290,case4,entrance,move east,lake,1.412346
+290,case4,lake,move east,entrance,-1.767457
+290,case4,entrance,move east,forest,1.441788
+290,case4,forest,move east,entrance,5.624610
+290,case4,entrance,move east,lake,1.396983
+290,case4,lake,move east,entrance,-1.716839
+290,case4,entrance,move east,forest,1.426596
+290,case4,forest,move east,GOAL,5.624610
+291,case5,START,N,entrance,0.000000
+291,case5,entrance,move west,forest,3.443787
+291,case5,forest,move east,GOAL,7.047014
+292,case3,START,N,entrance,0.000000
+292,case3,entrance,move east,forest,3.586383
+292,case3,forest,move east,GOAL,6.857041
+293,case4,START,N,entrance,0.000000
+293,case4,entrance,move west,lake,-0.498734
+293,case4,lake,move east,entrance,-1.666819
+293,case4,entrance,move east,lake,1.382965
+293,case4,lake,move east,entrance,-1.619032
+293,case4,entrance,move east,forest,1.412734
+293,case4,forest,move east,GOAL,5.624610
+294,case5,START,N,entrance,0.000000
+294,case5,entrance,move east,forest,2.191713
+294,case5,forest,move east,GOAL,7.047014
+295,case4,START,N,entrance,0.000000
+295,case4,entrance,move west,lake,-0.520494
+295,case4,lake,move east,entrance,-1.571770
+295,case4,entrance,move east,forest,1.412734
+295,case4,forest,move west,entrance,0.017703
+295,case4,entrance,move east,forest,1.412734
+295,case4,forest,move east,GOAL,5.624610
+296,case5,START,N,entrance,0.000000
+296,case5,entrance,move west,lake,3.443787
+296,case5,lake,move east,entrance,-0.767607
+296,case5,entrance,move west,lake,3.443787
+296,case5,lake,move east,entrance,-0.741544
+296,case5,entrance,move west,lake,3.443787
+296,case5,lake,move east,entrance,-0.715717
+296,case5,entrance,move west,lake,3.443787
+296,case5,lake,move east,entrance,-0.690125
+296,case5,entrance,move west,lake,3.443787
+296,case5,lake,move east,entrance,-0.664765
+296,case5,entrance,move west,forest,3.443787
+296,case5,forest,move east,GOAL,7.047014
+297,case4,START,N,entrance,0.000000
+297,case4,entrance,move east,forest,1.412734
+297,case4,forest,move east,GOAL,5.624610
+298,case5,START,N,entrance,0.000000
+298,case5,entrance,move west,lake,3.443787
+298,case5,lake,move west,GOAL,-2.790160
+299,case2,START,N,entrance,0.000000
+299,case2,entrance,move east,forest,15.226879
+299,case2,forest,move east,entrance,15.577279
+299,case2,entrance,move east,forest,15.226879
+299,case2,forest,move east,GOAL,15.577279
+300,case2,START,N,entrance,0.000000
+300,case2,entrance,move west,lake,1.491675
+300,case2,lake,move west,GOAL,4.918338
+301,case3,START,N,entrance,0.000000
+301,case3,entrance,move east,lake,3.586383
+301,case3,lake,move east,entrance,1.477621
+301,case3,entrance,move east,forest,3.586383
+301,case3,forest,move west,entrance,0.329909
+301,case3,entrance,move east,forest,3.586383
+301,case3,forest,move east,GOAL,6.857041
+302,case1,START,N,entrance,0.000000
+302,case1,entrance,move east,forest,3.013041
+302,case1,forest,move east,GOAL,6.774153
+303,case2,START,N,entrance,0.000000
+303,case2,entrance,move east,forest,15.226879
+303,case2,forest,move west,entrance,3.897831
+303,case2,entrance,move east,forest,15.226879
+303,case2,forest,move east,GOAL,15.577279
+304,case1,START,N,entrance,0.000000
+304,case1,entrance,move east,forest,3.013041
+304,case1,forest,move east,GOAL,6.774153
+305,case3,START,N,entrance,0.000000
+305,case3,entrance,move east,forest,3.586383
+305,case3,forest,move east,GOAL,6.857041
+306,case3,START,N,entrance,0.000000
+306,case3,entrance,move east,forest,3.586383
+306,case3,forest,move east,GOAL,6.857041
+307,case1,START,N,entrance,0.000000
+307,case1,entrance,move east,forest,3.013041
+307,case1,forest,move east,GOAL,6.774153
+308,case2,START,N,entrance,0.000000
+308,case2,entrance,move east,forest,15.226879
+308,case2,forest,move east,GOAL,15.577279
+309,case4,START,N,entrance,0.000000
+309,case4,entrance,move east,forest,1.412734
+309,case4,forest,move east,GOAL,5.624610
+310,case3,START,N,entrance,0.000000
+310,case3,entrance,move east,forest,3.586383
+310,case3,forest,move east,GOAL,6.857041
+311,case1,START,N,entrance,0.000000
+311,case1,entrance,move east,forest,3.013041
+311,case1,forest,move west,entrance,0.337892
+311,case1,entrance,move east,forest,3.013041
+311,case1,forest,move east,GOAL,6.774153
+312,case1,START,N,entrance,0.000000
+312,case1,entrance,move east,lake,3.013041
+312,case1,lake,move east,entrance,-0.352757
+312,case1,entrance,move east,lake,3.013041
+312,case1,lake,move east,entrance,-0.250607
+312,case1,entrance,move east,forest,3.013041
+312,case1,forest,move east,GOAL,6.774153
+313,case5,START,N,entrance,0.000000
+313,case5,entrance,move west,forest,3.443787
+313,case5,forest,move east,GOAL,7.047014
+314,case2,START,N,entrance,0.000000
+314,case2,entrance,move east,forest,15.226879
+314,case2,forest,move east,GOAL,15.577279
+315,case5,START,N,entrance,0.000000
+315,case5,entrance,move west,forest,3.443787
+315,case5,forest,move east,GOAL,7.047014
+316,case3,START,N,entrance,0.000000
+316,case3,entrance,move east,forest,3.586383
+316,case3,forest,move east,entrance,6.857041
+316,case3,entrance,move east,forest,3.586383
+316,case3,forest,move east,GOAL,6.857041
+317,case5,START,N,entrance,0.000000
+317,case5,entrance,move west,forest,3.443787
+317,case5,forest,move east,GOAL,7.047014
+318,case4,START,N,entrance,0.000000
+318,case4,entrance,move east,forest,1.412734
+318,case4,forest,move east,GOAL,5.624610
+319,case1,START,N,entrance,0.000000
+319,case1,entrance,move east,forest,3.013041
+319,case1,forest,move east,entrance,6.774153
+319,case1,entrance,move east,forest,3.013041
+319,case1,forest,move east,entrance,6.774153
+319,case1,entrance,move west,lake,0.093324
+319,case1,lake,move east,entrance,-0.151863
+319,case1,entrance,move east,forest,3.013041
+319,case1,forest,move east,GOAL,6.774153
+320,case4,START,N,entrance,0.000000
+320,case4,entrance,move east,forest,1.412734
+320,case4,forest,move east,GOAL,5.624610
+321,case5,START,N,entrance,0.000000
+321,case5,entrance,move west,lake,3.443787
+321,case5,lake,move east,GOAL,-0.749631
+322,case1,START,N,entrance,0.000000
+322,case1,entrance,move east,forest,3.013041
+322,case1,forest,move east,GOAL,6.774153
+323,case5,START,N,entrance,0.000000
+323,case5,entrance,move west,lake,3.443787
+323,case5,lake,move east,GOAL,-0.826717
+324,case3,START,N,entrance,0.000000
+324,case3,entrance,move east,forest,3.586383
+324,case3,forest,move east,GOAL,6.857041
+325,case1,START,N,entrance,0.000000
+325,case1,entrance,move east,forest,3.013041
+325,case1,forest,move east,GOAL,6.774153
+326,case5,START,N,entrance,0.000000
+326,case5,entrance,move west,lake,3.443787
+326,case5,lake,move east,entrance,-0.802333
+326,case5,entrance,move west,lake,3.443787
+326,case5,lake,move east,GOAL,-0.878980
+327,case3,START,N,entrance,0.000000
+327,case3,entrance,move east,forest,3.586383
+327,case3,forest,move east,entrance,6.857041
+327,case3,entrance,move east,forest,3.586383
+327,case3,forest,move east,entrance,6.857041
+327,case3,entrance,move west,lake,0.203707
+327,case3,lake,move east,entrance,1.652633
+327,case3,entrance,move east,forest,3.586383
+327,case3,forest,move east,GOAL,6.857041
+328,case3,START,N,entrance,0.000000
+328,case3,entrance,move east,forest,3.586383
+328,case3,forest,move east,GOAL,6.857041
+329,case5,START,N,entrance,0.000000
+329,case5,entrance,move west,forest,3.443787
+329,case5,forest,move east,GOAL,7.047014
+330,case4,START,N,entrance,0.000000
+330,case4,entrance,move east,lake,1.374461
+330,case4,lake,move east,entrance,-1.526550
+330,case4,entrance,move east,forest,1.374461
+330,case4,forest,move east,GOAL,5.624610
+331,case2,START,N,entrance,0.000000
+331,case2,entrance,move east,forest,15.226879
+331,case2,forest,move east,GOAL,15.577279
+332,case1,START,N,entrance,0.000000
+332,case1,entrance,move east,forest,3.013041
+332,case1,forest,move east,GOAL,6.774153
+333,case1,START,N,entrance,0.000000
+333,case1,entrance,move east,forest,3.013041
+333,case1,forest,move east,GOAL,6.774153
+334,case5,START,N,entrance,0.000000
+334,case5,entrance,move west,forest,3.443787
+334,case5,forest,move east,entrance,7.047014
+334,case5,entrance,move west,lake,3.443787
+334,case5,lake,move east,GOAL,-0.954989
+335,case5,START,N,entrance,0.000000
+335,case5,entrance,move west,lake,3.443787
+335,case5,lake,move east,entrance,-0.929536
+335,case5,entrance,move west,lake,3.443787
+335,case5,lake,move east,entrance,-0.904294
+335,case5,entrance,move west,lake,3.443787
+335,case5,lake,move east,entrance,-0.879263
+335,case5,entrance,move west,lake,3.443787
+335,case5,lake,move west,GOAL,-2.850242
+336,case1,START,N,entrance,0.000000
+336,case1,entrance,move east,forest,3.013041
+336,case1,forest,move east,GOAL,6.774153
+337,case5,START,N,entrance,0.000000
+337,case5,entrance,move west,lake,3.443787
+337,case5,lake,move east,entrance,-0.854441
+337,case5,entrance,move east,forest,2.270478
+337,case5,forest,move east,GOAL,7.047014
+338,case3,START,N,entrance,0.000000
+338,case3,entrance,move east,forest,3.586383
+338,case3,forest,move east,GOAL,6.857041
+339,case5,START,N,entrance,0.000000
+339,case5,entrance,move west,lake,3.443787
+339,case5,lake,move east,entrance,-0.829826
+339,case5,entrance,move west,forest,3.443787
+339,case5,forest,move east,GOAL,7.047014
+340,case3,START,N,entrance,0.000000
+340,case3,entrance,move east,forest,3.586383
+340,case3,forest,move east,GOAL,6.857041
+341,case1,START,N,entrance,0.000000
+341,case1,entrance,move east,forest,3.013041
+341,case1,forest,move east,entrance,6.774153
+341,case1,entrance,move west,lake,0.089491
+341,case1,lake,move east,entrance,-0.056409
+341,case1,entrance,move east,forest,3.013041
+341,case1,forest,move east,GOAL,6.774153
+342,case3,START,N,entrance,0.000000
+342,case3,entrance,move east,forest,3.586383
+342,case3,forest,move east,GOAL,6.857041
+343,case3,START,N,entrance,0.000000
+343,case3,entrance,move east,forest,3.586383
+343,case3,forest,move east,GOAL,6.857041
+344,case4,START,N,entrance,0.000000
+344,case4,entrance,move east,forest,1.374461
+344,case4,forest,move east,GOAL,5.624610
+345,case4,START,N,entrance,0.000000
+345,case4,entrance,move east,forest,1.374461
+345,case4,forest,move east,GOAL,5.624610
+346,case5,START,N,entrance,0.000000
+346,case5,entrance,move east,forest,2.347274
+346,case5,forest,move east,GOAL,7.047014
+347,case2,START,N,entrance,0.000000
+347,case2,entrance,move east,forest,15.226879
+347,case2,forest,move east,GOAL,15.577279
+348,case3,START,N,entrance,0.000000
+348,case3,entrance,move east,forest,3.586383
+348,case3,forest,move east,GOAL,6.857041
+349,case5,START,N,entrance,0.000000
+349,case5,entrance,move west,forest,3.443787
+349,case5,forest,move east,GOAL,7.047014
+350,case5,START,N,entrance,0.000000
+350,case5,entrance,move west,lake,3.443787
+350,case5,lake,move east,entrance,-0.807293
+350,case5,entrance,move west,lake,3.443787
+350,case5,lake,move east,entrance,-0.784934
+350,case5,entrance,move west,lake,3.443787
+350,case5,lake,move east,entrance,-0.762747
+350,case5,entrance,move west,lake,3.443787
+350,case5,lake,move east,entrance,-0.740730
+350,case5,entrance,move west,forest,3.443787
+350,case5,forest,move east,GOAL,7.047014
+351,case2,START,N,entrance,0.000000
+351,case2,entrance,move west,forest,2.242604
+351,case2,forest,move east,GOAL,15.577279
+352,case5,START,N,entrance,0.000000
+352,case5,entrance,move west,lake,3.443787
+352,case5,lake,move east,entrance,-0.718883
+352,case5,entrance,move west,forest,3.443787
+352,case5,forest,move east,entrance,7.047014
+352,case5,entrance,move west,lake,3.443787
+352,case5,lake,move east,entrance,-0.697204
+352,case5,entrance,move west,lake,3.443787
+352,case5,lake,move east,entrance,-0.675691
+352,case5,entrance,move west,lake,3.443787
+352,case5,lake,move west,GOAL,-2.850242
+353,case5,START,N,entrance,0.000000
+353,case5,entrance,move west,lake,3.443787
+353,case5,lake,move east,entrance,-0.654344
+353,case5,entrance,move west,forest,3.443787
+353,case5,forest,move east,entrance,7.047014
+353,case5,entrance,move west,lake,3.443787
+353,case5,lake,move west,GOAL,-2.850242
+354,case4,START,N,entrance,0.000000
+354,case4,entrance,move east,lake,1.336977
+354,case4,lake,move east,entrance,-1.483304
+354,case4,entrance,move east,lake,1.300258
+354,case4,lake,move east,GOAL,-1.696222
+355,case2,START,N,entrance,0.000000
+355,case2,entrance,move east,forest,15.226879
+355,case2,forest,move east,entrance,15.577279
+355,case2,entrance,move east,forest,15.226879
+355,case2,forest,move east,GOAL,15.577279
+356,case3,START,N,entrance,0.000000
+356,case3,entrance,move east,lake,3.586383
+356,case3,lake,move east,entrance,1.810145
+356,case3,entrance,move east,forest,3.586383
+356,case3,forest,move east,GOAL,6.857041
+357,case1,START,N,entrance,0.000000
+357,case1,entrance,move east,forest,3.013041
+357,case1,forest,move east,GOAL,6.774153
+358,case2,START,N,entrance,0.000000
+358,case2,entrance,move east,forest,15.226879
+358,case2,forest,move east,GOAL,15.577279
+359,case4,START,N,entrance,0.000000
+359,case4,entrance,move east,forest,1.327877
+359,case4,forest,move east,entrance,5.624610
+359,case4,entrance,move east,forest,1.355219
+359,case4,forest,move east,GOAL,5.624610
+360,case4,START,N,entrance,0.000000
+360,case4,entrance,move east,lake,1.316401
+360,case4,lake,move east,entrance,-1.649197
+360,case4,entrance,move east,lake,1.278394
+360,case4,lake,move west,GOAL,-2.282809
+361,case2,START,N,entrance,0.000000
+361,case2,entrance,move east,lake,15.226879
+361,case2,lake,move west,entrance,5.857630
+361,case2,entrance,move west,lake,2.676913
+361,case2,lake,move west,GOAL,5.564749
+362,case5,START,N,entrance,0.000000
+362,case5,entrance,move west,lake,3.443787
+362,case5,lake,move east,entrance,-0.633162
+362,case5,entrance,move west,forest,3.443787
+362,case5,forest,move east,GOAL,7.047014
+363,case3,START,N,entrance,0.000000
+363,case3,entrance,move east,forest,3.586383
+363,case3,forest,move east,GOAL,6.857041
+364,case1,START,N,entrance,0.000000
+364,case1,entrance,move west,lake,0.087153
+364,case1,lake,move east,entrance,0.035862
+364,case1,entrance,move west,lake,0.087153
+364,case1,lake,move east,GOAL,-0.298667
+365,case3,START,N,entrance,0.000000
+365,case3,entrance,move east,forest,3.586383
+365,case3,forest,move east,GOAL,6.857041
+366,case5,START,N,entrance,0.000000
+366,case5,entrance,move west,lake,3.443787
+366,case5,lake,move east,GOAL,-0.705214
+367,case3,START,N,entrance,0.000000
+367,case3,entrance,move east,forest,3.586383
+367,case3,forest,move east,GOAL,6.857041
+368,case1,START,N,entrance,0.000000
+368,case1,entrance,move east,forest,3.013041
+368,case1,forest,move east,GOAL,6.774153
+369,case2,START,N,entrance,0.000000
+369,case2,entrance,move east,lake,15.226879
+369,case2,lake,move west,GOAL,5.379257
+370,case5,START,N,entrance,0.000000
+370,case5,entrance,move west,forest,3.443787
+370,case5,forest,move east,entrance,7.047014
+370,case5,entrance,move west,lake,3.443787
+370,case5,lake,move east,entrance,-0.685181
+370,case5,entrance,move east,forest,2.422150
+370,case5,forest,move east,GOAL,7.047014
+371,case2,START,N,entrance,0.000000
+371,case2,entrance,move east,lake,15.226879
+371,case2,lake,move east,entrance,1.935842
+371,case2,entrance,move west,lake,3.082393
+371,case2,lake,move west,GOAL,5.199949
+372,case1,START,N,entrance,0.000000
+372,case1,entrance,move east,forest,3.013041
+372,case1,forest,move east,GOAL,6.774153
+373,case1,START,N,entrance,0.000000
+373,case1,entrance,move east,forest,3.013041
+373,case1,forest,move east,GOAL,6.774153
+374,case4,START,N,entrance,0.000000
+374,case4,entrance,move east,forest,1.306232
+374,case4,forest,move east,GOAL,5.624610
+375,case1,START,N,entrance,0.000000
+375,case1,entrance,move east,lake,3.013041
+375,case1,lake,move east,entrance,-0.223406
+375,case1,entrance,move east,forest,3.013041
+375,case1,forest,move east,entrance,6.774153
+375,case1,entrance,move east,forest,3.013041
+375,case1,forest,move east,GOAL,6.774153
+376,case4,START,N,entrance,0.000000
+376,case4,entrance,move east,forest,1.333791
+376,case4,forest,move east,GOAL,5.624610
+377,case1,START,N,entrance,0.000000
+377,case1,entrance,move east,forest,3.013041
+377,case1,forest,move east,GOAL,6.774153
+378,case2,START,N,entrance,0.000000
+378,case2,entrance,move east,forest,15.226879
+378,case2,forest,move east,GOAL,15.577279
+379,case3,START,N,entrance,0.000000
+379,case3,entrance,move east,forest,3.586383
+379,case3,forest,move east,GOAL,6.857041
+380,case3,START,N,entrance,0.000000
+380,case3,entrance,move east,forest,3.586383
+380,case3,forest,move east,GOAL,6.857041
+381,case2,START,N,entrance,0.000000
+381,case2,entrance,move east,lake,15.226879
+381,case2,lake,move west,GOAL,5.026617
+382,case2,START,N,entrance,0.000000
+382,case2,entrance,move west,forest,3.780299
+382,case2,forest,move east,GOAL,15.577279
+383,case1,START,N,entrance,0.000000
+383,case1,entrance,move east,lake,3.013041
+383,case1,lake,move east,entrance,-0.150028
+383,case1,entrance,move east,lake,3.013041
+383,case1,lake,move west,GOAL,-3.029783
+384,case5,START,N,entrance,0.000000
+384,case5,entrance,move west,lake,3.443787
+384,case5,lake,move east,GOAL,-0.751716
+385,case1,START,N,entrance,0.000000
+385,case1,entrance,move east,forest,3.013041
+385,case1,forest,move east,GOAL,6.774153
+386,case3,START,N,entrance,0.000000
+386,case3,entrance,move west,lake,0.239342
+386,case3,lake,move east,GOAL,1.219637
+387,case5,START,N,entrance,0.000000
+387,case5,entrance,move west,lake,3.443787
+387,case5,lake,move east,entrance,-0.731351
+387,case5,entrance,move west,lake,3.443787
+387,case5,lake,move west,entrance,-2.850242
+387,case5,entrance,move west,lake,3.443787
+387,case5,lake,move east,entrance,-0.711131
+387,case5,entrance,move west,lake,3.443787
+387,case5,lake,move east,entrance,-0.691056
+387,case5,entrance,move west,lake,3.443787
+387,case5,lake,move east,entrance,-0.671124
+387,case5,entrance,move west,lake,3.443787
+387,case5,lake,move west,GOAL,-2.850242
+388,case1,START,N,entrance,0.000000
+388,case1,entrance,move east,forest,3.013041
+388,case1,forest,move west,entrance,0.417020
+388,case1,entrance,move east,forest,3.013041
+388,case1,forest,move east,GOAL,6.774153
+389,case2,START,N,entrance,0.000000
+389,case2,entrance,move east,forest,15.226879
+389,case2,forest,move east,GOAL,15.577279
+390,case4,START,N,entrance,0.000000
+390,case4,entrance,move west,lake,-0.540132
+390,case4,lake,move east,entrance,-1.612205
+390,case4,entrance,move east,forest,1.333791
+390,case4,forest,move east,GOAL,5.624610
+391,case4,START,N,entrance,0.000000
+391,case4,entrance,move east,lake,1.299384
+391,case4,lake,move east,GOAL,-1.779961
+392,case5,START,N,entrance,0.000000
+392,case5,entrance,move west,forest,3.443787
+392,case5,forest,move east,GOAL,7.047014
+393,case4,START,N,entrance,0.000000
+393,case4,entrance,move east,lake,1.263917
+393,case4,lake,move east,entrance,-1.741611
+393,case4,entrance,move east,forest,1.289356
+393,case4,forest,move east,GOAL,5.624610
+394,case2,START,N,entrance,0.000000
+394,case2,entrance,move east,forest,15.226879
+394,case2,forest,move east,GOAL,15.577279
+395,case1,START,N,entrance,0.000000
+395,case1,entrance,move east,forest,3.013041
+395,case1,forest,move west,entrance,0.493511
+395,case1,entrance,move east,forest,3.013041
+395,case1,forest,move east,GOAL,6.774153
+396,case5,START,N,entrance,0.000000
+396,case5,entrance,move west,lake,3.443787
+396,case5,lake,move east,entrance,-0.651334
+396,case5,entrance,move west,lake,3.443787
+396,case5,lake,move east,entrance,-0.631686
+396,case5,entrance,move west,lake,3.443787
+396,case5,lake,move west,GOAL,-2.850242
+397,case4,START,N,entrance,0.000000
+397,case4,entrance,move east,forest,1.289356
+397,case4,forest,move east,GOAL,5.624610
+398,case2,START,N,entrance,0.000000
+398,case2,entrance,move east,forest,15.226879
+398,case2,forest,move east,GOAL,15.577279
+399,case4,START,N,entrance,0.000000
+399,case4,entrance,move east,forest,1.289356
+399,case4,forest,move east,GOAL,5.624610
+400,case5,START,N,entrance,0.000000
+400,case5,entrance,move west,forest,3.443787
+400,case5,forest,move east,GOAL,7.047014
+401,case3,START,N,entrance,0.000000
+401,case3,entrance,move east,forest,3.586383
+401,case3,forest,move east,GOAL,6.857041
+402,case3,START,N,entrance,0.000000
+402,case3,entrance,move west,lake,0.260801
+402,case3,lake,move east,entrance,1.320043
+402,case3,entrance,move east,forest,3.586383
+402,case3,forest,move east,GOAL,6.857041
+403,case4,START,N,entrance,0.000000
+403,case4,entrance,move east,lake,1.254294
+403,case4,lake,move east,entrance,-1.704202
+403,case4,entrance,move east,forest,1.279820
+403,case4,forest,move east,GOAL,5.624610
+404,case2,START,N,entrance,0.000000
+404,case2,entrance,move east,forest,15.226879
+404,case2,forest,move east,GOAL,15.577279
+405,case2,START,N,entrance,0.000000
+405,case2,entrance,move east,forest,15.226879
+405,case2,forest,move west,entrance,4.558043
+405,case2,entrance,move east,lake,15.226879
+405,case2,lake,move west,GOAL,4.859063
+406,case1,START,N,entrance,0.000000
+406,case1,entrance,move east,lake,3.013041
+406,case1,lake,move east,entrance,-0.078484
+406,case1,entrance,move east,lake,3.013041
+406,case1,lake,move east,entrance,-0.008728
+406,case1,entrance,move east,forest,3.013041
+406,case1,forest,move east,GOAL,6.774153
+407,case2,START,N,entrance,0.000000
+407,case2,entrance,move east,forest,15.226879
+407,case2,forest,move east,GOAL,15.577279
+408,case1,START,N,entrance,0.000000
+408,case1,entrance,move east,lake,3.013041
+408,case1,lake,move east,GOAL,-0.258510
+409,case5,START,N,entrance,0.000000
+409,case5,entrance,move west,lake,3.443787
+409,case5,lake,move east,GOAL,-0.698603
+410,case1,START,N,entrance,0.000000
+410,case1,entrance,move east,forest,3.013041
+410,case1,forest,move east,GOAL,6.774153
+411,case5,START,N,entrance,0.000000
+411,case5,entrance,move west,lake,3.443787
+411,case5,lake,move east,entrance,-0.678617
+411,case5,entrance,move west,lake,3.443787
+411,case5,lake,move east,entrance,-0.660097
+411,case5,entrance,move east,forest,2.495154
+411,case5,forest,move east,GOAL,7.047014
+412,case3,START,N,entrance,0.000000
+412,case3,entrance,move east,forest,3.586383
+412,case3,forest,move east,GOAL,6.857041
+413,case5,START,N,entrance,0.000000
+413,case5,entrance,move west,forest,3.443787
+413,case5,forest,move east,GOAL,7.047014
+414,case1,START,N,entrance,0.000000
+414,case1,entrance,move east,forest,3.013041
+414,case1,forest,move east,GOAL,6.774153
+415,case4,START,N,entrance,0.000000
+415,case4,entrance,move east,forest,1.279820
+415,case4,forest,move east,GOAL,5.624610
+416,case3,START,N,entrance,0.000000
+416,case3,entrance,move east,forest,3.586383
+416,case3,forest,move east,GOAL,6.857041
+417,case1,START,N,entrance,0.000000
+417,case1,entrance,move west,lake,0.081823
+417,case1,lake,move east,entrance,-0.184254
+417,case1,entrance,move east,forest,3.013041
+417,case1,forest,move east,GOAL,6.774153
+418,case3,START,N,entrance,0.000000
+418,case3,entrance,move east,forest,3.586383
+418,case3,forest,move east,GOAL,6.857041
+419,case3,START,N,entrance,0.000000
+419,case3,entrance,move east,forest,3.586383
+419,case3,forest,move east,GOAL,6.857041
+420,case1,START,N,entrance,0.000000
+420,case1,entrance,move east,forest,3.013041
+420,case1,forest,move west,GOAL,0.810394
+421,case2,START,N,entrance,0.000000
+421,case2,entrance,move east,forest,15.226879
+421,case2,forest,move east,GOAL,15.577279
+422,case5,START,N,entrance,0.000000
+422,case5,entrance,move west,forest,3.443787
+422,case5,forest,move east,GOAL,7.047014
+423,case3,START,N,entrance,0.000000
+423,case3,entrance,move east,forest,3.586383
+423,case3,forest,move west,GOAL,0.652245
+424,case3,START,N,entrance,0.000000
+424,case3,entrance,move east,forest,3.586383
+424,case3,forest,move east,GOAL,6.857041
+425,case5,START,N,entrance,0.000000
+425,case5,entrance,move west,forest,3.443787
+425,case5,forest,move east,GOAL,7.047014
+426,case2,START,N,entrance,0.000000
+426,case2,entrance,move east,forest,15.226879
+426,case2,forest,move east,GOAL,15.577279
+427,case1,START,N,entrance,0.000000
+427,case1,entrance,move east,forest,3.013041
+427,case1,forest,move east,GOAL,6.774153
+428,case4,START,N,entrance,0.000000
+428,case4,entrance,move east,forest,1.279820
+428,case4,forest,move east,GOAL,5.624610
+429,case1,START,N,entrance,0.000000
+429,case1,entrance,move east,forest,3.013041
+429,case1,forest,move east,GOAL,6.774153
+430,case3,START,N,entrance,0.000000
+430,case3,entrance,move east,forest,3.586383
+430,case3,forest,move east,GOAL,6.857041
+431,case3,START,N,entrance,0.000000
+431,case3,entrance,move west,lake,0.283982
+431,case3,lake,move east,entrance,1.415428
+431,case3,entrance,move east,forest,3.586383
+431,case3,forest,move west,GOAL,0.963837
+432,case3,START,N,entrance,0.000000
+432,case3,entrance,move east,forest,3.586383
+432,case3,forest,move east,GOAL,6.857041
+433,case1,START,N,entrance,0.000000
+433,case1,entrance,move east,forest,3.013041
+433,case1,forest,move east,GOAL,6.774153
+434,case2,START,N,entrance,0.000000
+434,case2,entrance,move east,lake,15.226879
+434,case2,lake,move west,GOAL,4.697094
+435,case2,START,N,entrance,0.000000
+435,case2,entrance,move east,forest,15.226879
+435,case2,forest,move east,GOAL,15.577279
+436,case1,START,N,entrance,0.000000
+436,case1,entrance,move west,lake,0.077695
+436,case1,lake,move east,entrance,-0.111854
+436,case1,entrance,move east,forest,3.013041
+436,case1,forest,move east,GOAL,6.774153
+437,case2,START,N,entrance,0.000000
+437,case2,entrance,move east,forest,15.226879
+437,case2,forest,move west,entrance,5.196248
+437,case2,entrance,move east,forest,15.226879
+437,case2,forest,move east,GOAL,15.577279
+438,case2,START,N,entrance,0.000000
+438,case2,entrance,move east,lake,15.226879
+438,case2,lake,move west,GOAL,4.540525
+439,case2,START,N,entrance,0.000000
+439,case2,entrance,move east,forest,15.226879
+439,case2,forest,move east,GOAL,15.577279
+440,case1,START,N,entrance,0.000000
+440,case1,entrance,move east,forest,3.013041
+440,case1,forest,move east,GOAL,6.774153
+441,case4,START,N,entrance,0.000000
+441,case4,entrance,move east,forest,1.279820
+441,case4,forest,move east,entrance,5.624610
+441,case4,entrance,move west,forest,-0.498293
+441,case4,forest,move east,GOAL,5.624610
+442,case1,START,N,entrance,0.000000
+442,case1,entrance,move east,forest,3.013041
+442,case1,forest,move east,entrance,6.774153
+442,case1,entrance,move east,lake,3.013041
+442,case1,lake,move east,entrance,-0.041264
+442,case1,entrance,move east,forest,3.013041
+442,case1,forest,move west,GOAL,1.116714
+443,case4,START,N,entrance,0.000000
+443,case4,entrance,move east,lake,1.245151
+443,case4,lake,move east,GOAL,-1.870118
+444,case3,START,N,entrance,0.000000
+444,case3,entrance,move east,forest,3.586383
+444,case3,forest,move east,GOAL,6.857041
+445,case4,START,N,entrance,0.000000
+445,case4,entrance,move east,forest,1.270760
+445,case4,forest,move east,entrance,5.624610
+445,case4,entrance,move east,forest,1.270760
+445,case4,forest,move east,GOAL,5.624610
+446,case5,START,N,entrance,0.000000
+446,case5,entrance,move west,lake,3.443787
+446,case5,lake,move west,GOAL,-2.850242
+447,case5,START,N,entrance,0.000000
+447,case5,entrance,move west,lake,3.443787
+447,case5,lake,move west,GOAL,-2.850242
+448,case3,START,N,entrance,0.000000
+448,case3,entrance,move west,lake,0.308729
+448,case3,lake,move east,entrance,1.506044
+448,case3,entrance,move east,forest,3.586383
+448,case3,forest,move east,GOAL,6.857041
+449,case3,START,N,entrance,0.000000
+449,case3,entrance,move east,forest,3.586383
+449,case3,forest,move west,entrance,1.039301
+449,case3,entrance,move east,forest,3.586383
+449,case3,forest,move east,GOAL,6.857041
+450,case4,START,N,entrance,0.000000
+450,case4,entrance,move west,lake,-0.518155
+450,case4,lake,move east,entrance,-1.829842
+450,case4,entrance,move east,forest,1.270760
+450,case4,forest,move east,entrance,5.624610
+450,case4,entrance,move east,forest,1.270760
+450,case4,forest,move west,entrance,0.020222
+450,case4,entrance,move east,forest,1.270760
+450,case4,forest,move east,GOAL,5.624610
+451,case2,START,N,entrance,0.000000
+451,case2,entrance,move east,forest,15.226879
+451,case2,forest,move east,GOAL,15.577279
+452,case5,START,N,entrance,0.000000
+452,case5,entrance,move west,lake,3.443787
+452,case5,lake,move east,entrance,-0.641700
+452,case5,entrance,move east,lake,2.495154
+452,case5,lake,move east,GOAL,-0.704089
+453,case4,START,N,entrance,0.000000
+453,case4,entrance,move east,forest,1.270760
+453,case4,forest,move east,GOAL,5.624610
+454,case4,START,N,entrance,0.000000
+454,case4,entrance,move east,forest,1.270760
+454,case4,forest,move east,entrance,5.624610
+454,case4,entrance,move east,forest,1.270760
+454,case4,forest,move east,GOAL,5.624610
+455,case4,START,N,entrance,0.000000
+455,case4,entrance,move east,forest,1.270760
+455,case4,forest,move east,GOAL,5.624610
+456,case4,START,N,entrance,0.000000
+456,case4,entrance,move east,lake,1.235145
+456,case4,lake,move west,GOAL,-2.437153
+457,case1,START,N,entrance,0.000000
+457,case1,entrance,move east,forest,3.013041
+457,case1,forest,move east,GOAL,6.774153
+458,case3,START,N,entrance,0.000000
+458,case3,entrance,move east,forest,3.586383
+458,case3,forest,move east,GOAL,6.857041
+459,case5,START,N,entrance,0.000000
+459,case5,entrance,move west,lake,3.443787
+459,case5,lake,move east,entrance,-0.685399
+459,case5,entrance,move west,lake,3.443787
+459,case5,lake,move east,entrance,-0.666833
+459,case5,entrance,move west,lake,3.443787
+459,case5,lake,move east,entrance,-0.648392
+459,case5,entrance,move west,lake,3.443787
+459,case5,lake,move east,entrance,-0.630073
+459,case5,entrance,move west,lake,3.443787
+459,case5,lake,move east,entrance,-0.611876
+459,case5,entrance,move west,forest,3.443787
+459,case5,forest,move west,entrance,2.398964
+459,case5,entrance,move west,lake,3.443787
+459,case5,lake,move west,GOAL,-2.850242
+460,case2,START,N,entrance,0.000000
+460,case2,entrance,move east,forest,15.226879
+460,case2,forest,move east,GOAL,15.577279
+461,case5,START,N,entrance,0.000000
+461,case5,entrance,move west,lake,3.443787
+461,case5,lake,move east,entrance,-0.593801
+461,case5,entrance,move west,lake,3.443787
+461,case5,lake,move east,entrance,-0.575846
+461,case5,entrance,move west,forest,3.443787
+461,case5,forest,move east,GOAL,7.047014
+462,case4,START,N,entrance,0.000000
+462,case4,entrance,move east,forest,1.235145
+462,case4,forest,move east,GOAL,5.624610
+463,case1,START,N,entrance,0.000000
+463,case1,entrance,move east,forest,3.013041
+463,case1,forest,move east,entrance,6.774153
+463,case1,entrance,move east,forest,3.013041
+463,case1,forest,move east,entrance,6.774153
+463,case1,entrance,move east,forest,3.013041
+463,case1,forest,move east,GOAL,6.774153
+464,case5,START,N,entrance,0.000000
+464,case5,entrance,move west,lake,3.443787
+464,case5,lake,move east,GOAL,-0.634747
+465,case4,START,N,entrance,0.000000
+465,case4,entrance,move east,lake,1.202795
+465,case4,lake,move east,entrance,-1.791594
+465,case4,entrance,move east,forest,1.202795
+465,case4,forest,move east,GOAL,5.624610
+466,case1,START,N,entrance,0.000000
+466,case1,entrance,move east,lake,3.013041
+466,case1,lake,move east,entrance,0.027561
+466,case1,entrance,move east,forest,3.013041
+466,case1,forest,move east,GOAL,6.774153
+467,case4,START,N,entrance,0.000000
+467,case4,entrance,move east,forest,1.202795
+467,case4,forest,move east,GOAL,5.624610
+468,case4,START,N,entrance,0.000000
+468,case4,entrance,move east,forest,1.202795
+468,case4,forest,move east,GOAL,5.624610
+469,case5,START,N,entrance,0.000000
+469,case5,entrance,move west,lake,3.443787
+469,case5,lake,move east,entrance,-0.617659
+469,case5,entrance,move west,lake,3.443787
+469,case5,lake,move east,entrance,-0.600677
+469,case5,entrance,move west,forest,3.443787
+469,case5,forest,move east,GOAL,7.047014
+470,case1,START,N,entrance,0.000000
+470,case1,entrance,move east,forest,3.013041
+470,case1,forest,move east,GOAL,6.774153
+471,case5,START,N,entrance,0.000000
+471,case5,entrance,move west,forest,3.443787
+471,case5,forest,move west,entrance,2.588978
+471,case5,entrance,move west,forest,3.443787
+471,case5,forest,move east,GOAL,7.047014
+472,case5,START,N,entrance,0.000000
+472,case5,entrance,move west,lake,3.443787
+472,case5,lake,move east,entrance,-0.583802
+472,case5,entrance,move west,lake,3.443787
+472,case5,lake,move east,entrance,-0.567032
+472,case5,entrance,move west,forest,3.443787
+472,case5,forest,move east,entrance,7.047014
+472,case5,entrance,move west,forest,3.443787
+472,case5,forest,move east,GOAL,7.047014
+473,case2,START,N,entrance,0.000000
+473,case2,entrance,move east,forest,15.226879
+473,case2,forest,move east,GOAL,15.577279
+474,case5,START,N,entrance,0.000000
+474,case5,entrance,move east,forest,2.566333
+474,case5,forest,move east,GOAL,7.047014
+475,case2,START,N,entrance,0.000000
+475,case2,entrance,move east,forest,15.226879
+475,case2,forest,move east,GOAL,15.577279
+476,case4,START,N,entrance,0.000000
+476,case4,entrance,move east,forest,1.202795
+476,case4,forest,move east,GOAL,5.624610
+477,case3,START,N,entrance,0.000000
+477,case3,entrance,move west,forest,0.455294
+477,case3,forest,move east,GOAL,6.857041
+478,case1,START,N,entrance,0.000000
+478,case1,entrance,move west,lake,0.077695
+478,case1,lake,move east,entrance,0.081244
+478,case1,entrance,move east,lake,3.013041
+478,case1,lake,move east,entrance,0.133854
+478,case1,entrance,move east,forest,3.013041
+478,case1,forest,move east,entrance,6.774153
+478,case1,entrance,move east,forest,3.013041
+478,case1,forest,move east,GOAL,6.774153
+479,case1,START,N,entrance,0.000000
+479,case1,entrance,move east,lake,3.013041
+479,case1,lake,move east,GOAL,-0.068823
+480,case2,START,N,entrance,0.000000
+480,case2,entrance,move east,lake,15.226879
+480,case2,lake,move west,GOAL,4.389174
+481,case1,START,N,entrance,0.000000
+481,case1,entrance,move east,forest,3.013041
+481,case1,forest,move east,GOAL,6.774153
+482,case3,START,N,entrance,0.000000
+482,case3,entrance,move east,lake,3.586383
+482,case3,lake,move east,entrance,1.592129
+482,case3,entrance,move east,forest,3.586383
+482,case3,forest,move west,entrance,1.112249
+482,case3,entrance,move east,forest,3.586383
+482,case3,forest,move east,GOAL,6.857041
+483,case1,START,N,entrance,0.000000
+483,case1,entrance,move east,forest,3.013041
+483,case1,forest,move east,entrance,6.774153
+483,case1,entrance,move east,lake,3.013041
+483,case1,lake,move west,entrance,-2.914952
+483,case1,entrance,move east,lake,3.013041
+483,case1,lake,move east,entrance,-0.013212
+483,case1,entrance,move east,forest,3.013041
+483,case1,forest,move east,GOAL,6.774153
+484,case1,START,N,entrance,0.000000
+484,case1,entrance,move east,forest,3.013041
+484,case1,forest,move east,GOAL,6.774153
+485,case5,START,N,entrance,0.000000
+485,case5,entrance,move west,lake,3.443787
+485,case5,lake,move east,entrance,-0.550366
+485,case5,entrance,move west,forest,3.443787
+485,case5,forest,move east,GOAL,7.047014
+486,case2,START,N,entrance,0.000000
+486,case2,entrance,move east,forest,15.226879
+486,case2,forest,move east,GOAL,15.577279
+487,case5,START,N,entrance,0.000000
+487,case5,entrance,move west,lake,3.443787
+487,case5,lake,move east,entrance,-0.533805
+487,case5,entrance,move west,lake,3.443787
+487,case5,lake,move east,entrance,-0.517348
+487,case5,entrance,move west,forest,3.443787
+487,case5,forest,move east,GOAL,7.047014
+488,case4,START,N,entrance,0.000000
+488,case4,entrance,move east,lake,1.171001
+488,case4,lake,move east,entrance,-1.754685
+488,case4,entrance,move east,forest,1.195094
+488,case4,forest,move east,entrance,5.624610
+488,case4,entrance,move east,forest,1.195094
+488,case4,forest,move east,entrance,5.624610
+488,case4,entrance,move west,lake,-0.535331
+488,case4,lake,move east,entrance,-1.754685
+488,case4,entrance,move east,forest,1.195094
+488,case4,forest,move east,GOAL,5.624610
+489,case2,START,N,entrance,0.000000
+489,case2,entrance,move east,lake,15.226879
+489,case2,lake,move west,GOAL,4.242868
+490,case4,START,N,entrance,0.000000
+490,case4,entrance,move east,forest,1.195094
+490,case4,forest,move east,GOAL,5.624610
+491,case1,START,N,entrance,0.000000
+491,case1,entrance,move east,forest,3.013041
+491,case1,forest,move east,entrance,6.774153
+491,case1,entrance,move east,forest,3.013041
+491,case1,forest,move east,GOAL,6.774153
+492,case1,START,N,entrance,0.000000
+492,case1,entrance,move west,lake,0.077695
+492,case1,lake,move east,entrance,0.041287
+492,case1,entrance,move east,forest,3.013041
+492,case1,forest,move east,GOAL,6.774153
+493,case5,START,N,entrance,0.000000
+493,case5,entrance,move west,lake,3.443787
+493,case5,lake,move east,entrance,-0.500993
+493,case5,entrance,move west,lake,3.443787
+493,case5,lake,move east,entrance,-0.484741
+493,case5,entrance,move east,forest,2.621852
+493,case5,forest,move east,GOAL,7.047014
+494,case3,START,N,entrance,0.000000
+494,case3,entrance,move east,forest,3.586383
+494,case3,forest,move east,GOAL,6.857041
+495,case4,START,N,entrance,0.000000
+495,case4,entrance,move east,forest,1.195094
+495,case4,forest,move west,GOAL,0.219818
+496,case1,START,N,entrance,0.000000
+496,case1,entrance,move east,forest,3.013041
+496,case1,forest,move east,GOAL,6.774153
+497,case4,START,N,entrance,0.000000
+497,case4,entrance,move east,forest,1.195094
+497,case4,forest,move east,GOAL,5.624610
+498,case4,START,N,entrance,0.000000
+498,case4,entrance,move east,forest,1.195094
+498,case4,forest,move east,entrance,5.624610
+498,case4,entrance,move east,lake,1.163642
+498,case4,lake,move east,entrance,-1.754685
+498,case4,entrance,move east,forest,1.187796
+498,case4,forest,move east,GOAL,5.624610
+499,case2,START,N,entrance,0.000000
+499,case2,entrance,move east,forest,15.226879
+499,case2,forest,move east,entrance,15.577279
+499,case2,entrance,move east,lake,15.226879
+499,case2,lake,move west,GOAL,4.101439
+500,case1,START,N,entrance,0.000000
+500,case1,entrance,move east,forest,3.013041
+500,case1,forest,move east,entrance,6.774153
+500,case1,entrance,move east,forest,3.013041
+500,case1,forest,move east,GOAL,6.774153
+501,case4,START,N,entrance,0.000000
+501,case4,entrance,move east,forest,1.211749
+501,case4,forest,move east,GOAL,5.624610
+502,case5,START,N,entrance,0.000000
+502,case5,entrance,move west,lake,3.443787
+502,case5,lake,move east,entrance,-0.469540
+502,case5,entrance,move west,lake,3.443787
+502,case5,lake,move east,GOAL,-0.525601
+503,case2,START,N,entrance,0.000000
+503,case2,entrance,move east,lake,15.226879
+503,case2,lake,move west,GOAL,3.998903
+504,case5,START,N,entrance,0.000000
+504,case5,entrance,move west,lake,3.443787
+504,case5,lake,move east,entrance,-0.510160
+504,case5,entrance,move west,forest,3.443787
+504,case5,forest,move west,GOAL,2.836012
+505,case2,START,N,entrance,0.000000
+505,case2,entrance,move west,lake,4.025766
+505,case2,lake,move west,GOAL,3.898930
+506,case2,START,N,entrance,0.000000
+506,case2,entrance,move east,forest,15.226879
+506,case2,forest,move east,GOAL,15.577279
+507,case3,START,N,entrance,0.000000
+507,case3,entrance,move east,forest,3.586383
+507,case3,forest,move east,GOAL,6.857041
+508,case5,START,N,entrance,0.000000
+508,case5,entrance,move west,forest,3.443787
+508,case5,forest,move east,GOAL,7.047014
+509,case2,START,N,entrance,0.000000
+509,case2,entrance,move east,forest,15.226879
+509,case2,forest,move east,entrance,15.577279
+509,case2,entrance,move east,forest,15.226879
+509,case2,forest,move east,GOAL,15.577279
+510,case1,START,N,entrance,0.000000
+510,case1,entrance,move east,forest,3.013041
+510,case1,forest,move east,entrance,6.774153
+510,case1,entrance,move east,forest,3.013041
+510,case1,forest,move east,GOAL,6.774153
+511,case2,START,N,entrance,0.000000
+511,case2,entrance,move west,lake,4.262848
+511,case2,lake,move west,GOAL,3.801457
+512,case4,START,N,entrance,0.000000
+512,case4,entrance,move east,lake,1.180157
+512,case4,lake,move east,GOAL,-1.892106
+513,case4,START,N,entrance,0.000000
+513,case4,entrance,move east,forest,1.204174
+513,case4,forest,move west,entrance,0.219818
+513,case4,entrance,move east,lake,1.171615
+513,case4,lake,move east,entrance,-1.892106
+513,case4,entrance,move east,lake,1.141811
+513,case4,lake,move east,entrance,-1.892106
+513,case4,entrance,move east,forest,1.141811
+513,case4,forest,move east,GOAL,5.624610
+514,case5,START,N,entrance,0.000000
+514,case5,entrance,move west,lake,3.443787
+514,case5,lake,move east,entrance,-0.494810
+514,case5,entrance,move east,forest,2.676262
+514,case5,forest,move east,GOAL,7.047014
+515,case1,START,N,entrance,0.000000
+515,case1,entrance,move west,lake,0.077695
+515,case1,lake,move east,entrance,0.094696
+515,case1,entrance,move east,lake,3.013041
+515,case1,lake,move east,entrance,0.147037
+515,case1,entrance,move east,forest,3.013041
+515,case1,forest,move east,entrance,6.774153
+515,case1,entrance,move east,forest,3.013041
+515,case1,forest,move east,entrance,6.774153
+515,case1,entrance,move west,lake,0.077695
+515,case1,lake,move east,entrance,0.198331
+515,case1,entrance,move east,forest,3.013041
+515,case1,forest,move east,GOAL,6.774153
+516,case5,START,N,entrance,0.000000
+516,case5,entrance,move west,lake,3.443787
+516,case5,lake,move east,entrance,-0.479549
+516,case5,entrance,move west,lake,3.443787
+516,case5,lake,move east,entrance,-0.464379
+516,case5,entrance,move west,lake,3.443787
+516,case5,lake,move east,entrance,-0.449298
+516,case5,entrance,move west,lake,3.443787
+516,case5,lake,move east,entrance,-0.434306
+516,case5,entrance,move west,forest,3.443787
+516,case5,forest,move east,GOAL,7.047014
+517,case4,START,N,entrance,0.000000
+517,case4,entrance,move east,forest,1.141811
+517,case4,forest,move east,GOAL,5.624610
+518,case2,START,N,entrance,0.000000
+518,case2,entrance,move west,lake,4.491810
+518,case2,lake,move west,GOAL,3.706421
+519,case2,START,N,entrance,0.000000
+519,case2,entrance,move east,forest,15.226879
+519,case2,forest,move east,entrance,15.577279
+519,case2,entrance,move east,forest,15.226879
+519,case2,forest,move east,GOAL,15.577279
+520,case3,START,N,entrance,0.000000
+520,case3,entrance,move east,forest,3.586383
+520,case3,forest,move east,GOAL,6.857041
+521,case3,START,N,entrance,0.000000
+521,case3,entrance,move west,lake,0.479735
+521,case3,lake,move east,GOAL,1.012522
+522,case4,START,N,entrance,0.000000
+522,case4,entrance,move east,forest,1.141811
+522,case4,forest,move east,GOAL,5.624610
+523,case2,START,N,entrance,0.000000
+523,case2,entrance,move east,forest,15.226879
+523,case2,forest,move east,GOAL,15.577279
+524,case1,START,N,entrance,0.000000
+524,case1,entrance,move west,lake,0.079375
+524,case1,lake,move east,entrance,0.248599
+524,case1,entrance,move east,forest,3.013041
+524,case1,forest,move east,GOAL,6.774153
+525,case3,START,N,entrance,0.000000
+525,case3,entrance,move east,forest,3.586383
+525,case3,forest,move east,GOAL,6.857041
+526,case4,START,N,entrance,0.000000
+526,case4,entrance,move west,forest,-0.499966
+526,case4,forest,move east,GOAL,5.624610
+527,case1,START,N,entrance,0.000000
+527,case1,entrance,move east,forest,3.013041
+527,case1,forest,move east,entrance,6.774153
+527,case1,entrance,move east,forest,3.013041
+527,case1,forest,move east,entrance,6.774153
+527,case1,entrance,move east,forest,3.013041
+527,case1,forest,move east,GOAL,6.774153
+528,case1,START,N,entrance,0.000000
+528,case1,entrance,move east,forest,3.013041
+528,case1,forest,move east,GOAL,6.774153
+529,case4,START,N,entrance,0.000000
+529,case4,entrance,move east,forest,1.141811
+529,case4,forest,move east,GOAL,5.624610
+530,case1,START,N,entrance,0.000000
+530,case1,entrance,move east,forest,3.013041
+530,case1,forest,move east,GOAL,6.774153
+531,case4,START,N,entrance,0.000000
+531,case4,entrance,move east,forest,1.141811
+531,case4,forest,move east,GOAL,5.624610
+532,case2,START,N,entrance,0.000000
+532,case2,entrance,move east,forest,15.226879
+532,case2,forest,move east,GOAL,15.577279
+533,case4,START,N,entrance,0.000000
+533,case4,entrance,move east,forest,1.141811
+533,case4,forest,move east,GOAL,5.624610
+534,case4,START,N,entrance,0.000000
+534,case4,entrance,move east,forest,1.141811
+534,case4,forest,move east,entrance,5.624610
+534,case4,entrance,move east,forest,1.141811
+534,case4,forest,move east,GOAL,5.624610
+535,case4,START,N,entrance,0.000000
+535,case4,entrance,move east,forest,1.141811
+535,case4,forest,move east,GOAL,5.624610
+536,case4,START,N,entrance,0.000000
+536,case4,entrance,move east,forest,1.141811
+536,case4,forest,move east,GOAL,5.624610
+537,case4,START,N,entrance,0.000000
+537,case4,entrance,move east,lake,1.112237
+537,case4,lake,move east,entrance,-1.892106
+537,case4,entrance,move east,lake,1.082889
+537,case4,lake,move east,GOAL,-2.027238
+538,case1,START,N,entrance,0.000000
+538,case1,entrance,move east,forest,3.013041
+538,case1,forest,move east,GOAL,6.774153
+539,case1,START,N,entrance,0.000000
+539,case1,entrance,move west,lake,0.081781
+539,case1,lake,move east,entrance,0.289651
+539,case1,entrance,move east,forest,3.013041
+539,case1,forest,move east,entrance,6.774153
+539,case1,entrance,move east,forest,3.013041
+539,case1,forest,move east,GOAL,6.774153
+540,case4,START,N,entrance,0.000000
+540,case4,entrance,move east,forest,1.105807
+540,case4,forest,move east,GOAL,5.624610
+541,case3,START,N,entrance,0.000000
+541,case3,entrance,move east,forest,3.586383
+541,case3,forest,move east,GOAL,6.857041
+542,case3,START,N,entrance,0.000000
+542,case3,entrance,move west,lake,0.479735
+542,case3,lake,move east,entrance,1.123283
+542,case3,entrance,move east,forest,3.586383
+542,case3,forest,move east,GOAL,6.857041
+543,case1,START,N,entrance,0.000000
+543,case1,entrance,move west,lake,0.084763
+543,case1,lake,move east,GOAL,0.118157
+544,case4,START,N,entrance,0.000000
+544,case4,entrance,move east,forest,1.128548
+544,case4,forest,move west,entrance,0.219818
+544,case4,entrance,move east,forest,1.128548
+544,case4,forest,move east,GOAL,5.624610
+545,case1,START,N,entrance,0.000000
+545,case1,entrance,move east,forest,3.013041
+545,case1,forest,move east,GOAL,6.774153
+546,case4,START,N,entrance,0.000000
+546,case4,entrance,move east,forest,1.128548
+546,case4,forest,move east,GOAL,5.624610
+547,case3,START,N,entrance,0.000000
+547,case3,entrance,move east,forest,3.586383
+547,case3,forest,move east,GOAL,6.857041
+548,case1,START,N,entrance,0.000000
+548,case1,entrance,move east,forest,3.013041
+548,case1,forest,move east,GOAL,6.774153
+549,case4,START,N,entrance,0.000000
+549,case4,entrance,move east,lake,1.098140
+549,case4,lake,move east,entrance,-2.027238
+549,case4,entrance,move east,forest,1.120940
+549,case4,forest,move west,entrance,0.219818
+549,case4,entrance,move east,forest,1.143564
+549,case4,forest,move east,entrance,5.624610
+549,case4,entrance,move east,forest,1.143564
+549,case4,forest,move east,GOAL,5.624610
+550,case2,START,N,entrance,0.000000
+550,case2,entrance,move east,forest,15.226879
+550,case2,forest,move east,GOAL,15.577279
+551,case5,START,N,entrance,0.000000
+551,case5,entrance,move west,forest,3.443787
+551,case5,forest,move east,GOAL,7.047014
+552,case4,START,N,entrance,0.000000
+552,case4,entrance,move east,forest,1.143564
+552,case4,forest,move east,GOAL,5.624610
+553,case3,START,N,entrance,0.000000
+553,case3,entrance,move east,forest,3.586383
+553,case3,forest,move east,GOAL,6.857041
+554,case1,START,N,entrance,0.000000
+554,case1,entrance,move east,lake,3.013041
+554,case1,lake,move east,GOAL,-0.050479
+555,case5,START,N,entrance,0.000000
+555,case5,entrance,move east,forest,2.676262
+555,case5,forest,move east,GOAL,7.047014
+556,case2,START,N,entrance,0.000000
+556,case2,entrance,move east,lake,15.226879
+556,case2,lake,move west,GOAL,3.613760
+557,case2,START,N,entrance,0.000000
+557,case2,entrance,move east,forest,15.226879
+557,case2,forest,move east,GOAL,15.577279
+558,case2,START,N,entrance,0.000000
+558,case2,entrance,move east,forest,15.226879
+558,case2,forest,move west,entrance,5.813180
+558,case2,entrance,move east,forest,15.226879
+558,case2,forest,move east,GOAL,15.577279
+559,case2,START,N,entrance,0.000000
+559,case2,entrance,move east,forest,15.226879
+559,case2,forest,move east,entrance,15.577279
+559,case2,entrance,move east,lake,15.226879
+559,case2,lake,move west,GOAL,3.523416
+560,case3,START,N,entrance,0.000000
+560,case3,entrance,move east,forest,3.586383
+560,case3,forest,move east,GOAL,6.857041
+561,case5,START,N,entrance,0.000000
+561,case5,entrance,move west,lake,3.443787
+561,case5,lake,move east,GOAL,-0.490574
+562,case1,START,N,entrance,0.000000
+562,case1,entrance,move west,forest,0.170649
+562,case1,forest,move east,GOAL,6.774153
+563,case3,START,N,entrance,0.000000
+563,case3,entrance,move east,forest,3.586383
+563,case3,forest,move east,GOAL,6.857041
+564,case2,START,N,entrance,0.000000
+564,case2,entrance,move east,forest,15.226879
+564,case2,forest,move east,GOAL,15.577279
+565,case2,START,N,entrance,0.000000
+565,case2,entrance,move west,lake,4.708791
+565,case2,lake,move west,GOAL,3.435331
+566,case5,START,N,entrance,0.000000
+566,case5,entrance,move west,lake,3.443787
+566,case5,lake,move east,entrance,-0.475339
+566,case5,entrance,move west,forest,3.443787
+566,case5,forest,move east,GOAL,7.047014
+567,case3,START,N,entrance,0.000000
+567,case3,entrance,move east,forest,3.586383
+567,case3,forest,move east,GOAL,6.857041
+568,case2,START,N,entrance,0.000000
+568,case2,entrance,move east,forest,15.226879
+568,case2,forest,move east,GOAL,15.577279
+569,case1,START,N,entrance,0.000000
+569,case1,entrance,move east,forest,3.013041
+569,case1,forest,move east,GOAL,6.774153
+570,case4,START,N,entrance,0.000000
+570,case4,entrance,move east,forest,1.143564
+570,case4,forest,move east,GOAL,5.624610
+571,case2,START,N,entrance,0.000000
+571,case2,entrance,move east,lake,15.226879
+571,case2,lake,move west,entrance,3.942052
+571,case2,entrance,move east,forest,15.226879
+571,case2,forest,move east,entrance,15.577279
+571,case2,entrance,move east,lake,15.226879
+571,case2,lake,move west,GOAL,3.843501
+572,case4,START,N,entrance,0.000000
+572,case4,entrance,move east,forest,1.143564
+572,case4,forest,move east,GOAL,5.624610
+573,case5,START,N,entrance,0.000000
+573,case5,entrance,move west,lake,3.443787
+573,case5,lake,move east,entrance,-0.461035
+573,case5,entrance,move west,lake,3.443787
+573,case5,lake,move east,GOAL,-0.514029
+574,case3,START,N,entrance,0.000000
+574,case3,entrance,move east,forest,3.586383
+574,case3,forest,move west,entrance,1.182765
+574,case3,entrance,move east,forest,3.586383
+574,case3,forest,move east,GOAL,6.857041
+575,case1,START,N,entrance,0.000000
+575,case1,entrance,move east,lake,3.013041
+575,case1,lake,move east,entrance,-0.004442
+575,case1,entrance,move east,forest,3.013041
+575,case1,forest,move east,entrance,6.774153
+575,case1,entrance,move east,forest,3.013041
+575,case1,forest,move east,GOAL,6.774153
+576,case3,START,N,entrance,0.000000
+576,case3,entrance,move east,forest,3.586383
+576,case3,forest,move east,GOAL,6.857041
+577,case5,START,N,entrance,0.000000
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.499510
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.485072
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.470714
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.456435
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.442236
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.428116
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.414074
+577,case5,entrance,move west,lake,3.443787
+577,case5,lake,move east,entrance,-0.400110
+577,case5,entrance,move west,forest,3.443787
+577,case5,forest,move east,GOAL,7.047014
+578,case2,START,N,entrance,0.000000
+578,case2,entrance,move east,forest,15.226879
+578,case2,forest,move east,entrance,15.577279
+578,case2,entrance,move east,lake,15.226879
+578,case2,lake,move west,GOAL,3.747413
+579,case2,START,N,entrance,0.000000
+579,case2,entrance,move east,forest,15.226879
+579,case2,forest,move east,GOAL,15.577279
+580,case1,START,N,entrance,0.000000
+580,case1,entrance,move east,lake,3.013041
+580,case1,lake,move east,entrance,0.040828
+580,case1,entrance,move west,lake,0.170649
+580,case1,lake,move east,GOAL,-0.126519
+581,case4,START,N,entrance,0.000000
+581,case4,entrance,move west,lake,-0.517847
+581,case4,lake,move east,entrance,-2.027238
+581,case4,entrance,move east,forest,1.143564
+581,case4,forest,move east,GOAL,5.624610
+582,case2,START,N,entrance,0.000000
+582,case2,entrance,move east,forest,15.226879
+582,case2,forest,move east,GOAL,15.577279
+583,case4,START,N,entrance,0.000000
+583,case4,entrance,move east,lake,1.115221
+583,case4,lake,move west,GOAL,-2.563201
+584,case5,START,N,entrance,0.000000
+584,case5,entrance,move west,lake,3.443787
+584,case5,lake,move east,entrance,-0.386955
+584,case5,entrance,move west,forest,3.443787
+584,case5,forest,move east,GOAL,7.047014
+585,case5,START,N,entrance,0.000000
+585,case5,entrance,move west,lake,3.443787
+585,case5,lake,move east,entrance,-0.373869
+585,case5,entrance,move east,forest,2.676262
+585,case5,forest,move east,entrance,7.047014
+585,case5,entrance,move west,lake,3.443787
+585,case5,lake,move east,entrance,-0.360851
+585,case5,entrance,move west,lake,3.443787
+585,case5,lake,move west,GOAL,-2.850242
+586,case2,START,N,entrance,0.000000
+586,case2,entrance,move east,forest,15.226879
+586,case2,forest,move east,GOAL,15.577279
+587,case4,START,N,entrance,0.000000
+587,case4,entrance,move east,lake,1.087080
+587,case4,lake,move east,GOAL,-2.160117
+588,case4,START,N,entrance,0.000000
+588,case4,entrance,move east,forest,1.087080
+588,case4,forest,move east,entrance,5.511685
+588,case4,entrance,move east,forest,1.087080
+588,case4,forest,move west,entrance,0.214989
+588,case4,entrance,move east,forest,1.087080
+588,case4,forest,move east,GOAL,5.511685
+589,case2,START,N,entrance,0.000000
+589,case2,entrance,move east,lake,15.226879
+589,case2,lake,move west,entrance,4.146549
+589,case2,entrance,move east,forest,15.226879
+589,case2,forest,move east,GOAL,15.577279
+590,case1,START,N,entrance,0.000000
+590,case1,entrance,move east,forest,3.013041
+590,case1,forest,move east,GOAL,6.774153
+591,case1,START,N,entrance,0.000000
+591,case1,entrance,move east,lake,3.013041
+591,case1,lake,move west,GOAL,-3.033036
+592,case5,START,N,entrance,0.000000
+592,case5,entrance,move west,lake,3.443787
+592,case5,lake,move east,entrance,-0.347903
+592,case5,entrance,move east,lake,2.676262
+592,case5,lake,move east,entrance,-0.335022
+592,case5,entrance,move west,lake,3.443787
+592,case5,lake,move west,GOAL,-2.850242
+593,case4,START,N,entrance,0.000000
+593,case4,entrance,move east,forest,1.087080
+593,case4,forest,move west,entrance,0.210256
+593,case4,entrance,move west,lake,-0.535177
+593,case4,lake,move east,GOAL,-2.290782
+594,case2,START,N,entrance,0.000000
+594,case2,entrance,move east,forest,15.226879
+594,case2,forest,move east,GOAL,15.577279
+595,case4,START,N,entrance,0.000000
+595,case4,entrance,move west,lake,-0.553224
+595,case4,lake,move east,entrance,-2.290782
+595,case4,entrance,move east,forest,1.087080
+595,case4,forest,move east,GOAL,5.511685
+596,case4,START,N,entrance,0.000000
+596,case4,entrance,move east,forest,1.087080
+596,case4,forest,move east,GOAL,5.511685
+597,case2,START,N,entrance,0.000000
+597,case2,entrance,move east,lake,15.226879
+597,case2,lake,move west,GOAL,4.146549
+598,case5,START,N,entrance,0.000000
+598,case5,entrance,move west,forest,3.443787
+598,case5,forest,move east,GOAL,7.047014
+599,case3,START,N,entrance,0.000000
+599,case3,entrance,move east,forest,3.586383
+599,case3,forest,move east,GOAL,6.857041
+600,case1,START,N,entrance,0.000000
+600,case1,entrance,move west,forest,0.255307
+600,case1,forest,move east,GOAL,6.774153
+601,case1,START,N,entrance,0.000000
+601,case1,entrance,move east,forest,3.013041
+601,case1,forest,move east,entrance,6.774153
+601,case1,entrance,move east,lake,3.013041
+601,case1,lake,move east,entrance,-0.079215
+601,case1,entrance,move east,lake,3.013041
+601,case1,lake,move east,GOAL,-0.244561
+602,case4,START,N,entrance,0.000000
+602,case4,entrance,move east,forest,1.087080
+602,case4,forest,move east,GOAL,5.511685
+603,case1,START,N,entrance,0.000000
+603,case1,entrance,move east,forest,3.013041
+603,case1,forest,move west,GOAL,1.412823
+604,case3,START,N,entrance,0.000000
+604,case3,entrance,move east,forest,3.586383
+604,case3,forest,move east,GOAL,6.857041
+605,case3,START,N,entrance,0.000000
+605,case3,entrance,move east,forest,3.586383
+605,case3,forest,move east,GOAL,6.857041
+606,case3,START,N,entrance,0.000000
+606,case3,entrance,move east,forest,3.586383
+606,case3,forest,move east,GOAL,6.857041
+607,case4,START,N,entrance,0.000000
+607,case4,entrance,move east,forest,1.087080
+607,case4,forest,move east,GOAL,5.511685
+608,case5,START,N,entrance,0.000000
+608,case5,entrance,move west,lake,3.443787
+608,case5,lake,move east,GOAL,-0.385890
+609,case1,START,N,entrance,0.000000
+609,case1,entrance,move east,forest,3.013041
+609,case1,forest,move east,GOAL,6.774153
+610,case5,START,N,entrance,0.000000
+610,case5,entrance,move west,lake,3.443787
+610,case5,lake,move east,entrance,-0.372810
+610,case5,entrance,move east,lake,2.676262
+610,case5,lake,move east,entrance,-0.359798
+610,case5,entrance,move west,lake,3.443787
+610,case5,lake,move east,entrance,-0.346855
+610,case5,entrance,move west,forest,3.443787
+610,case5,forest,move east,entrance,7.047014
+610,case5,entrance,move west,lake,3.443787
+610,case5,lake,move east,entrance,-0.333980
+610,case5,entrance,move west,lake,3.443787
+610,case5,lake,move east,entrance,-0.321813
+610,case5,entrance,move west,lake,3.443787
+610,case5,lake,move west,GOAL,-2.850242
+611,case5,START,N,entrance,0.000000
+611,case5,entrance,move west,lake,3.443787
+611,case5,lake,move east,GOAL,-0.370204
+612,case1,START,N,entrance,0.000000
+612,case1,entrance,move east,forest,3.013041
+612,case1,forest,move east,GOAL,6.774153
+613,case2,START,N,entrance,0.000000
+613,case2,entrance,move east,forest,15.226879
+613,case2,forest,move east,GOAL,15.577279
+614,case5,START,N,entrance,0.000000
+614,case5,entrance,move east,lake,2.676262
+614,case5,lake,move east,entrance,-0.357856
+614,case5,entrance,move west,lake,3.443787
+614,case5,lake,move east,entrance,-0.345570
+614,case5,entrance,move west,lake,3.443787
+614,case5,lake,move east,entrance,-0.333345
+614,case5,entrance,move west,lake,3.443787
+614,case5,lake,move east,GOAL,-0.381678
+615,case2,START,N,entrance,0.000000
+615,case2,entrance,move east,forest,15.226879
+615,case2,forest,move east,GOAL,15.577279
+616,case2,START,N,entrance,0.000000
+616,case2,entrance,move east,lake,15.226879
+616,case2,lake,move west,GOAL,4.146549
+617,case3,START,N,entrance,0.000000
+617,case3,entrance,move east,forest,3.586383
+617,case3,forest,move west,GOAL,1.476673
+618,case4,START,N,entrance,0.000000
+618,case4,entrance,move east,lake,1.057446
+618,case4,lake,move east,GOAL,-2.419269
+619,case3,START,N,entrance,0.000000
+619,case3,entrance,move east,forest,3.586383
+619,case3,forest,move east,GOAL,6.857041
+620,case1,START,N,entrance,0.000000
+620,case1,entrance,move east,forest,3.013041
+620,case1,forest,move west,entrance,1.456121
+620,case1,entrance,move east,lake,3.013041
+620,case1,lake,move east,entrance,-0.195290
+620,case1,entrance,move east,forest,3.013041
+620,case1,forest,move east,entrance,6.774153
+620,case1,entrance,move east,forest,3.013041
+620,case1,forest,move east,entrance,6.774153
+620,case1,entrance,move east,forest,3.013041
+620,case1,forest,move east,GOAL,6.774153
+621,case5,START,N,entrance,0.000000
+621,case5,entrance,move west,lake,3.443787
+621,case5,lake,move east,entrance,-0.369273
+621,case5,entrance,move west,forest,3.443787
+621,case5,forest,move east,GOAL,7.047014
+622,case1,START,N,entrance,0.000000
+622,case1,entrance,move east,forest,3.013041
+622,case1,forest,move east,GOAL,6.774153
+623,case1,START,N,entrance,0.000000
+623,case1,entrance,move east,forest,3.013041
+623,case1,forest,move east,GOAL,6.774153
+624,case1,START,N,entrance,0.000000
+624,case1,entrance,move east,forest,3.013041
+624,case1,forest,move east,entrance,6.774153
+624,case1,entrance,move east,forest,3.013041
+624,case1,forest,move east,entrance,6.774153
+624,case1,entrance,move east,lake,3.013041
+624,case1,lake,move east,entrance,-0.153761
+624,case1,entrance,move east,forest,3.013041
+624,case1,forest,move east,entrance,6.774153
+624,case1,entrance,move west,forest,0.338756
+624,case1,forest,move east,GOAL,6.774153
+625,case5,START,N,entrance,0.000000
+625,case5,entrance,move west,forest,3.443787
+625,case5,forest,move east,GOAL,7.047014
+626,case3,START,N,entrance,0.000000
+626,case3,entrance,move east,forest,3.586383
+626,case3,forest,move west,GOAL,1.760784
+627,case3,START,N,entrance,0.000000
+627,case3,entrance,move east,forest,3.586383
+627,case3,forest,move east,GOAL,6.857041
+628,case3,START,N,entrance,0.000000
+628,case3,entrance,move east,forest,3.586383
+628,case3,forest,move east,entrance,6.857041
+628,case3,entrance,move east,forest,3.586383
+628,case3,forest,move east,GOAL,6.857041
+629,case3,START,N,entrance,0.000000
+629,case3,entrance,move east,forest,3.586383
+629,case3,forest,move east,GOAL,6.857041
+630,case4,START,N,entrance,0.000000
+630,case4,entrance,move east,lake,1.027197
+630,case4,lake,move east,entrance,-2.419269
+630,case4,entrance,move east,forest,1.048150
+630,case4,forest,move east,GOAL,5.511685
+631,case5,START,N,entrance,0.000000
+631,case5,entrance,move west,lake,3.443787
+631,case5,lake,move east,entrance,-0.356929
+631,case5,entrance,move east,forest,2.676262
+631,case5,forest,move east,GOAL,7.047014
+632,case5,START,N,entrance,0.000000
+632,case5,entrance,move west,lake,3.443787
+632,case5,lake,move east,entrance,-0.344647
+632,case5,entrance,move west,lake,3.443787
+632,case5,lake,move east,entrance,-0.332427
+632,case5,entrance,move west,lake,3.443787
+632,case5,lake,move east,GOAL,-0.378463
+633,case4,START,N,entrance,0.000000
+633,case4,entrance,move west,lake,-0.571967
+633,case4,lake,move east,entrance,-2.419269
+633,case4,entrance,move west,lake,-0.590577
+633,case4,lake,move east,entrance,-2.419269
+633,case4,entrance,move east,lake,1.017968
+633,case4,lake,move east,entrance,-2.419269
+633,case4,entrance,move east,lake,0.989999
+633,case4,lake,move east,GOAL,-2.545615
+634,case1,START,N,entrance,0.000000
+634,case1,entrance,move west,lake,0.331940
+634,case1,lake,move east,GOAL,-0.294421
+635,case3,START,N,entrance,0.000000
+635,case3,entrance,move east,forest,3.586383
+635,case3,forest,move east,GOAL,6.857041
+636,case2,START,N,entrance,0.000000
+636,case2,entrance,move east,forest,15.226879
+636,case2,forest,move east,GOAL,15.577279
+637,case5,START,N,entrance,0.000000
+637,case5,entrance,move west,forest,3.443787
+637,case5,forest,move east,entrance,7.047014
+637,case5,entrance,move west,lake,3.443787
+637,case5,lake,move west,GOAL,-2.850242
+638,case3,START,N,entrance,0.000000
+638,case3,entrance,move east,forest,3.586383
+638,case3,forest,move east,GOAL,6.857041
+639,case3,START,N,entrance,0.000000
+639,case3,entrance,move east,lake,3.586383
+639,case3,lake,move east,entrance,1.228506
+639,case3,entrance,move east,forest,3.586383
+639,case3,forest,move east,GOAL,6.857041
+640,case4,START,N,entrance,0.000000
+640,case4,entrance,move east,forest,1.009802
+640,case4,forest,move east,entrance,5.399628
+640,case4,entrance,move east,forest,1.009802
+640,case4,forest,move west,entrance,0.205233
+640,case4,entrance,move east,lake,0.981130
+640,case4,lake,move west,GOAL,-2.687147
+641,case5,START,N,entrance,0.000000
+641,case5,entrance,move west,lake,3.443787
+641,case5,lake,move east,entrance,-0.366664
+641,case5,entrance,move west,lake,3.443787
+641,case5,lake,move east,GOAL,-0.412537
+642,case4,START,N,entrance,0.000000
+642,case4,entrance,move east,forest,0.981130
+642,case4,forest,move east,GOAL,5.399628
+643,case4,START,N,entrance,0.000000
+643,case4,entrance,move east,forest,0.981130
+643,case4,forest,move east,GOAL,5.399628
+644,case5,START,N,entrance,0.000000
+644,case5,entrance,move west,lake,3.443787
+644,case5,lake,move east,entrance,-0.400575
+644,case5,entrance,move west,lake,3.443787
+644,case5,lake,move west,GOAL,-2.850242
+645,case2,START,N,entrance,0.000000
+645,case2,entrance,move east,forest,15.226879
+645,case2,forest,move east,GOAL,15.577279
+646,case2,START,N,entrance,0.000000
+646,case2,entrance,move west,forest,5.191560
+646,case2,forest,move east,entrance,15.577279
+646,case2,entrance,move east,forest,15.226879
+646,case2,forest,move east,GOAL,15.577279
+647,case1,START,N,entrance,0.000000
+647,case1,entrance,move east,lake,3.013041
+647,case1,lake,move west,GOAL,-3.132564
+648,case2,START,N,entrance,0.000000
+648,case2,entrance,move west,lake,5.405069
+648,case2,lake,move west,entrance,4.537702
+648,case2,entrance,move east,lake,15.226879
+648,case2,lake,move east,entrance,2.371209
+648,case2,entrance,move east,forest,15.226879
+648,case2,forest,move east,GOAL,15.577279
+649,case3,START,N,entrance,0.000000
+649,case3,entrance,move east,forest,3.586383
+649,case3,forest,move east,GOAL,6.857041
+650,case5,START,N,entrance,0.000000
+650,case5,entrance,move west,lake,3.443787
+650,case5,lake,move east,entrance,-0.388671
+650,case5,entrance,move east,forest,2.676262
+650,case5,forest,move east,entrance,7.047014
+650,case5,entrance,move west,lake,3.443787
+650,case5,lake,move east,entrance,-0.376823
+650,case5,entrance,move west,lake,3.443787
+650,case5,lake,move east,entrance,-0.365031
+650,case5,entrance,move west,lake,3.443787
+650,case5,lake,move east,GOAL,-0.410912
+651,case3,START,N,entrance,0.000000
+651,case3,entrance,move east,forest,3.586383
+651,case3,forest,move east,GOAL,6.857041
+652,case3,START,N,entrance,0.000000
+652,case3,entrance,move east,forest,3.586383
+652,case3,forest,move east,GOAL,6.857041
+653,case2,START,N,entrance,0.000000
+653,case2,entrance,move east,forest,15.226879
+653,case2,forest,move east,GOAL,15.577279
+654,case2,START,N,entrance,0.000000
+654,case2,entrance,move east,forest,15.226879
+654,case2,forest,move east,GOAL,15.577279
+655,case1,START,N,entrance,0.000000
+655,case1,entrance,move east,lake,3.013041
+655,case1,lake,move east,entrance,-0.251476
+655,case1,entrance,move east,forest,3.013041
+655,case1,forest,move east,GOAL,6.774153
+656,case5,START,N,entrance,0.000000
+656,case5,entrance,move west,lake,3.443787
+656,case5,lake,move east,entrance,-0.398958
+656,case5,entrance,move west,forest,3.443787
+656,case5,forest,move east,GOAL,7.047014
+657,case3,START,N,entrance,0.000000
+657,case3,entrance,move east,forest,3.586383
+657,case3,forest,move east,GOAL,6.857041
+658,case2,START,N,entrance,0.000000
+658,case2,entrance,move east,forest,15.226879
+658,case2,forest,move east,GOAL,15.577279
+659,case1,START,N,entrance,0.000000
+659,case1,entrance,move east,forest,3.013041
+659,case1,forest,move west,entrance,1.497974
+659,case1,entrance,move east,lake,3.013041
+659,case1,lake,move east,entrance,-0.209145
+659,case1,entrance,move west,forest,0.414294
+659,case1,forest,move east,GOAL,6.774153
+660,case2,START,N,entrance,0.000000
+660,case2,entrance,move east,forest,15.226879
+660,case2,forest,move east,entrance,15.577279
+660,case2,entrance,move east,forest,15.226879
+660,case2,forest,move east,GOAL,15.577279
+661,case2,START,N,entrance,0.000000
+661,case2,entrance,move east,forest,15.226879
+661,case2,forest,move east,GOAL,15.577279
+662,case5,START,N,entrance,0.000000
+662,case5,entrance,move east,forest,2.676262
+662,case5,forest,move east,GOAL,7.047014
+663,case2,START,N,entrance,0.000000
+663,case2,entrance,move east,forest,15.226879
+663,case2,forest,move east,GOAL,15.577279
+664,case1,START,N,entrance,0.000000
+664,case1,entrance,move east,forest,3.013041
+664,case1,forest,move east,GOAL,6.774153
+665,case2,START,N,entrance,0.000000
+665,case2,entrance,move east,forest,15.226879
+665,case2,forest,move east,entrance,15.577279
+665,case2,entrance,move east,forest,15.226879
+665,case2,forest,move east,GOAL,15.577279
+666,case2,START,N,entrance,0.000000
+666,case2,entrance,move east,lake,15.226879
+666,case2,lake,move west,entrance,4.921032
+666,case2,entrance,move west,lake,5.630665
+666,case2,lake,move west,GOAL,4.921032
+667,case3,START,N,entrance,0.000000
+667,case3,entrance,move west,lake,0.492253
+667,case3,lake,move east,entrance,1.328468
+667,case3,entrance,move east,forest,3.586383
+667,case3,forest,move east,GOAL,6.857041
+668,case5,START,N,entrance,0.000000
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.387061
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.375759
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.364508
+668,case5,entrance,move east,lake,2.676262
+668,case5,lake,move east,entrance,-0.353308
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.342160
+668,case5,entrance,move west,forest,3.443787
+668,case5,forest,move east,entrance,7.047014
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.331062
+668,case5,entrance,move east,lake,2.676262
+668,case5,lake,move east,entrance,-0.320014
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.309017
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,entrance,-0.298069
+668,case5,entrance,move west,lake,3.443787
+668,case5,lake,move east,GOAL,-0.342169
+669,case3,START,N,entrance,0.000000
+669,case3,entrance,move east,forest,3.586383
+669,case3,forest,move east,GOAL,6.857041
+670,case3,START,N,entrance,0.000000
+670,case3,entrance,move east,forest,3.586383
+670,case3,forest,move east,entrance,6.857041
+670,case3,entrance,move east,forest,3.586383
+670,case3,forest,move east,GOAL,6.857041
+671,case1,START,N,entrance,0.000000
+671,case1,entrance,move west,lake,0.405686
+671,case1,lake,move east,GOAL,-0.349014
+672,case1,START,N,entrance,0.000000
+672,case1,entrance,move east,forest,3.013041
+672,case1,forest,move west,GOAL,1.710525
+673,case4,START,N,entrance,0.000000
+673,case4,entrance,move east,forest,0.981130
+673,case4,forest,move east,GOAL,5.399628
+674,case3,START,N,entrance,0.000000
+674,case3,entrance,move east,forest,3.586383
+674,case3,forest,move east,GOAL,6.857041
+675,case4,START,N,entrance,0.000000
+675,case4,entrance,move east,lake,0.952649
+675,case4,lake,move east,GOAL,-2.669854
+676,case1,START,N,entrance,0.000000
+676,case1,entrance,move east,forest,3.013041
+676,case1,forest,move east,GOAL,6.774153
+677,case3,START,N,entrance,0.000000
+677,case3,entrance,move east,forest,3.586383
+677,case3,forest,move east,GOAL,6.857041
+678,case1,START,N,entrance,0.000000
+678,case1,entrance,move east,forest,3.013041
+678,case1,forest,move east,entrance,6.774153
+678,case1,entrance,move east,lake,3.013041
+678,case1,lake,move east,entrance,-0.305289
+678,case1,entrance,move east,forest,3.013041
+678,case1,forest,move east,GOAL,6.774153
+679,case4,START,N,entrance,0.000000
+679,case4,entrance,move east,lake,0.923612
+679,case4,lake,move east,entrance,-2.669854
+679,case4,entrance,move east,forest,0.943186
+679,case4,forest,move east,GOAL,5.399628
+680,case2,START,N,entrance,0.000000
+680,case2,entrance,move east,forest,15.226879
+680,case2,forest,move west,GOAL,6.286074
+681,case2,START,N,entrance,0.000000
+681,case2,entrance,move west,forest,6.090387
+681,case2,forest,move east,GOAL,15.577279
+682,case3,START,N,entrance,0.000000
+682,case3,entrance,move east,forest,3.586383
+682,case3,forest,move east,GOAL,6.857041
+683,case1,START,N,entrance,0.000000
+683,case1,entrance,move east,forest,3.013041
+683,case1,forest,move east,GOAL,6.774153
+684,case2,START,N,entrance,0.000000
+684,case2,entrance,move east,forest,15.226879
+684,case2,forest,move east,entrance,15.577279
+684,case2,entrance,move east,forest,15.226879
+684,case2,forest,move east,GOAL,15.577279
+685,case3,START,N,entrance,0.000000
+685,case3,entrance,move east,forest,3.586383
+685,case3,forest,move east,GOAL,6.857041
+686,case4,START,N,entrance,0.000000
+686,case4,entrance,move east,lake,0.914212
+686,case4,lake,move east,entrance,-2.669854
+686,case4,entrance,move east,forest,0.933848
+686,case4,forest,move east,GOAL,5.399628
+687,case4,START,N,entrance,0.000000
+687,case4,entrance,move east,forest,0.953354
+687,case4,forest,move east,GOAL,5.399628
+688,case2,START,N,entrance,0.000000
+688,case2,entrance,move east,forest,15.226879
+688,case2,forest,move west,entrance,6.866677
+688,case2,entrance,move east,lake,15.226879
+688,case2,lake,move west,GOAL,4.921032
+689,case4,START,N,entrance,0.000000
+689,case4,entrance,move east,forest,0.972729
+689,case4,forest,move west,entrance,0.199736
+689,case4,entrance,move east,forest,0.972729
+689,case4,forest,move east,GOAL,5.399628
+690,case2,START,N,entrance,0.000000
+690,case2,entrance,move east,lake,15.226879
+690,case2,lake,move west,GOAL,4.921032
+691,case2,START,N,entrance,0.000000
+691,case2,entrance,move east,forest,15.226879
+691,case2,forest,move east,GOAL,15.577279
+692,case1,START,N,entrance,0.000000
+692,case1,entrance,move east,forest,3.013041
+692,case1,forest,move east,GOAL,6.774153
+693,case3,START,N,entrance,0.000000
+693,case3,entrance,move west,lake,0.506321
+693,case3,lake,move east,entrance,1.423432
+693,case3,entrance,move east,forest,3.586383
+693,case3,forest,move east,GOAL,6.857041
+694,case4,START,N,entrance,0.000000
+694,case4,entrance,move east,forest,0.972729
+694,case4,forest,move east,GOAL,5.399628
+695,case1,START,N,entrance,0.000000
+695,case1,entrance,move east,forest,3.013041
+695,case1,forest,move east,GOAL,6.774153
+696,case4,START,N,entrance,0.000000
+696,case4,entrance,move east,forest,0.972729
+696,case4,forest,move east,GOAL,5.399628
+697,case1,START,N,entrance,0.000000
+697,case1,entrance,move east,lake,3.013041
+697,case1,lake,move east,entrance,-0.262189
+697,case1,entrance,move east,forest,3.013041
+697,case1,forest,move east,GOAL,6.774153
+698,case1,START,N,entrance,0.000000
+698,case1,entrance,move east,forest,3.013041
+698,case1,forest,move west,entrance,1.710525
+698,case1,entrance,move east,forest,3.013041
+698,case1,forest,move east,GOAL,6.774153
+699,case4,START,N,entrance,0.000000
+699,case4,entrance,move east,forest,0.972729
+699,case4,forest,move east,GOAL,5.399628
+700,case1,START,N,entrance,0.000000
+700,case1,entrance,move east,forest,3.013041
+700,case1,forest,move east,GOAL,6.774153
+701,case1,START,N,entrance,0.000000
+701,case1,entrance,move east,forest,3.013041
+701,case1,forest,move west,GOAL,1.917762
+702,case5,START,N,entrance,0.000000
+702,case5,entrance,move west,lake,3.443787
+702,case5,lake,move east,entrance,-0.331071
+702,case5,entrance,move west,lake,3.443787
+702,case5,lake,move east,GOAL,-0.373110
+703,case4,START,N,entrance,0.000000
+703,case4,entrance,move east,lake,0.945382
+703,case4,lake,move east,entrance,-2.669854
+703,case4,entrance,move east,forest,0.945382
+703,case4,forest,move east,entrance,5.399628
+703,case4,entrance,move east,forest,0.945382
+703,case4,forest,move west,entrance,0.193921
+703,case4,entrance,move east,forest,0.945382
+703,case4,forest,move east,GOAL,5.399628
+704,case2,START,N,entrance,0.000000
+704,case2,entrance,move east,forest,15.226879
+704,case2,forest,move east,GOAL,15.577279
+705,case5,START,N,entrance,0.000000
+705,case5,entrance,move west,lake,3.443787
+705,case5,lake,move west,GOAL,-2.850242
+706,case1,START,N,entrance,0.000000
+706,case1,entrance,move east,forest,3.013041
+706,case1,forest,move west,entrance,1.917762
+706,case1,entrance,move east,forest,3.013041
+706,case1,forest,move east,GOAL,6.774153
+707,case4,START,N,entrance,0.000000
+707,case4,entrance,move west,forest,-0.562763
+707,case4,forest,move east,GOAL,5.399628
+708,case1,START,N,entrance,0.000000
+708,case1,entrance,move east,forest,3.013041
+708,case1,forest,move east,entrance,6.774153
+708,case1,entrance,move east,lake,3.013041
+708,case1,lake,move east,entrance,-0.219704
+708,case1,entrance,move east,forest,3.013041
+708,case1,forest,move east,GOAL,6.774153
+709,case2,START,N,entrance,0.000000
+709,case2,entrance,move east,lake,15.226879
+709,case2,lake,move west,GOAL,4.921032
+710,case3,START,N,entrance,0.000000
+710,case3,entrance,move east,forest,3.586383
+710,case3,forest,move east,GOAL,6.857041
+711,case2,START,N,entrance,0.000000
+711,case2,entrance,move east,forest,15.226879
+711,case2,forest,move east,GOAL,15.577279
+712,case3,START,N,entrance,0.000000
+712,case3,entrance,move east,forest,3.586383
+712,case3,forest,move east,GOAL,6.857041
+713,case2,START,N,entrance,0.000000
+713,case2,entrance,move east,lake,15.226879
+713,case2,lake,move west,GOAL,4.921032
+714,case3,START,N,entrance,0.000000
+714,case3,entrance,move east,forest,3.586383
+714,case3,forest,move east,GOAL,6.857041
+715,case5,START,N,entrance,0.000000
+715,case5,entrance,move west,lake,3.443787
+715,case5,lake,move east,GOAL,-0.414966
+716,case4,START,N,entrance,0.000000
+716,case4,entrance,move east,forest,0.945382
+716,case4,forest,move east,entrance,5.399628
+716,case4,entrance,move west,forest,-0.535123
+716,case4,forest,move east,GOAL,5.399628
+717,case2,START,N,entrance,0.000000
+717,case2,entrance,move east,forest,15.226879
+717,case2,forest,move west,entrance,7.427928
+717,case2,entrance,move east,forest,15.226879
+717,case2,forest,move east,GOAL,15.577279
+718,case2,START,N,entrance,0.000000
+718,case2,entrance,move east,forest,15.226879
+718,case2,forest,move west,entrance,7.834835
+718,case2,entrance,move east,forest,15.226879
+718,case2,forest,move west,GOAL,8.138964
+719,case1,START,N,entrance,0.000000
+719,case1,entrance,move east,forest,3.013041
+719,case1,forest,move east,GOAL,6.774153
+720,case3,START,N,entrance,0.000000
+720,case3,entrance,move east,lake,3.586383
+720,case3,lake,move east,entrance,1.483576
+720,case3,entrance,move east,forest,3.586383
+720,case3,forest,move east,GOAL,6.857041
+721,case4,START,N,entrance,0.000000
+721,case4,entrance,move east,forest,0.945382
+721,case4,forest,move west,entrance,0.188203
+721,case4,entrance,move east,forest,0.945382
+721,case4,forest,move east,GOAL,5.399628
+722,case2,START,N,entrance,0.000000
+722,case2,entrance,move east,forest,15.226879
+722,case2,forest,move east,GOAL,15.577279
+723,case5,START,N,entrance,0.000000
+723,case5,entrance,move east,forest,2.676262
+723,case5,forest,move east,GOAL,7.047014
+724,case5,START,N,entrance,0.000000
+724,case5,entrance,move west,lake,3.443787
+724,case5,lake,move east,entrance,-0.404034
+724,case5,entrance,move west,lake,3.443787
+724,case5,lake,move east,entrance,-0.393149
+724,case5,entrance,move west,lake,3.443787
+724,case5,lake,move east,entrance,-0.382312
+724,case5,entrance,move east,lake,2.676262
+724,case5,lake,move east,entrance,-0.371522
+724,case5,entrance,move west,lake,3.443787
+724,case5,lake,move east,entrance,-0.360779
+724,case5,entrance,move west,forest,3.443787
+724,case5,forest,move east,GOAL,7.047014
+725,case2,START,N,entrance,0.000000
+725,case2,entrance,move east,forest,15.226879
+725,case2,forest,move east,GOAL,15.577279
+726,case2,START,N,entrance,0.000000
+726,case2,entrance,move east,forest,15.226879
+726,case2,forest,move east,GOAL,15.577279
+727,case5,START,N,entrance,0.000000
+727,case5,entrance,move east,forest,2.676262
+727,case5,forest,move east,entrance,7.047014
+727,case5,entrance,move west,lake,3.443787
+727,case5,lake,move east,GOAL,-0.402688
+728,case5,START,N,entrance,0.000000
+728,case5,entrance,move west,lake,3.443787
+728,case5,lake,move east,entrance,-0.391810
+728,case5,entrance,move west,lake,3.443787
+728,case5,lake,move east,entrance,-0.380978
+728,case5,entrance,move west,lake,3.443787
+728,case5,lake,move east,entrance,-0.370643
+728,case5,entrance,move west,lake,3.443787
+728,case5,lake,move west,GOAL,-2.850242
+729,case3,START,N,entrance,0.000000
+729,case3,entrance,move east,forest,3.586383
+729,case3,forest,move west,entrance,1.797458
+729,case3,entrance,move east,forest,3.586383
+729,case3,forest,move east,GOAL,6.857041
+730,case3,START,N,entrance,0.000000
+730,case3,entrance,move east,forest,3.586383
+730,case3,forest,move east,GOAL,6.857041
+731,case5,START,N,entrance,0.000000
+731,case5,entrance,move west,lake,3.443787
+731,case5,lake,move east,entrance,-0.360351
+731,case5,entrance,move west,lake,3.443787
+731,case5,lake,move east,GOAL,-0.400517
+732,case4,START,N,entrance,0.000000
+732,case4,entrance,move east,forest,0.945382
+732,case4,forest,move east,GOAL,5.399628
+733,case5,START,N,entrance,0.000000
+733,case5,entrance,move west,forest,3.443787
+733,case5,forest,move east,GOAL,7.047014
+734,case4,START,N,entrance,0.000000
+734,case4,entrance,move east,lake,0.918205
+734,case4,lake,move east,entrance,-2.669854
+734,case4,entrance,move east,lake,0.891198
+734,case4,lake,move east,GOAL,-2.792023
+735,case1,START,N,entrance,0.000000
+735,case1,entrance,move east,forest,3.013041
+735,case1,forest,move west,entrance,1.917762
+735,case1,entrance,move east,forest,3.013041
+735,case1,forest,move east,GOAL,6.774153
+736,case1,START,N,entrance,0.000000
+736,case1,entrance,move west,lake,0.397066
+736,case1,lake,move east,entrance,-0.177826
+736,case1,entrance,move east,forest,3.013041
+736,case1,forest,move east,GOAL,6.774153
+737,case3,START,N,entrance,0.000000
+737,case3,entrance,move east,forest,3.586383
+737,case3,forest,move east,GOAL,6.857041
+738,case2,START,N,entrance,0.000000
+738,case2,entrance,move east,forest,15.226879
+738,case2,forest,move east,GOAL,15.577279
+739,case1,START,N,entrance,0.000000
+739,case1,entrance,move east,forest,3.013041
+739,case1,forest,move east,GOAL,6.774153
+740,case3,START,N,entrance,0.000000
+740,case3,entrance,move east,forest,3.586383
+740,case3,forest,move east,entrance,6.857041
+740,case3,entrance,move east,forest,3.586383
+740,case3,forest,move east,GOAL,6.857041
+741,case5,START,N,entrance,0.000000
+741,case5,entrance,move west,lake,3.443787
+741,case5,lake,move east,entrance,-0.390100
+741,case5,entrance,move west,lake,3.443787
+741,case5,lake,move east,entrance,-0.379727
+741,case5,entrance,move east,forest,2.676262
+741,case5,forest,move east,GOAL,7.047014
+742,case2,START,N,entrance,0.000000
+742,case2,entrance,move east,lake,15.226879
+742,case2,lake,move west,entrance,5.296695
+742,case2,entrance,move east,lake,15.226879
+742,case2,lake,move west,entrance,5.664845
+742,case2,entrance,move west,forest,6.538617
+742,case2,forest,move east,GOAL,15.577279
+743,case1,START,N,entrance,0.000000
+743,case1,entrance,move east,forest,3.013041
+743,case1,forest,move east,GOAL,6.774153
+744,case1,START,N,entrance,0.000000
+744,case1,entrance,move east,lake,3.013041
+744,case1,lake,move east,entrance,-0.141707
+744,case1,entrance,move east,forest,3.013041
+744,case1,forest,move east,GOAL,6.774153
+745,case4,START,N,entrance,0.000000
+745,case4,entrance,move east,forest,0.909751
+745,case4,forest,move west,entrance,0.182046
+745,case4,entrance,move east,forest,0.928188
+745,case4,forest,move east,GOAL,5.399628
+746,case5,START,N,entrance,0.000000
+746,case5,entrance,move west,lake,3.443787
+746,case5,lake,move east,entrance,-0.369398
+746,case5,entrance,move west,lake,3.443787
+746,case5,lake,move east,GOAL,-0.409525
+747,case4,START,N,entrance,0.000000
+747,case4,entrance,move east,forest,0.928188
+747,case4,forest,move east,entrance,5.399628
+747,case4,entrance,move east,lake,0.901022
+747,case4,lake,move west,entrance,-2.687147
+747,case4,entrance,move east,forest,0.919513
+747,case4,forest,move east,GOAL,5.399628
+748,case2,START,N,entrance,0.000000
+748,case2,entrance,move east,forest,15.226879
+748,case2,forest,move east,GOAL,15.577279
+749,case1,START,N,entrance,0.000000
+749,case1,entrance,move east,forest,3.013041
+749,case1,forest,move east,GOAL,6.774153
+750,case3,START,N,entrance,0.000000
+750,case3,entrance,move east,forest,3.586383
+750,case3,forest,move east,GOAL,6.857041
+751,case1,START,N,entrance,0.000000
+751,case1,entrance,move west,lake,0.397066
+751,case1,lake,move east,entrance,-0.106039
+751,case1,entrance,move east,forest,3.013041
+751,case1,forest,move east,GOAL,6.774153
+752,case5,START,N,entrance,0.000000
+752,case5,entrance,move west,lake,3.443787
+752,case5,lake,move east,entrance,-0.399071
+752,case5,entrance,move west,lake,3.443787
+752,case5,lake,move east,entrance,-0.388661
+752,case5,entrance,move west,lake,3.443787
+752,case5,lake,move west,GOAL,-2.850242
+753,case2,START,N,entrance,0.000000
+753,case2,entrance,move east,forest,15.226879
+753,case2,forest,move east,entrance,15.577279
+753,case2,entrance,move east,lake,15.226879
+753,case2,lake,move west,GOAL,5.551548
+754,case1,START,N,entrance,0.000000
+754,case1,entrance,move west,lake,0.397066
+754,case1,lake,move east,entrance,-0.070816
+754,case1,entrance,move east,forest,3.013041
+754,case1,forest,move west,entrance,1.917762
+754,case1,entrance,move east,forest,3.013041
+754,case1,forest,move east,GOAL,6.774153
+755,case5,START,N,entrance,0.000000
+755,case5,entrance,move west,lake,3.443787
+755,case5,lake,move east,entrance,-0.378294
+755,case5,entrance,move west,forest,3.443787
+755,case5,forest,move east,GOAL,7.047014
+756,case5,START,N,entrance,0.000000
+756,case5,entrance,move west,lake,3.443787
+756,case5,lake,move west,GOAL,-2.850242
+757,case5,START,N,entrance,0.000000
+757,case5,entrance,move west,forest,3.443787
+757,case5,forest,move east,GOAL,7.047014
+758,case5,START,N,entrance,0.000000
+758,case5,entrance,move west,forest,3.443787
+758,case5,forest,move east,entrance,7.047014
+758,case5,entrance,move west,lake,3.443787
+758,case5,lake,move east,GOAL,-0.416781
+759,case1,START,N,entrance,0.000000
+759,case1,entrance,move east,forest,3.013041
+759,case1,forest,move east,GOAL,6.774153
+760,case4,START,N,entrance,0.000000
+760,case4,entrance,move east,lake,0.892401
+760,case4,lake,move west,GOAL,-2.791617
+761,case3,START,N,entrance,0.000000
+761,case3,entrance,move east,forest,3.586383
+761,case3,forest,move east,GOAL,6.857041
+762,case3,START,N,entrance,0.000000
+762,case3,entrance,move east,forest,3.586383
+762,case3,forest,move west,entrance,1.797458
+762,case3,entrance,move east,forest,3.586383
+762,case3,forest,move east,GOAL,6.857041
+763,case1,START,N,entrance,0.000000
+763,case1,entrance,move east,lake,3.013041
+763,case1,lake,move east,entrance,-0.036035
+763,case1,entrance,move east,lake,3.013041
+763,case1,lake,move east,GOAL,-0.160584
+764,case5,START,N,entrance,0.000000
+764,case5,entrance,move west,lake,3.443787
+764,case5,lake,move east,entrance,-0.406716
+764,case5,entrance,move west,forest,3.443787
+764,case5,forest,move east,GOAL,7.047014
+765,case3,START,N,entrance,0.000000
+765,case3,entrance,move east,forest,3.586383
+765,case3,forest,move east,GOAL,6.857041
+766,case2,START,N,entrance,0.000000
+766,case2,entrance,move east,forest,15.226879
+766,case2,forest,move east,GOAL,15.577279
+767,case1,START,N,entrance,0.000000
+767,case1,entrance,move east,forest,3.013041
+767,case1,forest,move east,GOAL,6.774153
+768,case5,START,N,entrance,0.000000
+768,case5,entrance,move west,forest,3.443787
+768,case5,forest,move east,GOAL,7.047014
+769,case5,START,N,entrance,0.000000
+769,case5,entrance,move west,forest,3.443787
+769,case5,forest,move east,GOAL,7.047014
+770,case4,START,N,entrance,0.000000
+770,case4,entrance,move east,forest,0.892401
+770,case4,forest,move east,GOAL,5.399628
+771,case3,START,N,entrance,0.000000
+771,case3,entrance,move east,forest,3.586383
+771,case3,forest,move east,GOAL,6.857041
+772,case4,START,N,entrance,0.000000
+772,case4,entrance,move east,forest,0.892401
+772,case4,forest,move east,GOAL,5.399628
+773,case5,START,N,entrance,0.000000
+773,case5,entrance,move west,lake,3.443787
+773,case5,lake,move east,entrance,-0.396692
+773,case5,entrance,move west,forest,3.443787
+773,case5,forest,move east,GOAL,7.047014
+774,case3,START,N,entrance,0.000000
+774,case3,entrance,move west,lake,0.522899
+774,case3,lake,move west,entrance,0.107591
+774,case3,entrance,move east,forest,3.586383
+774,case3,forest,move east,entrance,6.857041
+774,case3,entrance,move west,lake,0.539145
+774,case3,lake,move east,entrance,1.541715
+774,case3,entrance,move east,forest,3.586383
+774,case3,forest,move east,GOAL,6.857041
+775,case3,START,N,entrance,0.000000
+775,case3,entrance,move east,lake,3.586383
+775,case3,lake,move east,entrance,1.597916
+775,case3,entrance,move east,forest,3.586383
+775,case3,forest,move east,GOAL,6.857041
+776,case1,START,N,entrance,0.000000
+776,case1,entrance,move east,forest,3.013041
+776,case1,forest,move west,entrance,1.917762
+776,case1,entrance,move east,forest,3.013041
+776,case1,forest,move east,GOAL,6.774153
+777,case5,START,N,entrance,0.000000
+777,case5,entrance,move west,lake,3.443787
+777,case5,lake,move east,entrance,-0.386707
+777,case5,entrance,move west,lake,3.443787
+777,case5,lake,move east,entrance,-0.376763
+777,case5,entrance,move west,forest,3.443787
+777,case5,forest,move east,GOAL,7.047014
+778,case4,START,N,entrance,0.000000
+778,case4,entrance,move east,lake,0.866490
+778,case4,lake,move west,entrance,-2.791617
+778,case4,entrance,move east,forest,0.884097
+778,case4,forest,move east,GOAL,5.399628
+779,case5,START,N,entrance,0.000000
+779,case5,entrance,move west,lake,3.443787
+779,case5,lake,move east,entrance,-0.366858
+779,case5,entrance,move west,lake,3.443787
+779,case5,lake,move east,entrance,-0.356993
+779,case5,entrance,move west,lake,3.443787
+779,case5,lake,move east,GOAL,-0.395565
+780,case4,START,N,entrance,0.000000
+780,case4,entrance,move east,forest,0.884097
+780,case4,forest,move east,GOAL,5.399628
+781,case5,START,N,entrance,0.000000
+781,case5,entrance,move west,lake,3.443787
+781,case5,lake,move east,entrance,-0.385585
+781,case5,entrance,move east,forest,2.676262
+781,case5,forest,move east,entrance,7.047014
+781,case5,entrance,move west,lake,3.443787
+781,case5,lake,move east,entrance,-0.375645
+781,case5,entrance,move west,lake,3.443787
+781,case5,lake,move east,entrance,-0.366126
+781,case5,entrance,move west,lake,3.443787
+781,case5,lake,move west,GOAL,-2.850242
+782,case2,START,N,entrance,0.000000
+782,case2,entrance,move east,forest,15.226879
+782,case2,forest,move east,GOAL,15.577279
+783,case4,START,N,entrance,0.000000
+783,case4,entrance,move east,lake,0.858235
+783,case4,lake,move west,GOAL,-2.894593
+784,case5,START,N,entrance,0.000000
+784,case5,entrance,move west,lake,3.443787
+784,case5,lake,move east,entrance,-0.356643
+784,case5,entrance,move west,lake,3.443787
+784,case5,lake,move west,GOAL,-2.850242
+785,case5,START,N,entrance,0.000000
+785,case5,entrance,move west,forest,3.443787
+785,case5,forest,move east,GOAL,7.047014
+786,case1,START,N,entrance,0.000000
+786,case1,entrance,move east,lake,3.013041
+786,case1,lake,move east,entrance,-0.124680
+786,case1,entrance,move east,lake,3.013041
+786,case1,lake,move east,entrance,-0.089225
+786,case1,entrance,move east,lake,3.013041
+786,case1,lake,move west,GOAL,-3.218407
+787,case1,START,N,entrance,0.000000
+787,case1,entrance,move east,forest,3.013041
+787,case1,forest,move east,GOAL,6.774153
+788,case5,START,N,entrance,0.000000
+788,case5,entrance,move west,lake,3.443787
+788,case5,lake,move east,entrance,-0.347197
+788,case5,entrance,move east,forest,2.676262
+788,case5,forest,move east,GOAL,7.047014
+789,case2,START,N,entrance,0.000000
+789,case2,entrance,move east,forest,15.226879
+789,case2,forest,move east,entrance,15.577279
+789,case2,entrance,move east,forest,15.226879
+789,case2,forest,move east,entrance,15.577279
+789,case2,entrance,move east,forest,15.226879
+789,case2,forest,move east,entrance,15.577279
+789,case2,entrance,move east,forest,15.226879
+789,case2,forest,move west,entrance,8.528094
+789,case2,entrance,move east,forest,15.226879
+789,case2,forest,move west,entrance,8.907497
+789,case2,entrance,move east,forest,15.226879
+789,case2,forest,move east,GOAL,15.577279
+790,case2,START,N,entrance,0.000000
+790,case2,entrance,move east,forest,15.226879
+790,case2,forest,move east,GOAL,15.577279
+791,case4,START,N,entrance,0.000000
+791,case4,entrance,move east,forest,0.875891
+791,case4,forest,move east,GOAL,5.399628
+792,case4,START,N,entrance,0.000000
+792,case4,entrance,move east,forest,0.893442
+792,case4,forest,move west,entrance,0.175747
+792,case4,entrance,move east,lake,0.867523
+792,case4,lake,move west,entrance,-2.894593
+792,case4,entrance,move east,forest,0.885124
+792,case4,forest,move east,GOAL,5.399628
+793,case3,START,N,entrance,0.000000
+793,case3,entrance,move east,forest,3.586383
+793,case3,forest,move east,GOAL,6.857041
+794,case1,START,N,entrance,0.000000
+794,case1,entrance,move east,forest,3.013041
+794,case1,forest,move east,GOAL,6.774153
+795,case4,START,N,entrance,0.000000
+795,case4,entrance,move east,forest,0.885124
+795,case4,forest,move east,GOAL,5.399628
+796,case1,START,N,entrance,0.000000
+796,case1,entrance,move east,lake,3.013041
+796,case1,lake,move east,entrance,-0.054213
+796,case1,entrance,move east,forest,3.013041
+796,case1,forest,move east,GOAL,6.774153
+797,case3,START,N,entrance,0.000000
+797,case3,entrance,move east,forest,3.586383
+797,case3,forest,move east,GOAL,6.857041
+798,case5,START,N,entrance,0.000000
+798,case5,entrance,move west,lake,3.443787
+798,case5,lake,move east,entrance,-0.337786
+798,case5,entrance,move west,lake,3.443787
+798,case5,lake,move east,entrance,-0.328413
+798,case5,entrance,move west,lake,3.443787
+798,case5,lake,move east,entrance,-0.319075
+798,case5,entrance,move east,forest,2.676262
+798,case5,forest,move east,entrance,7.047014
+798,case5,entrance,move west,lake,3.443787
+798,case5,lake,move east,entrance,-0.309773
+798,case5,entrance,move east,lake,2.676262
+798,case5,lake,move east,entrance,-0.300507
+798,case5,entrance,move west,forest,3.443787
+798,case5,forest,move east,GOAL,7.047014
+799,case4,START,N,entrance,0.000000
+799,case4,entrance,move east,forest,0.885124
+799,case4,forest,move east,entrance,5.399628
+799,case4,entrance,move east,forest,0.885124
+799,case4,forest,move east,GOAL,5.399628
+800,case3,START,N,entrance,0.000000
+800,case3,entrance,move east,forest,3.586383
+800,case3,forest,move east,GOAL,6.857041
+801,case3,START,N,entrance,0.000000
+801,case3,entrance,move east,forest,3.586383
+801,case3,forest,move east,GOAL,6.857041
+802,case4,START,N,entrance,0.000000
+802,case4,entrance,move east,lake,0.859254
+802,case4,lake,move east,entrance,-2.792023
+802,case4,entrance,move east,forest,0.876903
+802,case4,forest,move east,GOAL,5.399628
+803,case1,START,N,entrance,0.000000
+803,case1,entrance,move east,forest,3.013041
+803,case1,forest,move east,entrance,6.774153
+803,case1,entrance,move east,forest,3.013041
+803,case1,forest,move east,GOAL,6.774153
+804,case5,START,N,entrance,0.000000
+804,case5,entrance,move west,lake,3.443787
+804,case5,lake,move east,entrance,-0.291277
+804,case5,entrance,move west,lake,3.443787
+804,case5,lake,move east,entrance,-0.282082
+804,case5,entrance,move west,lake,3.443787
+804,case5,lake,move east,entrance,-0.273261
+804,case5,entrance,move west,forest,3.443787
+804,case5,forest,move east,entrance,7.047014
+804,case5,entrance,move west,lake,3.443787
+804,case5,lake,move east,entrance,-0.264474
+804,case5,entrance,move west,forest,3.443787
+804,case5,forest,move east,GOAL,7.047014
+805,case1,START,N,entrance,0.000000
+805,case1,entrance,move east,lake,3.013041
+805,case1,lake,move west,GOAL,-3.303177
+806,case3,START,N,entrance,0.000000
+806,case3,entrance,move east,forest,3.586383
+806,case3,forest,move east,GOAL,6.857041
+807,case4,START,N,entrance,0.000000
+807,case4,entrance,move east,lake,0.851081
+807,case4,lake,move east,entrance,-2.792023
+807,case4,entrance,move east,forest,0.851081
+807,case4,forest,move east,GOAL,5.399628
+808,case3,START,N,entrance,0.000000
+808,case3,entrance,move east,forest,3.586383
+808,case3,forest,move east,GOAL,6.857041
+809,case1,START,N,entrance,0.000000
+809,case1,entrance,move east,lake,3.013041
+809,case1,lake,move east,entrance,-0.023480
+809,case1,entrance,move west,lake,0.397066
+809,case1,lake,move east,entrance,0.006911
+809,case1,entrance,move east,forest,3.013041
+809,case1,forest,move east,GOAL,6.774153
+810,case4,START,N,entrance,0.000000
+810,case4,entrance,move east,lake,0.826837
+810,case4,lake,move east,GOAL,-2.894995
+811,case3,START,N,entrance,0.000000
+811,case3,entrance,move east,forest,3.586383
+811,case3,forest,move east,GOAL,6.857041
+812,case2,START,N,entrance,0.000000
+812,case2,entrance,move east,forest,15.226879
+812,case2,forest,move east,entrance,15.577279
+812,case2,entrance,move east,forest,15.226879
+812,case2,forest,move east,GOAL,15.577279
+813,case1,START,N,entrance,0.000000
+813,case1,entrance,move east,lake,3.013041
+813,case1,lake,move east,entrance,0.036965
+813,case1,entrance,move east,forest,3.013041
+813,case1,forest,move east,GOAL,6.774153
+814,case5,START,N,entrance,0.000000
+814,case5,entrance,move west,lake,3.443787
+814,case5,lake,move east,entrance,-0.255718
+814,case5,entrance,move west,lake,3.443787
+814,case5,lake,move east,GOAL,-0.291808
+815,case5,START,N,entrance,0.000000
+815,case5,entrance,move west,lake,3.443787
+815,case5,lake,move west,GOAL,-2.850242
+816,case5,START,N,entrance,0.000000
+816,case5,entrance,move west,lake,3.443787
+816,case5,lake,move east,entrance,-0.282952
+816,case5,entrance,move west,lake,3.443787
+816,case5,lake,move east,entrance,-0.274128
+816,case5,entrance,move west,forest,3.443787
+816,case5,forest,move east,GOAL,7.047014
+817,case3,START,N,entrance,0.000000
+817,case3,entrance,move east,lake,3.586383
+817,case3,lake,move east,entrance,1.652244
+817,case3,entrance,move west,lake,0.558102
+817,case3,lake,move east,entrance,1.704760
+817,case3,entrance,move east,forest,3.586383
+817,case3,forest,move east,GOAL,6.857041
+818,case3,START,N,entrance,0.000000
+818,case3,entrance,move east,forest,3.586383
+818,case3,forest,move east,GOAL,6.857041
+819,case3,START,N,entrance,0.000000
+819,case3,entrance,move east,forest,3.586383
+819,case3,forest,move east,GOAL,6.857041
+820,case4,START,N,entrance,0.000000
+820,case4,entrance,move east,forest,0.843686
+820,case4,forest,move east,GOAL,5.399628
+821,case1,START,N,entrance,0.000000
+821,case1,entrance,move east,forest,3.013041
+821,case1,forest,move east,GOAL,6.774153
+822,case2,START,N,entrance,0.000000
+822,case2,entrance,move east,lake,15.226879
+822,case2,lake,move west,GOAL,5.440517
+823,case2,START,N,entrance,0.000000
+823,case2,entrance,move east,forest,15.226879
+823,case2,forest,move east,GOAL,15.577279
+824,case5,START,N,entrance,0.000000
+824,case5,entrance,move west,lake,3.443787
+824,case5,lake,move east,GOAL,-0.310150
+825,case1,START,N,entrance,0.000000
+825,case1,entrance,move east,forest,3.013041
+825,case1,forest,move east,GOAL,6.774153
+826,case1,START,N,entrance,0.000000
+826,case1,entrance,move east,forest,3.013041
+826,case1,forest,move east,GOAL,6.774153
+827,case1,START,N,entrance,0.000000
+827,case1,entrance,move east,lake,3.013041
+827,case1,lake,move east,entrance,0.066685
+827,case1,entrance,move east,forest,3.013041
+827,case1,forest,move east,GOAL,6.774153
+828,case1,START,N,entrance,0.000000
+828,case1,entrance,move east,forest,3.013041
+828,case1,forest,move west,entrance,1.917762
+828,case1,entrance,move east,forest,3.013041
+828,case1,forest,move east,GOAL,6.774153
+829,case3,START,N,entrance,0.000000
+829,case3,entrance,move east,forest,3.586383
+829,case3,forest,move east,GOAL,6.857041
+830,case3,START,N,entrance,0.000000
+830,case3,entrance,move east,forest,3.586383
+830,case3,forest,move east,GOAL,6.857041
+831,case2,START,N,entrance,0.000000
+831,case2,entrance,move east,forest,15.226879
+831,case2,forest,move east,GOAL,15.577279
+832,case1,START,N,entrance,0.000000
+832,case1,entrance,move west,lake,0.397066
+832,case1,lake,move east,entrance,0.096074
+832,case1,entrance,move east,forest,3.013041
+832,case1,forest,move east,entrance,6.774153
+832,case1,entrance,move east,forest,3.013041
+832,case1,forest,move east,GOAL,6.774153
+833,case3,START,N,entrance,0.000000
+833,case3,entrance,move east,lake,3.586383
+833,case3,lake,move east,entrance,1.755526
+833,case3,entrance,move west,lake,0.578540
+833,case3,lake,move west,GOAL,-0.229328
+834,case2,START,N,entrance,0.000000
+834,case2,entrance,move east,forest,15.226879
+834,case2,forest,move east,GOAL,15.577279
+835,case2,START,N,entrance,0.000000
+835,case2,entrance,move east,forest,15.226879
+835,case2,forest,move east,GOAL,15.577279
+836,case5,START,N,entrance,0.000000
+836,case5,entrance,move west,lake,3.443787
+836,case5,lake,move east,entrance,-0.301226
+836,case5,entrance,move east,forest,2.676262
+836,case5,forest,move east,GOAL,7.047014
+837,case1,START,N,entrance,0.000000
+837,case1,entrance,move east,lake,3.013041
+837,case1,lake,move east,entrance,0.125137
+837,case1,entrance,move east,forest,3.013041
+837,case1,forest,move east,GOAL,6.774153
+838,case1,START,N,entrance,0.000000
+838,case1,entrance,move east,forest,3.013041
+838,case1,forest,move east,GOAL,6.774153
+839,case5,START,N,entrance,0.000000
+839,case5,entrance,move east,forest,2.676262
+839,case5,forest,move east,entrance,7.047014
+839,case5,entrance,move west,lake,3.443787
+839,case5,lake,move east,entrance,-0.292335
+839,case5,entrance,move west,lake,3.443787
+839,case5,lake,move east,GOAL,-0.328289
+840,case4,START,N,entrance,0.000000
+840,case4,entrance,move east,forest,0.843686
+840,case4,forest,move west,entrance,0.168807
+840,case4,entrance,move east,forest,0.843686
+840,case4,forest,move east,entrance,5.399628
+840,case4,entrance,move east,forest,0.843686
+840,case4,forest,move east,GOAL,5.399628
+841,case5,START,N,entrance,0.000000
+841,case5,entrance,move west,lake,3.443787
+841,case5,lake,move east,entrance,-0.319619
+841,case5,entrance,move west,lake,3.443787
+841,case5,lake,move east,GOAL,-0.354191
+842,case2,START,N,entrance,0.000000
+842,case2,entrance,move east,forest,15.226879
+842,case2,forest,move east,GOAL,15.577279
+843,case3,START,N,entrance,0.000000
+843,case3,entrance,move west,lake,0.598569
+843,case3,lake,move east,entrance,1.804600
+843,case3,entrance,move west,lake,0.619080
+843,case3,lake,move east,entrance,1.852038
+843,case3,entrance,move east,forest,3.586383
+843,case3,forest,move east,GOAL,6.857041
+844,case5,START,N,entrance,0.000000
+844,case5,entrance,move west,lake,3.443787
+844,case5,lake,move east,entrance,-0.345429
+844,case5,entrance,move west,lake,3.443787
+844,case5,lake,move east,entrance,-0.336697
+844,case5,entrance,move west,forest,3.443787
+844,case5,forest,move east,GOAL,7.047014
+845,case3,START,N,entrance,0.000000
+845,case3,entrance,move east,forest,3.586383
+845,case3,forest,move east,GOAL,6.857041
+846,case1,START,N,entrance,0.000000
+846,case1,entrance,move east,forest,3.013041
+846,case1,forest,move east,GOAL,6.774153
+847,case1,START,N,entrance,0.000000
+847,case1,entrance,move east,forest,3.013041
+847,case1,forest,move east,GOAL,6.774153
+848,case1,START,N,entrance,0.000000
+848,case1,entrance,move east,forest,3.013041
+848,case1,forest,move east,GOAL,6.774153
+849,case3,START,N,entrance,0.000000
+849,case3,entrance,move east,forest,3.586383
+849,case3,forest,move east,GOAL,6.857041
+850,case2,START,N,entrance,0.000000
+850,case2,entrance,move east,lake,15.226879
+850,case2,lake,move west,GOAL,5.331707
+851,case2,START,N,entrance,0.000000
+851,case2,entrance,move east,forest,15.226879
+851,case2,forest,move west,GOAL,9.184809
+852,case2,START,N,entrance,0.000000
+852,case2,entrance,move east,forest,15.226879
+852,case2,forest,move east,GOAL,15.577279
+853,case1,START,N,entrance,0.000000
+853,case1,entrance,move east,forest,3.013041
+853,case1,forest,move east,GOAL,6.774153
+854,case3,START,N,entrance,0.000000
+854,case3,entrance,move east,forest,3.586383
+854,case3,forest,move east,GOAL,6.857041
+855,case3,START,N,entrance,0.000000
+855,case3,entrance,move east,forest,3.586383
+855,case3,forest,move east,entrance,6.857041
+855,case3,entrance,move east,forest,3.586383
+855,case3,forest,move east,GOAL,6.857041
+856,case5,START,N,entrance,0.000000
+856,case5,entrance,move west,lake,3.443787
+856,case5,lake,move east,entrance,-0.327997
+856,case5,entrance,move west,lake,3.443787
+856,case5,lake,move east,GOAL,-0.362540
+857,case4,START,N,entrance,0.000000
+857,case4,entrance,move east,lake,0.818971
+857,case4,lake,move west,GOAL,-2.996099
+858,case1,START,N,entrance,0.000000
+858,case1,entrance,move west,lake,0.397066
+858,case1,lake,move east,entrance,0.153877
+858,case1,entrance,move east,forest,3.013041
+858,case1,forest,move east,entrance,6.774153
+858,case1,entrance,move east,forest,3.013041
+858,case1,forest,move east,GOAL,6.774153
+859,case3,START,N,entrance,0.000000
+859,case3,entrance,move east,lake,3.586383
+859,case3,lake,move east,entrance,1.852038
+859,case3,entrance,move east,forest,3.586383
+859,case3,forest,move east,GOAL,6.857041
+860,case1,START,N,entrance,0.000000
+860,case1,entrance,move east,lake,3.013041
+860,case1,lake,move east,GOAL,0.041056
+861,case5,START,N,entrance,0.000000
+861,case5,entrance,move west,lake,3.443787
+861,case5,lake,move east,entrance,-0.353747
+861,case5,entrance,move west,lake,3.443787
+861,case5,lake,move east,entrance,-0.344986
+861,case5,entrance,move east,forest,2.676262
+861,case5,forest,move east,GOAL,7.047014
+862,case1,START,N,entrance,0.000000
+862,case1,entrance,move east,forest,3.013041
+862,case1,forest,move east,entrance,6.774153
+862,case1,entrance,move east,forest,3.013041
+862,case1,forest,move east,entrance,6.774153
+862,case1,entrance,move west,lake,0.397066
+862,case1,lake,move east,entrance,0.070730
+862,case1,entrance,move east,forest,3.013041
+862,case1,forest,move east,GOAL,6.774153
+863,case2,START,N,entrance,0.000000
+863,case2,entrance,move east,forest,15.226879
+863,case2,forest,move east,entrance,15.577279
+863,case2,entrance,move east,forest,15.226879
+863,case2,forest,move east,GOAL,15.577279
+864,case2,START,N,entrance,0.000000
+864,case2,entrance,move east,lake,15.226879
+864,case2,lake,move west,entrance,5.699156
+864,case2,entrance,move east,lake,15.226879
+864,case2,lake,move west,GOAL,5.699156
+865,case4,START,N,entrance,0.000000
+865,case4,entrance,move east,forest,0.835863
+865,case4,forest,move east,GOAL,5.399628
+866,case3,START,N,entrance,0.000000
+866,case3,entrance,move east,forest,3.586383
+866,case3,forest,move east,GOAL,6.857041
+867,case2,START,N,entrance,0.000000
+867,case2,entrance,move east,forest,15.226879
+867,case2,forest,move east,GOAL,15.577279
+868,case2,START,N,entrance,0.000000
+868,case2,entrance,move east,forest,15.226879
+868,case2,forest,move east,GOAL,15.577279
+869,case1,START,N,entrance,0.000000
+869,case1,entrance,move east,forest,3.013041
+869,case1,forest,move east,GOAL,6.774153
+870,case5,START,N,entrance,0.000000
+870,case5,entrance,move west,lake,3.443787
+870,case5,lake,move west,GOAL,-2.850242
+871,case1,START,N,entrance,0.000000
+871,case1,entrance,move east,forest,3.013041
+871,case1,forest,move east,GOAL,6.774153
+872,case1,START,N,entrance,0.000000
+872,case1,entrance,move east,forest,3.013041
+872,case1,forest,move east,GOAL,6.774153
+873,case4,START,N,entrance,0.000000
+873,case4,entrance,move east,forest,0.852662
+873,case4,forest,move east,GOAL,5.399628
+874,case4,START,N,entrance,0.000000
+874,case4,entrance,move east,forest,0.852662
+874,case4,forest,move east,GOAL,5.399628
+875,case4,START,N,entrance,0.000000
+875,case4,entrance,move east,forest,0.852662
+875,case4,forest,move east,GOAL,5.399628
+876,case5,START,N,entrance,0.000000
+876,case5,entrance,move west,forest,3.443787
+876,case5,forest,move east,GOAL,7.047014
+877,case3,START,N,entrance,0.000000
+877,case3,entrance,move west,lake,0.640035
+877,case3,lake,move west,GOAL,-0.473595
+878,case1,START,N,entrance,0.000000
+878,case1,entrance,move east,forest,3.013041
+878,case1,forest,move east,GOAL,6.774153
+879,case3,START,N,entrance,0.000000
+879,case3,entrance,move east,forest,3.586383
+879,case3,forest,move east,entrance,6.857041
+879,case3,entrance,move east,forest,3.586383
+879,case3,forest,move east,GOAL,6.857041
+880,case2,START,N,entrance,0.000000
+880,case2,entrance,move east,forest,15.226879
+880,case2,forest,move east,GOAL,15.577279
+881,case5,START,N,entrance,0.000000
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.336256
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.327557
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.319188
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.310848
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.302537
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.294254
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.286000
+881,case5,entrance,move west,lake,3.443787
+881,case5,lake,move east,entrance,-0.277775
+881,case5,entrance,move west,forest,3.443787
+881,case5,forest,move east,GOAL,7.047014
+882,case4,START,N,entrance,0.000000
+882,case4,entrance,move east,forest,0.852662
+882,case4,forest,move east,GOAL,5.399628
+883,case3,START,N,entrance,0.000000
+883,case3,entrance,move east,forest,3.586383
+883,case3,forest,move west,entrance,1.797458
+883,case3,entrance,move east,forest,3.586383
+883,case3,forest,move east,GOAL,6.857041
+884,case3,START,N,entrance,0.000000
+884,case3,entrance,move east,forest,3.586383
+884,case3,forest,move east,GOAL,6.857041
+885,case4,START,N,entrance,0.000000
+885,case4,entrance,move east,forest,0.852662
+885,case4,forest,move east,GOAL,5.399628
+886,case2,START,N,entrance,0.000000
+886,case2,entrance,move west,lake,6.753382
+886,case2,lake,move east,entrance,2.726759
+886,case2,entrance,move east,forest,15.226879
+886,case2,forest,move east,GOAL,15.577279
+887,case3,START,N,entrance,0.000000
+887,case3,entrance,move east,forest,3.586383
+887,case3,forest,move east,GOAL,6.857041
+888,case3,START,N,entrance,0.000000
+888,case3,entrance,move east,forest,3.586383
+888,case3,forest,move east,GOAL,6.857041
+889,case4,START,N,entrance,0.000000
+889,case4,entrance,move east,forest,0.852662
+889,case4,forest,move east,GOAL,5.399628
+890,case1,START,N,entrance,0.000000
+890,case1,entrance,move east,forest,3.013041
+890,case1,forest,move east,entrance,6.774153
+890,case1,entrance,move west,lake,0.397066
+890,case1,lake,move east,GOAL,-0.041167
+891,case4,START,N,entrance,0.000000
+891,case4,entrance,move east,forest,0.852662
+891,case4,forest,move east,GOAL,5.399628
+892,case3,START,N,entrance,0.000000
+892,case3,entrance,move east,lake,3.586383
+892,case3,lake,move west,GOAL,-0.711755
+893,case5,START,N,entrance,0.000000
+893,case5,entrance,move west,lake,3.443787
+893,case5,lake,move east,entrance,-0.269577
+893,case5,entrance,move west,forest,3.443787
+893,case5,forest,move east,entrance,7.047014
+893,case5,entrance,move west,forest,3.443787
+893,case5,forest,move east,GOAL,7.047014
+894,case1,START,N,entrance,0.000000
+894,case1,entrance,move east,forest,3.013041
+894,case1,forest,move east,entrance,6.774153
+894,case1,entrance,move east,forest,3.013041
+894,case1,forest,move east,GOAL,6.774153
+895,case3,START,N,entrance,0.000000
+895,case3,entrance,move east,forest,3.586383
+895,case3,forest,move east,GOAL,6.857041
+896,case3,START,N,entrance,0.000000
+896,case3,entrance,move east,forest,3.586383
+896,case3,forest,move east,GOAL,6.857041
+897,case4,START,N,entrance,0.000000
+897,case4,entrance,move east,forest,0.852662
+897,case4,forest,move east,GOAL,5.399628
+898,case4,START,N,entrance,0.000000
+898,case4,entrance,move east,forest,0.852662
+898,case4,forest,move west,entrance,0.162116
+898,case4,entrance,move east,forest,0.852662
+898,case4,forest,move east,GOAL,5.399628
+899,case1,START,N,entrance,0.000000
+899,case1,entrance,move west,lake,0.397066
+899,case1,lake,move east,entrance,-0.013638
+899,case1,entrance,move east,lake,3.013041
+899,case1,lake,move west,GOAL,-3.370145
+900,case5,START,N,entrance,0.000000
+900,case5,entrance,move west,forest,3.443787
+900,case5,forest,move east,GOAL,7.047014
+901,case2,START,N,entrance,0.000000
+901,case2,entrance,move east,lake,15.226879
+901,case2,lake,move west,GOAL,5.699156
+902,case2,START,N,entrance,0.000000
+902,case2,entrance,move east,forest,15.226879
+902,case2,forest,move east,GOAL,15.577279
+903,case2,START,N,entrance,0.000000
+903,case2,entrance,move east,lake,15.226879
+903,case2,lake,move west,GOAL,5.699156
+904,case1,START,N,entrance,0.000000
+904,case1,entrance,move east,lake,3.013041
+904,case1,lake,move east,entrance,0.013616
+904,case1,entrance,move east,forest,3.013041
+904,case1,forest,move east,entrance,6.774153
+904,case1,entrance,move east,forest,3.013041
+904,case1,forest,move west,entrance,1.917762
+904,case1,entrance,move east,forest,3.013041
+904,case1,forest,move east,GOAL,6.774153
+905,case3,START,N,entrance,0.000000
+905,case3,entrance,move east,forest,3.586383
+905,case3,forest,move east,GOAL,6.857041
+906,case2,START,N,entrance,0.000000
+906,case2,entrance,move east,forest,15.226879
+906,case2,forest,move east,GOAL,15.577279
+907,case2,START,N,entrance,0.000000
+907,case2,entrance,move east,forest,15.226879
+907,case2,forest,move east,GOAL,15.577279
+908,case2,START,N,entrance,0.000000
+908,case2,entrance,move east,lake,15.226879
+908,case2,lake,move west,entrance,5.999240
+908,case2,entrance,move east,forest,15.226879
+908,case2,forest,move east,GOAL,15.577279
+909,case1,START,N,entrance,0.000000
+909,case1,entrance,move east,forest,3.013041
+909,case1,forest,move east,entrance,6.774153
+909,case1,entrance,move east,forest,3.013041
+909,case1,forest,move east,GOAL,6.774153
+910,case3,START,N,entrance,0.000000
+910,case3,entrance,move east,forest,3.586383
+910,case3,forest,move east,GOAL,6.857041
+911,case2,START,N,entrance,0.000000
+911,case2,entrance,move east,lake,15.226879
+911,case2,lake,move west,entrance,6.294323
+911,case2,entrance,move east,forest,15.226879
+911,case2,forest,move east,GOAL,15.577279
+912,case4,START,N,entrance,0.000000
+912,case4,entrance,move east,forest,0.852662
+912,case4,forest,move east,GOAL,5.399628
+913,case5,START,N,entrance,0.000000
+913,case5,entrance,move west,lake,3.443787
+913,case5,lake,move east,entrance,-0.261409
+913,case5,entrance,move west,lake,3.443787
+913,case5,lake,move east,entrance,-0.253268
+913,case5,entrance,move west,lake,3.443787
+913,case5,lake,move east,entrance,-0.245155
+913,case5,entrance,move west,lake,3.443787
+913,case5,lake,move east,entrance,-0.237340
+913,case5,entrance,move west,lake,3.443787
+913,case5,lake,move west,GOAL,-2.850242
+914,case2,START,N,entrance,0.000000
+914,case2,entrance,move east,lake,15.226879
+914,case2,lake,move west,GOAL,6.294323
+915,case4,START,N,entrance,0.000000
+915,case4,entrance,move east,lake,0.827895
+915,case4,lake,move east,entrance,-2.894995
+915,case4,entrance,move east,forest,0.844738
+915,case4,forest,move west,GOAL,0.326081
+916,case3,START,N,entrance,0.000000
+916,case3,entrance,move east,forest,3.586383
+916,case3,forest,move east,entrance,6.857041
+916,case3,entrance,move east,lake,3.586383
+916,case3,lake,move east,entrance,1.852038
+916,case3,entrance,move east,forest,3.586383
+916,case3,forest,move east,GOAL,6.857041
+917,case5,START,N,entrance,0.000000
+917,case5,entrance,move west,lake,3.443787
+917,case5,lake,move west,GOAL,-2.850242
+918,case3,START,N,entrance,0.000000
+918,case3,entrance,move east,forest,3.586383
+918,case3,forest,move east,entrance,6.857041
+918,case3,entrance,move east,forest,3.586383
+918,case3,forest,move east,GOAL,6.857041
+919,case2,START,N,entrance,0.000000
+919,case2,entrance,move east,forest,15.226879
+919,case2,forest,move east,GOAL,15.577279
+920,case3,START,N,entrance,0.000000
+920,case3,entrance,move west,lake,0.660571
+920,case3,lake,move east,entrance,1.852038
+920,case3,entrance,move east,forest,3.586383
+920,case3,forest,move east,GOAL,6.857041
+921,case2,START,N,entrance,0.000000
+921,case2,entrance,move east,lake,15.226879
+921,case2,lake,move west,GOAL,6.294323
+922,case5,START,N,entrance,0.000000
+922,case5,entrance,move west,lake,3.443787
+922,case5,lake,move east,entrance,-0.229551
+922,case5,entrance,move west,lake,3.443787
+922,case5,lake,move east,entrance,-0.221788
+922,case5,entrance,move east,lake,2.676262
+922,case5,lake,move east,entrance,-0.214050
+922,case5,entrance,move east,forest,2.676262
+922,case5,forest,move east,GOAL,7.047014
+923,case3,START,N,entrance,0.000000
+923,case3,entrance,move east,forest,3.586383
+923,case3,forest,move east,GOAL,6.857041
+924,case1,START,N,entrance,0.000000
+924,case1,entrance,move east,forest,3.013041
+924,case1,forest,move east,GOAL,6.774153
+925,case5,START,N,entrance,0.000000
+925,case5,entrance,move west,forest,3.443787
+925,case5,forest,move east,GOAL,7.047014
+926,case5,START,N,entrance,0.000000
+926,case5,entrance,move west,lake,3.443787
+926,case5,lake,move east,entrance,-0.206339
+926,case5,entrance,move west,lake,3.443787
+926,case5,lake,move east,entrance,-0.198653
+926,case5,entrance,move west,lake,3.443787
+926,case5,lake,move west,GOAL,-2.850242
+927,case3,START,N,entrance,0.000000
+927,case3,entrance,move east,forest,3.586383
+927,case3,forest,move east,GOAL,6.857041
+928,case2,START,N,entrance,0.000000
+928,case2,entrance,move west,lake,6.931612
+928,case2,lake,move west,GOAL,6.294323
+929,case2,START,N,entrance,0.000000
+929,case2,entrance,move east,forest,15.226879
+929,case2,forest,move east,entrance,15.577279
+929,case2,entrance,move east,lake,15.226879
+929,case2,lake,move west,GOAL,6.294323
+930,case4,START,N,entrance,0.000000
+930,case4,entrance,move east,lake,0.820014
+930,case4,lake,move east,entrance,-2.894995
+930,case4,entrance,move east,lake,0.795428
+930,case4,lake,move east,entrance,-2.894995
+930,case4,entrance,move east,forest,0.812452
+930,case4,forest,move east,GOAL,5.399628
+931,case5,START,N,entrance,0.000000
+931,case5,entrance,move west,lake,3.443787
+931,case5,lake,move east,GOAL,-0.231324
+932,case4,START,N,entrance,0.000000
+932,case4,entrance,move east,forest,0.812452
+932,case4,forest,move east,GOAL,5.399628
+933,case5,START,N,entrance,0.000000
+933,case5,entrance,move west,forest,3.443787
+933,case5,forest,move east,GOAL,7.047014
+934,case5,START,N,entrance,0.000000
+934,case5,entrance,move west,lake,3.443787
+934,case5,lake,move east,entrance,-0.223555
+934,case5,entrance,move west,forest,3.443787
+934,case5,forest,move west,entrance,3.011459
+934,case5,entrance,move west,forest,3.443787
+934,case5,forest,move east,GOAL,7.047014
+935,case1,START,N,entrance,0.000000
+935,case1,entrance,move east,forest,3.013041
+935,case1,forest,move east,GOAL,6.774153
+936,case1,START,N,entrance,0.000000
+936,case1,entrance,move east,forest,3.013041
+936,case1,forest,move east,GOAL,6.774153
+937,case5,START,N,entrance,0.000000
+937,case5,entrance,move west,lake,3.443787
+937,case5,lake,move east,entrance,-0.215812
+937,case5,entrance,move west,forest,3.443787
+937,case5,forest,move east,GOAL,7.047014
+938,case5,START,N,entrance,0.000000
+938,case5,entrance,move west,forest,3.443787
+938,case5,forest,move east,entrance,7.047014
+938,case5,entrance,move west,forest,3.443787
+938,case5,forest,move east,entrance,7.047014
+938,case5,entrance,move west,lake,3.443787
+938,case5,lake,move east,entrance,-0.208094
+938,case5,entrance,move west,lake,3.443787
+938,case5,lake,move east,entrance,-0.200651
+938,case5,entrance,move west,lake,3.443787
+938,case5,lake,move east,GOAL,-0.232262
+939,case2,START,N,entrance,0.000000
+939,case2,entrance,move west,lake,7.106278
+939,case2,lake,move west,GOAL,6.294323
+940,case5,START,N,entrance,0.000000
+940,case5,entrance,move west,lake,3.443787
+940,case5,lake,move east,entrance,-0.224740
+940,case5,entrance,move west,lake,3.443787
+940,case5,lake,move east,GOAL,-0.256273
+941,case2,START,N,entrance,0.000000
+941,case2,entrance,move east,lake,15.226879
+941,case2,lake,move west,GOAL,6.294323
+942,case2,START,N,entrance,0.000000
+942,case2,entrance,move east,forest,15.226879
+942,case2,forest,move west,entrance,9.547794
+942,case2,entrance,move east,forest,15.226879
+942,case2,forest,move west,entrance,9.901704
+942,case2,entrance,move east,forest,15.226879
+942,case2,forest,move east,GOAL,15.577279
+943,case1,START,N,entrance,0.000000
+943,case1,entrance,move east,forest,3.013041
+943,case1,forest,move east,GOAL,6.774153
+944,case4,START,N,entrance,0.000000
+944,case4,entrance,move east,forest,0.812452
+944,case4,forest,move east,GOAL,5.399628
+945,case2,START,N,entrance,0.000000
+945,case2,entrance,move east,forest,15.226879
+945,case2,forest,move east,GOAL,15.577279
+946,case3,START,N,entrance,0.000000
+946,case3,entrance,move east,forest,3.586383
+946,case3,forest,move east,GOAL,6.857041
+947,case5,START,N,entrance,0.000000
+947,case5,entrance,move west,forest,3.443787
+947,case5,forest,move east,GOAL,7.047014
+948,case1,START,N,entrance,0.000000
+948,case1,entrance,move east,forest,3.013041
+948,case1,forest,move east,GOAL,6.774153
+949,case2,START,N,entrance,0.000000
+949,case2,entrance,move east,forest,15.226879
+949,case2,forest,move east,entrance,15.577279
+949,case2,entrance,move east,forest,15.226879
+949,case2,forest,move east,GOAL,15.577279
+950,case1,START,N,entrance,0.000000
+950,case1,entrance,move east,forest,3.013041
+950,case1,forest,move east,GOAL,6.774153
+951,case3,START,N,entrance,0.000000
+951,case3,entrance,move east,forest,3.586383
+951,case3,forest,move east,GOAL,6.857041
+952,case5,START,N,entrance,0.000000
+952,case5,entrance,move west,lake,3.443787
+952,case5,lake,move east,GOAL,-0.287705
+953,case1,START,N,entrance,0.000000
+953,case1,entrance,move east,forest,3.013041
+953,case1,forest,move east,GOAL,6.774153
+954,case1,START,N,entrance,0.000000
+954,case1,entrance,move east,forest,3.013041
+954,case1,forest,move west,entrance,1.917762
+954,case1,entrance,move west,forest,0.478490
+954,case1,forest,move east,GOAL,6.774153
+955,case1,START,N,entrance,0.000000
+955,case1,entrance,move east,lake,3.013041
+955,case1,lake,move west,GOAL,-3.370145
+956,case2,START,N,entrance,0.000000
+956,case2,entrance,move east,forest,15.226879
+956,case2,forest,move east,entrance,15.577279
+956,case2,entrance,move east,forest,15.226879
+956,case2,forest,move west,entrance,10.246766
+956,case2,entrance,move east,forest,15.226879
+956,case2,forest,move east,GOAL,15.577279
+957,case5,START,N,entrance,0.000000
+957,case5,entrance,move west,lake,3.443787
+957,case5,lake,move east,entrance,-0.280004
+957,case5,entrance,move west,lake,3.443787
+957,case5,lake,move east,entrance,-0.272329
+957,case5,entrance,move west,lake,3.443787
+957,case5,lake,move east,entrance,-0.264678
+957,case5,entrance,move west,lake,3.443787
+957,case5,lake,move east,entrance,-0.257052
+957,case5,entrance,move west,lake,3.443787
+957,case5,lake,move west,GOAL,-2.850242
+958,case3,START,N,entrance,0.000000
+958,case3,entrance,move east,forest,3.586383
+958,case3,forest,move west,GOAL,2.002522
+959,case4,START,N,entrance,0.000000
+959,case4,entrance,move east,forest,0.812452
+959,case4,forest,move east,GOAL,5.399628
+960,case4,START,N,entrance,0.000000
+960,case4,entrance,move east,lake,0.789199
+960,case4,lake,move east,GOAL,-2.996495
+961,case4,START,N,entrance,0.000000
+961,case4,entrance,move east,lake,0.765591
+961,case4,lake,move west,entrance,-2.996099
+961,case4,entrance,move east,forest,0.781875
+961,case4,forest,move east,GOAL,5.399628
+962,case5,START,N,entrance,0.000000
+962,case5,entrance,move west,lake,3.443787
+962,case5,lake,move east,entrance,-0.249450
+962,case5,entrance,move west,lake,3.443787
+962,case5,lake,move west,entrance,-2.850242
+962,case5,entrance,move west,lake,3.443787
+962,case5,lake,move east,entrance,-0.242110
+962,case5,entrance,move west,lake,3.443787
+962,case5,lake,move east,entrance,-0.234793
+962,case5,entrance,move west,lake,3.443787
+962,case5,lake,move east,entrance,-0.227499
+962,case5,entrance,move west,forest,3.443787
+962,case5,forest,move east,GOAL,7.047014
+963,case1,START,N,entrance,0.000000
+963,case1,entrance,move east,forest,3.013041
+963,case1,forest,move west,entrance,1.917762
+963,case1,entrance,move east,forest,3.013041
+963,case1,forest,move west,GOAL,2.119818
+964,case4,START,N,entrance,0.000000
+964,case4,entrance,move west,lake,-0.551762
+964,case4,lake,move west,GOAL,-3.096155
+965,case4,START,N,entrance,0.000000
+965,case4,entrance,move east,forest,0.798074
+965,case4,forest,move east,GOAL,5.399628
+966,case4,START,N,entrance,0.000000
+966,case4,entrance,move east,lake,0.774417
+966,case4,lake,move east,entrance,-2.996495
+966,case4,entrance,move east,forest,0.790655
+966,case4,forest,move east,GOAL,5.399628
+967,case2,START,N,entrance,0.000000
+967,case2,entrance,move west,lake,7.277450
+967,case2,lake,move west,entrance,6.584487
+967,case2,entrance,move east,lake,15.226879
+967,case2,lake,move west,GOAL,6.584487
+968,case4,START,N,entrance,0.000000
+968,case4,entrance,move east,forest,0.806807
+968,case4,forest,move east,GOAL,5.399628
+969,case5,START,N,entrance,0.000000
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move east,entrance,-0.220227
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move west,entrance,-2.850242
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move east,entrance,-0.212978
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move west,entrance,-2.850242
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move east,entrance,-0.205752
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move east,entrance,-0.198548
+969,case5,entrance,move west,lake,3.443787
+969,case5,lake,move west,GOAL,-2.850242
+970,case5,START,N,entrance,0.000000
+970,case5,entrance,move west,lake,3.443787
+970,case5,lake,move east,entrance,-0.191367
+970,case5,entrance,move west,lake,3.443787
+970,case5,lake,move east,entrance,-0.184208
+970,case5,entrance,move west,lake,3.443787
+970,case5,lake,move east,entrance,-0.177072
+970,case5,entrance,move west,lake,3.443787
+970,case5,lake,move east,entrance,-0.170174
+970,case5,entrance,move west,lake,3.443787
+970,case5,lake,move east,GOAL,-0.199961
+971,case5,START,N,entrance,0.000000
+971,case5,entrance,move west,lake,3.443787
+971,case5,lake,move east,entrance,-0.192993
+971,case5,entrance,move west,lake,3.443787
+971,case5,lake,move east,entrance,-0.186047
+971,case5,entrance,move west,lake,3.443787
+971,case5,lake,move east,entrance,-0.179121
+971,case5,entrance,move west,lake,3.443787
+971,case5,lake,move east,entrance,-0.172216
+971,case5,entrance,move west,lake,3.443787
+971,case5,lake,move east,GOAL,-0.201998
+972,case2,START,N,entrance,0.000000
+972,case2,entrance,move east,lake,15.226879
+972,case2,lake,move east,GOAL,2.726759
+973,case4,START,N,entrance,0.000000
+973,case4,entrance,move east,forest,0.806807
+973,case4,forest,move east,GOAL,5.399628
+974,case1,START,N,entrance,0.000000
+974,case1,entrance,move east,forest,3.013041
+974,case1,forest,move east,GOAL,6.774153
+975,case2,START,N,entrance,0.000000
+975,case2,entrance,move east,lake,15.226879
+975,case2,lake,move west,GOAL,6.584487
+976,case2,START,N,entrance,0.000000
+976,case2,entrance,move east,forest,15.226879
+976,case2,forest,move west,entrance,10.583202
+976,case2,entrance,move east,lake,15.226879
+976,case2,lake,move west,GOAL,6.584487
+977,case3,START,N,entrance,0.000000
+977,case3,entrance,move east,forest,3.586383
+977,case3,forest,move east,GOAL,6.857041
+978,case5,START,N,entrance,0.000000
+978,case5,entrance,move west,lake,3.443787
+978,case5,lake,move east,entrance,-0.195024
+978,case5,entrance,move east,forest,2.676262
+978,case5,forest,move east,entrance,7.047014
+978,case5,entrance,move west,forest,3.443787
+978,case5,forest,move east,GOAL,7.047014
+979,case5,START,N,entrance,0.000000
+979,case5,entrance,move east,forest,2.676262
+979,case5,forest,move east,GOAL,7.047014
+980,case1,START,N,entrance,0.000000
+980,case1,entrance,move east,forest,3.013041
+980,case1,forest,move east,GOAL,6.774153
+981,case5,START,N,entrance,0.000000
+981,case5,entrance,move west,forest,3.443787
+981,case5,forest,move west,GOAL,3.244410
+982,case2,START,N,entrance,0.000000
+982,case2,entrance,move east,forest,15.226879
+982,case2,forest,move east,GOAL,15.577279
+983,case3,START,N,entrance,0.000000
+983,case3,entrance,move east,forest,3.586383
+983,case3,forest,move east,GOAL,6.857041
+984,case2,START,N,entrance,0.000000
+984,case2,entrance,move east,forest,15.226879
+984,case2,forest,move east,GOAL,15.577279
+985,case2,START,N,entrance,0.000000
+985,case2,entrance,move east,forest,15.226879
+985,case2,forest,move west,entrance,10.911226
+985,case2,entrance,move east,forest,15.226879
+985,case2,forest,move east,GOAL,15.577279
+986,case1,START,N,entrance,0.000000
+986,case1,entrance,move east,forest,3.013041
+986,case1,forest,move east,GOAL,6.774153
+987,case4,START,N,entrance,0.000000
+987,case4,entrance,move east,forest,0.806807
+987,case4,forest,move west,GOAL,0.487313
+988,case2,START,N,entrance,0.000000
+988,case2,entrance,move east,forest,15.226879
+988,case2,forest,move east,GOAL,15.577279
+989,case1,START,N,entrance,0.000000
+989,case1,entrance,move east,forest,3.013041
+989,case1,forest,move east,entrance,6.774153
+989,case1,entrance,move east,lake,3.013041
+989,case1,lake,move east,entrance,0.040597
+989,case1,entrance,move east,forest,3.013041
+989,case1,forest,move east,GOAL,6.774153
+990,case2,START,N,entrance,0.000000
+990,case2,entrance,move east,forest,15.226879
+990,case2,forest,move east,entrance,15.577279
+990,case2,entrance,move east,forest,15.226879
+990,case2,forest,move east,GOAL,15.577279
+991,case2,START,N,entrance,0.000000
+991,case2,entrance,move east,forest,15.226879
+991,case2,forest,move west,entrance,11.167086
+991,case2,entrance,move west,lake,7.450422
+991,case2,lake,move west,GOAL,6.584487
+992,case1,START,N,entrance,0.000000
+992,case1,entrance,move east,forest,3.013041
+992,case1,forest,move east,GOAL,6.774153
+993,case4,START,N,entrance,0.000000
+993,case4,entrance,move east,lake,0.783104
+993,case4,lake,move east,entrance,-2.996495
+993,case4,entrance,move east,forest,0.799296
+993,case4,forest,move east,GOAL,5.399628
+994,case5,START,N,entrance,0.000000
+994,case5,entrance,move west,forest,3.443787
+994,case5,forest,move east,GOAL,7.047014
+995,case1,START,N,entrance,0.000000
+995,case1,entrance,move east,forest,3.013041
+995,case1,forest,move east,GOAL,6.774153
+996,case4,START,N,entrance,0.000000
+996,case4,entrance,move east,forest,0.799296
+996,case4,forest,move east,GOAL,5.399628
+997,case2,START,N,entrance,0.000000
+997,case2,entrance,move east,forest,15.226879
+997,case2,forest,move east,GOAL,15.577279
+998,case2,START,N,entrance,0.000000
+998,case2,entrance,move east,forest,15.226879
+998,case2,forest,move west,entrance,11.417828
+998,case2,entrance,move east,lake,15.226879
+998,case2,lake,move west,GOAL,6.584487
+999,case2,START,N,entrance,0.000000
+999,case2,entrance,move east,forest,15.226879
+999,case2,forest,move west,entrance,11.663555
+999,case2,entrance,move east,forest,15.226879
+999,case2,forest,move east,GOAL,15.577279
+1000,case4,START,N,entrance,0.000000
+1000,case4,entrance,move east,forest,0.799296
+1000,case4,forest,move east,GOAL,5.399628

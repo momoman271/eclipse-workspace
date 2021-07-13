@@ -1,0 +1,40 @@
+case1,GOAL,N,0.000000,0
+case1,START,N,0.000000,0
+case1,entrance,move east,2.254335,162
+case1,entrance,move west,0.302950,162
+case1,forest,move east,6.026537,47
+case1,forest,move west,3.182327,47
+case1,lake,move east,-1.028104,142
+case1,lake,move west,-4.914122,142
+case2,GOAL,N,0.000000,0
+case2,START,N,0.000000,0
+case2,entrance,move east,10.893610,49
+case2,entrance,move west,10.534692,49
+case2,forest,move east,12.634845,38
+case2,forest,move west,11.317339,38
+case2,lake,move east,11.007227,47
+case2,lake,move west,3.533608,47
+case3,GOAL,N,0.000000,0
+case3,START,N,0.000000,0
+case3,entrance,move east,2.130354,79
+case3,entrance,move west,0.814395,79
+case3,forest,move east,6.074246,39
+case3,forest,move west,3.429888,39
+case3,lake,move east,0.442060,138
+case3,lake,move west,-5.627337,138
+case4,GOAL,N,0.000000,0
+case4,START,N,0.000000,0
+case4,entrance,move east,0.716444,199
+case4,entrance,move west,-0.835127,199
+case4,forest,move east,5.028378,62
+case4,forest,move west,3.703798,62
+case4,lake,move east,-3.621291,56
+case4,lake,move west,-4.756797,56
+case5,GOAL,N,0.000000,0
+case5,START,N,0.000000,0
+case5,entrance,move east,2.046432,49
+case5,entrance,move west,2.493948,49
+case5,forest,move east,5.576979,37
+case5,forest,move west,5.560654,37
+case5,lake,move east,-3.245567,97
+case5,lake,move west,-4.297313,97

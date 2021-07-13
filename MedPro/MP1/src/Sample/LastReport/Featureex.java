@@ -16,7 +16,6 @@ public class Featureex {
         }
         return fenum;
     }
-
     public static int[] select(int select,int fenum){
         int[] selectnumber = new int[fenum];
         int j = fenum - 1;
@@ -64,7 +63,7 @@ public class Featureex {
         return num;
     }
     public static void filewrite(int[] data,int[] selectnumber,int selectpicture,double[][] Feature,double[] distance,int fenum){
-        String path = "c:\\Users\\pride\\Documents\\eclipse workspace\\MedPro\\MP1\\Lastreportoutput\\output.txt";
+        String path = "Lastreportoutput\\output.txt";
         
         try{
             File file = new File(path);
@@ -110,12 +109,12 @@ public class Featureex {
             );
             for(int i=0;i<data.length;i++){
                 String graph = String.valueOf(data[i]);
-                String distan = String.valueOf(distance[data[i]]);
+                String distan = String.valueOf(distance[data[i]-1]);
                 writefile.write(
                     "検索結果第"+(i+1)+"位: "+graph+".bmp　キー画像との距離: "+distan+",　"
                 );
                 for(int j=fenum-1;j>=0;j--){
-                    String feature = String.valueOf(Feature[j][data[i]]);
+                    String feature = String.valueOf(Feature[j][data[i]-1]);
                     switch (selectnumber[j]) {
                         case 1:
                             writefile.write("濃度: "+feature);
@@ -154,9 +153,9 @@ public class Featureex {
             }
 
             writefile.close();
-
-          }catch(IOException e){
           }
+        catch(IOException e){
+        }
     }
     public static int[] get_maxes(int number,double data[]){
         double[] posedata = new double[data.length];
@@ -202,35 +201,27 @@ public class Featureex {
     public static double get_Feature(int fenum,GImage img,int[] selectnumber){
 
         if(selectnumber[fenum] == 1){
-            System.out.println("使用される特徴は「1」です");
             return Featureex.get_F1(img);
         }
         if(selectnumber[fenum] == 2){
-            System.out.println("使用される特徴は「2」です");
             return Featureex.get_F2(img);
         }
         if(selectnumber[fenum] == 3){
-            System.out.println("使用される特徴は「3」です");
             return Featureex.get_F3(img);
         }
         if(selectnumber[fenum] == 4){
-            System.out.println("使用される特徴は「4」です");
             return Featureex.get_F4(img);
         }
         if(selectnumber[fenum] == 5){
-            System.out.println("使用される特徴は「5」です");
             return Featureex.get_F5(img);
         }
         if(selectnumber[fenum] == 6){
-            System.out.println("使用される特徴は「6」です");
             return Featureex.get_F6(img);
         }
         if(selectnumber[fenum] == 7){
-            System.out.println("使用される特徴は「7」です");
             return Featureex.get_F7(img);
         }
         if(selectnumber[fenum] == 8){
-            System.out.println("使用される特徴は「8」です");
             return Featureex.get_F8(img);
         }
         return 0;
