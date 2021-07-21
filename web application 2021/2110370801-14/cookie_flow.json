@@ -1,0 +1,177 @@
+[
+  {
+    "id": "385d334d.25b4dc",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "3d788186.d74a86",
+    "type": "http in",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "url": "/hello-cookie",
+    "method": "get",
+    "upload": false,
+    "swaggerDoc": "",
+    "x": 110,
+    "y": 40,
+    "wires": [
+      [
+        "9314ef2c.f762f8"
+      ]
+    ]
+  },
+  {
+    "id": "9314ef2c.f762f8",
+    "type": "function",
+    "z": "385d334d.25b4dc",
+    "name": "Format cookies",
+    "func": "msg.payload = JSON.stringify(msg.req.cookies,null,4);\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 320,
+    "y": 40,
+    "wires": [
+      [
+        "9bf27e45.18861"
+      ]
+    ]
+  },
+  {
+    "id": "9bf27e45.18861",
+    "type": "template",
+    "z": "385d334d.25b4dc",
+    "name": "page",
+    "field": "payload",
+    "fieldType": "msg",
+    "format": "handlebars",
+    "syntax": "mustache",
+    "template": "<html>\n    <head></head>\n    <body>\n        <h1>Cookies</h1>\n        <p></p><a href=\"hello-cookie/add\">Add a cookie</a> &bull; <a href=\"hello-cookie/clear\">Clear cookies</a></p>\n        <pre>{{ payload }}</pre>\n    </body>\n</html>",
+    "x": 470,
+    "y": 40,
+    "wires": [
+      [
+        "9ee8b734.826bf"
+      ]
+    ]
+  },
+  {
+    "id": "9ee8b734.826bf",
+    "type": "http response",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "statusCode": "",
+    "headers": {},
+    "x": 610,
+    "y": 40,
+    "wires": []
+  },
+  {
+    "id": "e1c5a49b.8f3238",
+    "type": "change",
+    "z": "385d334d.25b4dc",
+    "name": "Redirect to /hello-cookie",
+    "rules": [
+      {
+        "t": "set",
+        "p": "statusCode",
+        "pt": "msg",
+        "to": "302",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "headers",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "headers.location",
+        "pt": "msg",
+        "to": "/hello-cookie",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 100,
+    "wires": [
+      [
+        "9ee8b734.826bf"
+      ]
+    ]
+  },
+  {
+    "id": "ea7e18b8.15ced8",
+    "type": "function",
+    "z": "385d334d.25b4dc",
+    "name": "Add a cookie",
+    "func": "msg.cookies = { };\nmsg.cookies[\"demo-\"+(Math.floor(Math.random()*1000))] = Date.now();\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 310,
+    "y": 80,
+    "wires": [
+      [
+        "e1c5a49b.8f3238"
+      ]
+    ]
+  },
+  {
+    "id": "e50b1ac7.776e7",
+    "type": "function",
+    "z": "385d334d.25b4dc",
+    "name": "Clear cookies",
+    "func": "// Find demo cookies and clear them\nvar cookieNames = Object.keys(msg.req.cookies).filter(function(cookieName) { return /^demo-/.test(cookieName);});\nmsg.cookies = {};\n\ncookieNames.forEach(function(cookieName) {\n    msg.cookies[cookieName] = null;\n});\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 320,
+    "y": 120,
+    "wires": [
+      [
+        "e1c5a49b.8f3238"
+      ]
+    ]
+  },
+  {
+    "id": "d0846579.c5bcf",
+    "type": "http in",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "url": "/hello-cookie/add",
+    "method": "get",
+    "upload": false,
+    "swaggerDoc": "",
+    "x": 120,
+    "y": 80,
+    "wires": [
+      [
+        "ea7e18b8.15ced8"
+      ]
+    ]
+  },
+  {
+    "id": "45d3cc2.cfa11b4",
+    "type": "http in",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "url": "/hello-cookie/clear",
+    "method": "get",
+    "swaggerDoc": "",
+    "x": 120,
+    "y": 120,
+    "wires": [
+      [
+        "e50b1ac7.776e7"
+      ]
+    ]
+  }
+]

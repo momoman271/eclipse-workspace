@@ -1,0 +1,72 @@
+[
+  {
+    "id": "33c87f1f.31ba7",
+    "type": "inject",
+    "z": "4b16fed.02a848",
+    "name": "XML String",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "x": 100,
+    "y": 100,
+    "wires": [
+      [
+        "944b6d9.a731c1"
+      ]
+    ]
+  },
+  {
+    "id": "18ec2862.d3b3d",
+    "type": "debug",
+    "z": "4b16fed.02a848",
+    "name": "",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "x": 470,
+    "y": 160,
+    "wires": []
+  },
+  {
+    "id": "944b6d9.a731c1",
+    "type": "template",
+    "z": "4b16fed.02a848",
+    "name": "",
+    "field": "payload",
+    "fieldType": "msg",
+    "format": "text",
+    "syntax": "plain",
+    "template": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<note priority=\"high\">\n  <to>Nick</to>\n  <from>Dave</from>\n  <heading>Reminder</heading>\n  <body>Update the website</body>\n</note>",
+    "output": "str",
+    "x": 260,
+    "y": 100,
+    "wires": [
+      [
+        "701dbe58.4d12e"
+      ]
+    ]
+  },
+  {
+    "id": "701dbe58.4d12e",
+    "type": "xml",
+    "z": "4b16fed.02a848",
+    "name": "",
+    "property": "payload",
+    "attr": "",
+    "chr": "",
+    "x": 410,
+    "y": 100,
+    "wires": [
+      [
+        "18ec2862.d3b3d"
+      ]
+    ]
+  }
+]

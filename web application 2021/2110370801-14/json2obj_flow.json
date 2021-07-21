@@ -1,0 +1,53 @@
+[
+    {
+      "id": "14804719.e64731",
+      "type": "inject",
+      "z": "4b16fed.02a848",
+      "name": "JSON String",
+      "topic": "",
+      "payload": "{\"a\":1}",
+      "payloadType": "str",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "x": 110,
+      "y": 100,
+      "wires": [
+        [
+          "b1c2f127.591618"
+        ]
+      ]
+    },
+    {
+      "id": "b1c2f127.591618",
+      "type": "json",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "property": "payload",
+      "action": "",
+      "pretty": false,
+      "x": 290,
+      "y": 100,
+      "wires": [
+        [
+          "6801138f.ec419c"
+        ]
+      ]
+    },
+    {
+      "id": "6801138f.ec419c",
+      "type": "debug",
+      "z": "4b16fed.02a848",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 450,
+      "y": 100,
+      "wires": []
+    }
+  ]
+  

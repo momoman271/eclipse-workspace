@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ebcd11.1cf6c2f",
+    "type": "inject",
+    "z": "4b16fed.02a848",
+    "name": "Object",
+    "topic": "",
+    "payload": "{\"note\":{\"$\":{\"priority\":\"high\"},\"to\":[\"Nick\"],\"from\":[\"Dave\"],\"heading\":[\"Reminder\"],\"body\":[\"Update the website\"]}}",
+    "payloadType": "json",
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "x": 90,
+    "y": 100,
+    "wires": [
+      [
+        "f4f92554.8e446"
+      ]
+    ]
+  },
+  {
+    "id": "72917ea1.81263",
+    "type": "debug",
+    "z": "4b16fed.02a848",
+    "name": "",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "x": 390,
+    "y": 100,
+    "wires": []
+  },
+  {
+    "id": "f4f92554.8e446",
+    "type": "xml",
+    "z": "4b16fed.02a848",
+    "name": "",
+    "property": "payload",
+    "attr": "",
+    "chr": "",
+    "x": 230,
+    "y": 100,
+    "wires": [
+      [
+        "72917ea1.81263"
+      ]
+    ]
+  }
+]

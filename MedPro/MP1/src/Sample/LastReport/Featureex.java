@@ -62,7 +62,7 @@ public class Featureex {
         }
         return num;
     }
-    public static void filewrite(int[] data,int[] selectnumber,int selectpicture,double[][] Feature,double[] distance,int fenum){
+    public static void filewrite(int[] data,int[] selectnumber,int selectpicture,double[][] Feature,double[] distance,int fenum,double[][] outputFeature,int fenum2){
         String path = "Lastreportoutput\\output.txt";
         
         try{
@@ -113,37 +113,37 @@ public class Featureex {
                 writefile.write(
                     "検索結果第"+(i+1)+"位: "+graph+".bmp　キー画像との距離: "+distan+",　"
                 );
-                for(int j=fenum-1;j>=0;j--){
-                    String feature = String.valueOf(Feature[j][data[i]-1]);
-                    switch (selectnumber[j]) {
-                        case 1:
+                for(int j=0;j<fenum2;j++){
+                    String feature = String.valueOf(outputFeature[j][i]);
+                    switch (j) {
+                        case 0:
                             writefile.write("濃度: "+feature);
                             break;
-                        case 2:
+                        case 1:
                             writefile.write("縦横比: "+feature);
                             break;
-                        case 3:
+                        case 2:
                             writefile.write("水平方向ラン数平均: "+feature);
                             break;
-                        case 4:
+                        case 3:
                             writefile.write("垂直方向ラン数平均: "+feature);
                             break;
-                        case 5:
+                        case 4:
                             writefile.write("水平方向ラン数標準偏差: "+feature);
                             break;
-                        case 6:
+                        case 5:
                             writefile.write("垂直方向ラン数標準偏差: "+feature);
                             break;
-                        case 7:
+                        case 6:
                             writefile.write("重心のx座標: "+feature);
                             break;
-                        case 8:
+                        case 7:
                             writefile.write("重心のy座標: "+feature);
                             break;
                         default:
                             break;
                         }
-                    if(j > 0){
+                    if(j < fenum2 -1){
                         writefile.write(",　");
                     }
                     else{
@@ -164,11 +164,11 @@ public class Featureex {
             posedata[i] = data[i];
         }
         
-        Arrays.sort(data);
+        Arrays.sort(posedata);
 
         for(int i=0;i<maxes.length;i++){
             for(int j=0;j<posedata.length;j++){
-                if(data[i + 1] == posedata[j]){
+                if(posedata[i + 1] == data[j]){
                     maxes[i] = j + 1;
                 }
             }
@@ -226,7 +226,7 @@ public class Featureex {
         }
         return 0;
     }
-	public static double get_F1(GImage img1){ //黒の割合(濃度)を返す
+	public static double get_F1(GImage img1){ 
 		int width1, height1;
 	    width1 = img1.getWidth();
 	    height1 = img1.getHeight();
@@ -244,7 +244,7 @@ public class Featureex {
 		F1 = (double)sum / area;
 		return F1;
 	}
-    public static double get_F2(GImage img1){ //外接矩形比を返す
+    public static double get_F2(GImage img1){ 
         int width1, height1;
 	    width1 = img1.getWidth();
 	    height1 = img1.getHeight();

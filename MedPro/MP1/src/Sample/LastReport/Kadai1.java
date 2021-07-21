@@ -6,11 +6,16 @@ public class Kadai1 {
         public static void main(String[] args)
         {
         int num=100; // 画像ファイルの数
-        int fenum=8; // 特徴の数
+        int fenum=8;    // 特徴の数
+        int fenum2=fenum; // 特徴の数
         int resultnum=10; //出力結果の数
         int select = 0; //キーボードから選択された特徴を入れる変数
         int selectpicture; //キー画像の番号を入れる変数
         int[] selectnumber; //選択された特徴を入れる配列
+        int[] outputselect = new int[fenum2];
+        for(int i=0;i<outputselect.length;i++){
+            outputselect[i] = i+1;
+        }
         
         select = Featureex.inputkeyboard(0);        //キーボードから選択された特徴を変数に格納
         selectpicture = Featureex.inputkeyboard(1); //キーボードから入力されたキー画像番号を格納
@@ -23,6 +28,7 @@ public class Kadai1 {
         double[] inputFeature = new double[fenum];          //キー画像の特徴を入れる配列
         double[] NomalizedinputFeature = new double[fenum]; //キー画像の正規化された特徴を入れる配列
         double[] distance = new double[num];                //キー画像と全ての画像の距離を入れる配列
+        double[][] outputFeature = new double[fenum2][resultnum];
         
         for(int i=0; i<num; i++){ //全画像データから特徴抽出
             String fileName = "last1data/" + Integer.toString(i+1) + ".bmp";
@@ -50,15 +56,21 @@ public class Kadai1 {
             distance[i] = Featureex.get_distance(fenum, NomalizedinputFeature, Featureex.get_fescalr(i, fenum, NomalizedFeature));
         }
         maxes = Featureex.get_maxes(resultnum, distance); //距離が小さい画像をresultnum個取得
-        for(int i=0;i<resultnum;i++){
-            Featureex.filewrite(maxes,selectnumber,selectpicture,Feature,distance,fenum);
-        }
 
-        for(int i=0; i<maxes.length; i++){ //全画像データから特徴抽出
+        for(int i=0; i<maxes.length; i++){ 
             String fileName = "last1data/" + Integer.toString(maxes[i]) + ".bmp";
             GImage outputimg= new GImage(fileName);
+            for(int j=0;j<fenum2;j++){
+                outputFeature[j][i] = Featureex.get_Feature(j, outputimg, outputselect);
+            }
             String outputfileName = "Lastreportoutput/outputimg/" + Integer.toString(maxes[i]);
             Featureex.imgoutput(outputimg, outputfileName);
         }
+
+        for(int i=0;i<resultnum;i++){
+            Featureex.filewrite(maxes,selectnumber,selectpicture,Feature,distance,fenum,outputFeature,fenum2);
+        }
+
+        
     }
 }

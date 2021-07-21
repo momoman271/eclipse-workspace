@@ -1,0 +1,72 @@
+[
+  {
+    "id": "385d334d.25b4dc",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "71fa25bd.926e5c",
+    "type": "http in",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "url": "/ctr",
+    "method": "get",
+    "upload": false,
+    "swaggerDoc": "",
+    "x": 90,
+    "y": 40,
+    "wires": [
+      [
+        "19c97bc.2992984"
+      ]
+    ]
+  },
+  {
+    "id": "19c97bc.2992984",
+    "type": "function",
+    "z": "385d334d.25b4dc",
+    "name": "Counter",
+    "func": "// もしまだカウンタが存在していなければ0に初期化\nvar ctr = context.get('ctr')||0;\nctr += 1;\n// 値を書き戻して保存\ncontext.set('ctr',ctr);\n// 送信するメッセージの一部にカウントを含める\nmsg.payload = ctr;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 240,
+    "y": 40,
+    "wires": [
+      [
+        "648ce1e8.b719a"
+      ]
+    ]
+  },
+  {
+    "id": "648ce1e8.b719a",
+    "type": "template",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "field": "payload",
+    "fieldType": "msg",
+    "format": "handlebars",
+    "syntax": "mustache",
+    "template": "This is the payload: {{payload}} !",
+    "output": "str",
+    "x": 380,
+    "y": 40,
+    "wires": [
+      [
+        "beaf0077.9d7198"
+      ]
+    ]
+  },
+  {
+    "id": "beaf0077.9d7198",
+    "type": "http response",
+    "z": "385d334d.25b4dc",
+    "name": "",
+    "statusCode": "",
+    "headers": {},
+    "x": 540,
+    "y": 40,
+    "wires": []
+  }
+]
