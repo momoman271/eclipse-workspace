@@ -2,6 +2,8 @@ package Sample.LastReport;
 
 import  GImage.GImage;
 
+import java.util.Arrays;
+
 public class Kadai2 {
     public static void main(String[] args)
     {
@@ -24,10 +26,58 @@ public class Kadai2 {
                 abnormal[i - normalnum] = new identification(img);
             }
         }
-        abnormal[1].createhist();
+
+        double[][] f = new double[6][16];
+        int count=16;
+
+        for(int i=0;i<3;i++){
+            int[] num = normal[i].evaluation();
+            count = num.length;
+            for(int j=0;j<num.length;j++){
+                f[i][j] = num[j];
+            }
+        }
+        for(int i=0;i<3;i++){
+            int[] num = abnormal[i].evaluation();
+            for(int j=0;j<num.length;j++){
+                f[i+3][j] = num[j];
+            }
+        }
+
+        double[] dist = new double[6];
+        double total = 0;
+        int select = 6;
         
-        GImage img = abnormal[1].Contrastadjust(100, 200);
-        img.output("imgoutput/fileName", "bmp");
+        for(int i=0;i<normalnum+abnormalnum;i++){
+            total = 0;
+            for(int j=0;j<count;j++){
+                total += (f[select-1][j] - f[i][j]) * (f[select-1][j] - f[i][j]);
+            }
+            dist[i] = Math.sqrt(total);
+        }
+        double[] rank = new double[dist.length];
+        for(int i=0;i<rank.length;i++){
+            rank[i] = dist[i];
+        }
+        Arrays.sort(dist);
+        int[] result = new int[normalnum+abnormalnum];
+        
+        for(int i=0;i<normalnum+abnormalnum;i++){
+            for(int j=0;j<normalnum+abnormalnum;j++){
+                if(dist[i] == rank[j]){
+                    result[i] = j+1;
+                }
+            }
+        }
+        for(int i=0;i<result.length;i++){
+            if(result[i] <= 3){
+                System.out.println("normal:"+result[i]);
+            }
+            else{
+                System.out.println("abnormal:"+result[i]);
+            }
+            System.out.println("距離:"+dist[i]);
+        }
     }
 }
 
@@ -41,122 +91,50 @@ class identification {
         width = img.getWidth();
         height = img.getHeight();
         this.img = img;
-        //setkernel();
     }
-    
-    int threshold(){
-        int threshold = 0;
-        double max_value= 0,result = 0;
-        
-        int[] concentration = new int[GImage.GRAY_LEVEL];
-        for(int x=0;x<width;x++){
-            for(int y=0;y<height;y++){
-                for(int i=1;i<concentration.length-1;i++){
-                    if(img.pixel[y][x] == i){
-                        concentration[i]++;
+    int[] evaluation(){
+        int[][] filter = new int[3][3];
+        int range = 1;
+        int[] pm = new int[16];
+        int x_count;
+        int y_count;
+
+        for(int y=0;y<height;y++) {
+            for(int x=0;x<width;x++) {
+                if(y-range >= 0 && y+range < height && x-range >= 0 && x+range < width){
+                    for(int i=-range;i <= range;i++){
+                        for(int j=-range;j <= range;j++){
+                            filter[i+range][j+range] = this.img.pixel[y + i][x + j];
+                        }
+                    }
+                    x_count = 0;
+                    y_count = 0;
+                    for(int i=0;i<8;i++){
+                        if(i == 3 || i == 5){
+                            y_count++;
+                            x_count = 0;
+                        }
+                        
+                        if(filter[y_count][x_count] > filter[1][1]){
+                            pm[i]++;
+                        }
+                        else if(filter[y_count][x_count] < filter[1][1]){
+                            pm[i + 8]++;
+                        }
+                        if(i == 3){
+                            x_count += 2;
+                        }
+                        else{
+                            x_count++;
+                        }
                     }
                 }
             }
         }
-        for(int t=0;t<256;t++ ){
-            double w1= 0,w2= 0,a1= 0,a2= 0,s1= 0,s2 = 0;
-
-            for(int i=0;i<t;i++){
-                w1 += concentration[i];
-                s1 += i * concentration[i];
-            }
-            for(int i=t;i<256;i++){
-                w2 += concentration[i];
-                s2 += i * concentration[i];
-            }
-            
-            a1 = s1 / w1;
-            a2 = s2 / w2;
-            result = w1*w2*(a1-a2)*(a1-a2);
-            if(max_value < result){
-                max_value = result;
-                threshold = t;
-            }
-                      
-        }
-
-        return threshold;
+        return pm;
     }
+
     
-    GImage Binarization(){
-        int t = threshold();
-        System.out.println(t);
-        for(int x=0;x<width;x++) {
-			for(int y=0;y<height;y++) {
-				if(img.pixel[y][x] < t){
-					img.pixel[y][x]=GImage.MIN_GRAY;
-				}
-				else{
-					img.pixel[y][x]=GImage.MAX_GRAY;
-				}
-			}
-		}
-        return img;
-    }
-
-    private static final int[][][] INTS = new int[343][3][3];
-    
-    void setkernel(){
-        int count = 0;
-        for(int x1=0;x1<7;x1++){
-            
-
-            for(int x2=0;x2<7;x2++){
-                for(int x3=0;x3<7;x3++){
-
-
-                    count++;
-                }
-            }
-        }
-    }
-
-    void setbox(int x,int count){
-        switch (x) {
-            case 0:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            case 1:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            case 2:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            case 3:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            case 4:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            case 5:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            case 6:
-                INTS[count][0][0] = 0;
-                INTS[count][0][1] = 0;
-                INTS[count][0][2] = 0;
-                break;
-            default:
-                break;
-        }
-    }
 
     void imgoutput(String fileName02){ //画像出力
         String fileType02 = "bmp";
